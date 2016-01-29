@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			16960 [XML] [Alliance] Face the Commander
+			16961 [XML] [Alliance] Reclaim the Battle
+			16962 [XML] [Alliance] Forward March
+			26960 [XML] [Alliance] Face the Commander
+			26961 [XML] [Alliance] Capture the Bastion
+			26962 [XML] [Alliance] Storm the Gateway
+		[END] SUMMARY
+	-->
+	<!-- MONSTER HUNT QUESTS -->
+	<monster_hunt id="16960" start_npc_ids="801281" end_npc_ids="801281">	
+		<monster var="0" npc_ids="233544" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+	<monster_hunt id="26960" start_npc_ids="801280" end_npc_ids="801280">	
+		<monster var="0" npc_ids="233544" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+	<monster_hunt id="16961" start_npc_ids="802055" end_npc_ids="801281">	
+		<monster var="0" npc_ids="233544" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+	<monster_hunt id="26961" start_npc_ids="802054" end_npc_ids="801280">	
+		<monster var="0" npc_ids="233544" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+	<monster_hunt id="16962" start_npc_ids="802055" end_npc_ids="801281">	
+		<monster var="0" npc_ids="233565 233566 233567 233568 233569" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+	<monster_hunt id="26962" start_npc_ids="802054" end_npc_ids="801280">	
+		<monster var="0" npc_ids="233565 233566 233567 233568 233569" end_var="1" end_var_reward="true"/>
+	</monster_hunt>
+</quest_scripts>

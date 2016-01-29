@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<spawn_map map_id="300900000">
+		<!-- Hyperion Rescue Specialist -->
+		<spawn npc_id="230397">
+			<spot x="139.47206" y="154.24626" z="125.40982" h="106"/>
+			<spot x="144.20297" y="159.09036" z="125.40982" h="100"/>
+			<spot x="144.38441" y="153.66823" z="125.40982" h="100"/>
+		</spawn>
+		<spawn npc_id="800842">
+			<spot x="142.27884" y="156.19482" z="122.1195" h="100"/>
+		</spawn>
+		<spawn npc_id="730738">
+			<spot x="128.97711" y="138.00671" z="113.35148" h="60"/>
+		</spawn>
+		<spawn npc_id="701558">
+			<spot x="115.15933" y="141.19417" z="112.80012" static_id="1652"/>
+		</spawn>
+		<!-- IDRuneWeapon_Q_Ultimate 
+		<spawn npc_id="800843">
+			<spot x="137.44022" y="159.03958" z="125.18126" h="113"/>
+		</spawn>
+		<spawn npc_id="800844">
+			<spot x="106.22253" y="141.62715" z="114.9391"/>
+		</spawn>
+		<spawn npc_id="800846">
+			<spot x="137.46175" y="158.90384" z="123.76794" h="113"/>
+		</spawn>
+		<spawn npc_id="800847">
+			<spot x="106.22953" y="141.24696" z="113.22065"/>
+		</spawn>
+		<spawn npc_id="800845">
+			<spot x="106.91464" y="140.38638" z="126.44756" h="30"/>
+		</spawn>
+		<spawn npc_id="800839">
+			<spot x="150.91753" y="145.64671" z="125.15871" h="43"/>
+		</spawn>
+		<spawn npc_id="800848">
+			<spot x="107.04594" y="140.61633" z="127.82038" h="30"/>
+		</spawn>
+		<spawn npc_id="800836">
+			<spot x="150.87978" y="145.72543" z="126.34702" h="43"/>
+		</spawn> -->
+	</spawn_map>
+</spawns>

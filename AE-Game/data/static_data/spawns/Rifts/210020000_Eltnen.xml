@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="210020000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="224.042" y="2934.95" z="155.5" anchor="ELTNEN_AM"/>	<!-- id 2120 -->
+			<spot x="777.936" y="1947.14" z="290.717" anchor="ELTNEN_BM"/>	<!-- id 2121 -->
+			<spot x="1629.42" y="1762.11" z="345.332" anchor="ELTNEN_CM"/>	<!-- id 2122 -->
+			<spot x="1024.32" y="61.013" z="316.938" anchor="ELTNEN_DM"/>	<!-- id 2123 -->
+			<spot x="1532.21" y="491.778" z="361.095" anchor="ELTNEN_EM"/>	<!-- id 2124 -->
+			<spot x="2213.28" y="2604.72" z="270.42" anchor="ELTNEN_FM"/>	<!-- id 2125 -->
+			<spot x="2177.84" y="556.885" z="434.354" anchor="ELTNEN_GM"/>	<!-- id 2126 -->
+			<spot x="719.325" y="2777.03" z="259.084" anchor="ELTNEN_AS"/>	<!-- id 2220 -->
+			<spot x="445.553" y="1292.31" z="283.047" anchor="ELTNEN_BS"/>	<!-- id 2221 -->
+			<spot x="1470.21" y="2446.05" z="288.589" anchor="ELTNEN_CS"/>	<!-- id 2222 -->
+			<spot x="93.156" y="246.245" z="273.63" anchor="ELTNEN_DS"/>	<!-- id 2223 -->
+			<spot x="2586.27" y="651.752" z="463.625" anchor="ELTNEN_GS"/>	<!-- id 2224 -->
+			<spot x="1329.67" y="337.576" z="396.786" anchor="ELTNEN_ES"/>	<!-- id 2225 -->
+			<spot x="2295.90" y="2278.78" z="294.760" anchor="ELTNEN_FS"/>	<!-- id 2226 -->
+		</spawn>
+		<!-- ELTNEN_AM -->
+		<rift_spawn id="2120">
+			<!-- Test spawn -->
+			<spawn npc_id="211680" respawn_time="30">
+				<spot x="221.73" y="2923.874" z="155.5" h="25"/>
+			</spawn>
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_BM -->
+		<rift_spawn id="2121">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_CM -->
+		<rift_spawn id="2122">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_DM -->
+		<rift_spawn id="2123">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_EM -->
+		<rift_spawn id="2124">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_FM -->
+		<rift_spawn id="2125">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_GM -->
+		<rift_spawn id="2126">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_AS -->
+		<rift_spawn id="2220">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="654.1793" y="2378.691" z="208.57816"/>
+				<spot x="654.0522" y="2385.328" z="208.98615"/>
+				<spot x="511.0205" y="2392.041" z="209.56696"/>
+				<spot x="510.5168" y="2385.575" z="210.32181"/>
+				<spot x="843.49" y="2346.226" z="219.09866"/>
+				<spot x="849.7648" y="2348.036" z="219.22133"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="655.2473" y="2388.366" z="209.10483"/>
+				<spot x="511.2372" y="2382.855" z="210.58783"/>
+				<spot x="852.5248" y="2350.027" z="219.11086"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="654.9212" y="2375.746" z="208.57816"/>
+				<spot x="511.9261" y="2394.726" z="209.78119"/>
+				<spot x="840.5584" y="2346.08" z="219.09866"/>
+			</spawn>
+		</rift_spawn>
+		<!-- ELTNEN_BS -->
+		<rift_spawn id="2221">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="516.2657" y="1178.954" z="273.74982"/>
+				<spot x="509.9841" y="1176.647" z="273.89294"/>
+				<spot x="563.2611" y="1641.908" z="248.38155"/>
+				<spot x="568.923" y="1646.848" z="247.69965"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="518.5547" y="1180.466" z="273.46765"/>
+				<spot x="571.9308" y="1648.169" z="247.7132"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="506.9798" y="1176.638" z="273.96582"/>
+				<spot x="561.6744" y="1638.899" z="249.40141"/>
+			</spawn>
+		</rift_spawn>
+		<!-- ELTNEN_CS -->
+		<rift_spawn id="2222">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="1241.677" y="2319.792" z="260.9275"/>
+				<spot x="1234.973" y="2320.036" z="260.73474"/>
+				<spot x="1096.718" y="2218.173" z="239.25"/>
+				<spot x="1095.669" y="2210.478" z="239.21089"/>
+				<spot x="1430.311" y="2121.703" z="277.20844"/>
+				<spot x="1437.707" y="2125.553" z="277.21075"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="1245.061" y="2320.659" z="260.9275"/>
+				<spot x="1098.9" y="2221.267" z="239.41284"/>
+				<spot x="1439.69" y="2127.442" z="277.5287"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="1231.417" y="2321.07" z="260.625"/>
+				<spot x="1096.28" y="2206.605" z="239.18251"/>
+				<spot x="1427.286" y="2121.182" z="276.96777"/>
+			</spawn>
+		</rift_spawn>
+		<!-- ELTNEN_DS -->
+		<rift_spawn id="2223">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- ELTNEN_ES -->
+		<rift_spawn id="2224">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="1762.618" y="1067.965" z="412.27756"/>
+				<spot x="1757.538" y="1072.576" z="410.89917"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="1765.413" y="1065.972" z="412.27756"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="1755.526" y="1074.936" z="410.73837"/>
+			</spawn>
+		</rift_spawn>
+		<!-- ELTNEN_FS -->
+		<rift_spawn id="2225">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="1501.796" y="839.0784" z="376.9172"/>
+				<spot x="1498.608" y="845.6578" z="376.0"/>
+				<spot x="1071.567" y="637.34" z="306.26428"/>
+				<spot x="1078.37" y="640.9604" z="306.64557"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="1502.465" y="835.53" z="377.39575"/>
+				<spot x="1080.539" y="643.019" z="306.44592"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="1496.119" y="847.0781" z="376.1855"/>
+				<spot x="1068.592" y="636.996" z="305.95465"/>
+			</spawn>
+		</rift_spawn>
+		<!-- ELTNEN_GS -->
+		<rift_spawn id="2226">
+			<spawn npc_id="209518" respawn_time="4540">
+				<spot x="2120.96" y="2016.144" z="387.67706"/>
+				<spot x="2121.074" y="2009.111" z="387.71002"/>
+				<spot x="2116.029" y="1627.143" z="369.82196"/>
+				<spot x="2121.491" y="1624.922" z="369.75"/>
+				<spot x="2318.572" y="1640.786" z="416.05344"/>
+				<spot x="2323.396" y="1636.303" z="415.60706"/>
+			</spawn>
+			<spawn npc_id="209524" respawn_time="4540">
+				<spot x="2121.889" y="2019.179" z="388.1648"/>
+				<spot x="2124.276" y="1623.063" z="369.95847"/>
+				<spot x="2326.239" y="1634.349" z="417.1432"/>
+			</spawn>
+			<spawn npc_id="209527" respawn_time="4540">
+				<spot x="2121.742" y="2005.85" z="387.412"/>
+				<spot x="2112.378" y="1627.559" z="369.875"/>
+				<spot x="2316.803" y="1643.149" z="417.03726"/>
+			</spawn>
+		</rift_spawn>
+	</spawn_map>
+</spawns>

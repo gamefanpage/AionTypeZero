@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawns>
+	<spawn_map map_id="301210000">
+		<!-- IDLDF5_Under_01_War_v01_Flag_L 802033 -->
+		<!-- IDLDF5_Under_01_War_v01_Flag_D 802034 -->
+		<!-- IDLDF5_Under_01_War_v01_Flag_DR 802035 -->
+		<!-- IDLDF5_Under_01_War_v02_Flag_L 802036 -->
+		<!-- IDLDF5_Under_01_War_v02_Flag_D 802037 -->
+		<!-- IDLDF5_Under_01_War_v02_Flag_DR 802038 -->
+		<!-- IDLDF5_Under_01_War_v03_Flag_L 802039 -->
+		<!-- IDLDF5_Under_01_War_v03_Flag_D 802040 -->
+		<!-- IDLDF5_Under_01_War_v03_Flag_DR 802041 -->
+		<!-- IDLDF5_Under_01_War_v04_Flag_L 802042 -->
+		<!-- IDLDF5_Under_01_War_v04_Flag_D 802043 -->
+		<!-- IDLDF5_Under_01_War_v04_Flag_DR 802044 -->
+		<!-- IDLDF5_Under_01_War_BaseFlagLight 701943 -->
+		<!-- IDLDF5_Under_01_War_BaseFlagDark 701944 -->
+		<!-- IDLDF5_Under_01_War_BaseFlagDrakan 701945 -->
+		<!-- IDLDF5_Under_01_War_BaseFlagNormal 701990 -->
+		<!-- IDLDF5_Under_01_War_FOBJ_TeleportStatue_2 -->
+		<!-- IDLDF5_Under_01_War_FOBJ_TeleportStatue_1 802024 -->
+		
+		<!-- IDLDF5_Under_01_War_FOBJ_TeleportStatue -->
+		<spawn npc_id="802023">
+			<spot x="337.7399" y="491.16772" z="597.2395" static_id="156"/>
+			<spot x="755.64215" y="545.90179" z="577.8269" static_id="155"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_Barricade -->
+		<spawn npc_id="802022">
+			<spot x="524.90417" y="540.15234" z="603.82953" static_id="98"/>
+			<spot x="565.11707" y="558.78351" z="598.76965" static_id="102"/>
+			<spot x="591.29401" y="421.51318" z="611.495" static_id="155"/>
+			<spot x="638.68201" y="430.43069" z="605.80658" static_id="96"/>
+			<spot x="753.21399" y="521.01813" z="577.54987" static_id="33"/>
+			<spot x="745.40692" y="469.74329" z="587.5296" static_id="14"/>
+			<spot x="591.29401" y="421.51318" z="611.495" static_id="92"/>
+			<spot x="638.68201" y="430.43069" z="605.80658" static_id="94"/>
+			<spot x="654.28827" y="525.4411" z="592.97992" static_id="167"/>
+			<spot x="565.11707" y="558.78351" z="598.76965" static_id="168"/>
+			<spot x="524.90417" y="540.15234" z="603.82953" static_id="169"/>
+			<spot x="654.28827" y="525.4411" z="592.97992" static_id="165"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_TimeCheck -->
+		<spawn npc_id="701938">
+			<spot x="729.11676" y="461.36349" z="596.18732"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_BaseCheck_01 -->
+		<spawn npc_id="701939"> 
+			<spot x="660.36865" y="461.06259" z="602.55927"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_BaseCheck_04 -->
+		<spawn npc_id="701942">
+			<spot x="492.95834" y="533.30823" z="599.22498"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_BalanceNPC -->
+		<spawn npc_id="701946">
+			<spot x="746.53644" y="497.20605" z="589.42932"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_IdgelMachine_On_Light_25 -->
+		<spawn npc_id="701947">
+			<spot x="739.69519" y="536.69519" z="576.53" h="107"/>
+			<spot x="741.95569" y="557.69574" z="576.76" h="87"/>
+			<spot x="744.59814" y="573.47211" z="577.26" h="87"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_IdgelMachine_On_Dark_25 -->
+		<spawn npc_id="701948">
+			<spot x="327.29257" y="506.21063" z="596.54" h="0"/>
+			<spot x="300.32779" y="476.23727" z="597.13" h="0"/>
+			<spot x="300.15576" y="500.93283" z="597.13" h="0"/>
+			<spot x="309.21387" y="509.46008" z="596.54" h="0"/>
+			<spot x="347.668" y="504.71292" z="595.20" h="108"/>
+		</spawn> 
+		<!-- IDLDF5_Under_01_IdgelMachine_On_Light_160 -->
+		<spawn npc_id="701949">
+			<spot x="773.47577" y="552.68604" z="576.58" h="87"/>
+			<spot x="767.93103" y="569.22375" z="577.38" h="87"/>
+			<spot x="768.46606" y="534.54016" z="576.37" h="68"/>
+			<spot x="753.31775" y="570.89905" z="577.38" h="92"/>
+			<spot x="776.71" y="570.18" z="577.01" h="77"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_IdgelMachine_On_Dark_160 -->
+		<spawn npc_id="701950">
+			<spot x="328.51215" y="474.87762" z="596.54" h="0"/>
+			<spot x="311.0972" y="469.62903" z="596.54" h="0"/>
+			<spot x="346.49152" y="478.24072" z="595.20" h="11"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_AttMachine_01 -->
+		<spawn npc_id="701969">
+			<spot x="762.80005" y="544.55701" z="578.26404" h="27"/>
+			<spot x="337.96829" y="498.23044" z="597.12549" h="61"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_AttMachine_02 -->
+		<spawn npc_id="701970">
+			<spot x="759.77216" y="543.93683" z="578.26404" h="27"/>
+			<spot x="338.97989" y="495.51318" z="597.12549" h="61"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_AttMachine_03 -->
+		<spawn npc_id="701971">
+			<spot x="339.08841" y="486.86746" z="597.12549" h="61"/>
+			<spot x="751.16589" y="545.35669" z="578.26404" h="27"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_AttMachine_04 -->
+		<spawn npc_id="701972">
+			<spot x="338.25946" y="484.0296" z="597.12549" h="61"/>
+			<spot x="748.40131" y="546.6983" z="578.26404" h="27"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_AttMachine_Damage -->
+		<spawn npc_id="701973">
+			<spot x="746.53644" y="497.20605" z="592.69141"/>
+		</spawn>
+		<!-- Vrirta secret box -->
+		<spawn npc_id="701976">
+			<spot x="619.20526" y="513.32324" z="591.81" h="50"/>
+			<spot x="572.60693" y="478.18558" z="620.32" h="89"/>
+			<spot x="575.55609" y="477.62381" z="620.32" h="89"/>
+			<spot x="619.35828" y="515.64465" z="591.81" h="50"/>
+		</spawn>
+		<!-- Edit by Script
+		IDLDF5_Under_01_War_Reward_Item_01
+		<spawn npc_id="701974">
+			<spot x="758.13904" y="561.90033" z="579.81018"/>
+		</spawn>
+		IDLDF5_Under_01_War_Reward_Item_04
+		<spawn npc_id="702018">
+			<spot x="332.7056" y="494.46088" z="601.21765"/>
+			<spot x="332.92816" y="486.6423" z="601.21765"/>
+			<spot x="759.98627" y="549.64349" z="582.12634"/>
+		</spawn>
+		IDLDF5_Under_01_War_Reward_Item_05
+		<spawn npc_id="702042">
+			<spot x="689.44977" y="484.86349" z="608.05103"/>
+			<spot x="683.52191" y="453.64868" z="608.05103"/>
+		</spawn>
+		IDLDF5_Under_01_War_Reward_Item_06
+		<spawn npc_id="702043">
+			<spot x="679.59875" y="450.72556" z="603.23828"/>
+			<spot x="693.6922" y="478.96912" z="603.23828"/>
+		</spawn>
+		IDLDF5_Under_01_War_Reward_Item_07
+		<spawn npc_id="702044">
+			<spot x="620.80219" y="567.31659" z="595.53571"/>
+			<spot x="593.98297" y="567.97626" z="595.53571"/>
+		</spawn>
+		IDLDF5_Under_01_War_Reward_Item_08
+		<spawn npc_id="702050">
+			<spot x="756.62006" y="550.32178" z="583.31354"/>
+			<spot x="332.49411" y="490.57327" z="602.45142"/>
+			<spot x="332.49683" y="490.5285" z="601.21765"/>
+			<spot x="756.62006" y="550.32178" z="582.12634"/>
+		</spawn> -->
+		<!-- IDLDF5_Under_01_War_HeroSwitchLight_01 -->
+		<spawn npc_id="701984">
+			<spot x="760.99121" y="557.29346" z="578.93445"/>
+			<spot x="324.52518" y="494.51926" z="597.31738"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_HeroSwitchDark_01 -->
+		<spawn npc_id="701985">
+			<spot x="761.9165" y="561.8183" z="579.81549"/>
+			<spot x="320.28528" y="494.81866" z="598.19843"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_HeroSwitchLight_02 -->
+		<spawn npc_id="701986">
+			<spot x="323.76382" y="485.88617" z="599.0437"/>
+			<spot x="754.05377" y="558.57593" z="580.66077"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_HeroSwitchDark_02 -->
+		<spawn npc_id="701987">
+			<spot x="754.91998" y="563.01068" z="581.55939"/>
+			<spot x="320.01007" y="485.90097" z="599.88635"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_HeroSwitchLight_Last -->
+		<spawn npc_id="701988">
+			<spot x="757.72821" y="559.33386" z="582.38135"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_HeroSwitchDark_Last -->
+		<spawn npc_id="701989">
+			<spot x="320.97195" y="490.16141" z="601.64514"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_Moiro_E -->
+		<spawn npc_id="802025">
+			<spot x="311.8876" y="495.98465" z="598.43683"/>
+		</spawn>
+		<!-- IDLDF5_Under_01_War_Atea_E -->
+		<spawn npc_id="802026">
+			<spot x="762.93134" y="567.34033" z="579.96735"/>
+		</spawn>
+	</spawn_map>
+</spawns>

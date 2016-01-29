@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawns>
+    <spawn_map map_id="600100000">
+	<!-- GP Event
+ 		<spawn npc_id="832913" respawn_time="295">
+			<spot x="1813.1036" y="1782.6022" z="305.25" h="117"/>
+			<spot x="90.56704" y="121.69713" z="347.5541" h="111"/>
+		</spawn> -->
+	<!-- GM Buff -->
+ 		<spawn npc_id="831520" respawn_time="295">
+			<spot x="121.18586" y="130.95296" z="348.32413" h="90"/>
+		</spawn>
+ 		<spawn npc_id="831526" respawn_time="295">
+			<spot x="1839.4912" y="1770.1763" z="305.30258" h="30"/>
+		</spawn>
+	<!-- Custom Portal -->
+ 		<spawn npc_id="702721" respawn_time="295">
+			<spot x="118.944664" y="100.611435" z="346.8437" h="51"/>
+			<spot x="1853.5045" y="1794.8467" z="306.84402" h="78"/>
+		</spawn>
+	<!-- Red Code Atreia -->
+		<spawn npc_id="831441" respawn_time="295">
+			<spot x="1868.0377" y="1774.0045" z="307.505" h="50"/>
+		</spawn>
+		<spawn npc_id="831442" respawn_time="295">
+			<spot x="1867.1" y="1772.5037" z="307.3875" h="50"/>
+		</spawn>
+		<spawn npc_id="831443" respawn_time="295">
+			<spot x="1866.5658" y="1770.3468" z="307.32074" h="50"/>
+		</spawn>
+		<spawn npc_id="831446" respawn_time="295">
+			<spot x="1871.7638" y="1770.4547" z="307.75" h="50"/>
+		</spawn>
+		<spawn npc_id="831435" respawn_time="295">
+			<spot x="74.1874" y="115.21247" z="347.3375"/>
+		</spawn>
+		<spawn npc_id="831436" respawn_time="295">
+			<spot x="74.67321" y="117.02269" z="347.4389"/>
+		</spawn>
+		<spawn npc_id="831437" respawn_time="295">
+			<spot x="74.32319" y="118.82703" z="347.65506"/>
+		</spawn>
+		<spawn npc_id="831445" respawn_time="295">
+			<spot x="69.51601" y="117.02799" z="347.591"/>
+		</spawn>
+    </spawn_map>
+</spawns>

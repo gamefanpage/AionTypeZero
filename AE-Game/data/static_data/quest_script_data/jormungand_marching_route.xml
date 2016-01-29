@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			16979 [XML] Engulfed Bridge
+			26979 [XML] Defend the Advance Route to the Last Soldier
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS --> 
+	<report_to_many id="16979" start_npc_ids="204654" end_npc_ids="801762">
+		<npc_infos var="0" npc_id="801762" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="26979" start_npc_ids="802026" end_npc_ids="801764">
+		<npc_infos var="0" npc_id="801764" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+</quest_scripts>

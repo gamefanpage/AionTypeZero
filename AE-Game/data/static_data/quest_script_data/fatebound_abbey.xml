@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			29600 [XML] Welcome Back
+			29601 [XML] Instruction on Instructors
+			29602 [SCRIPT] The Sheen of Newness
+			29603 [XML] [Daily] Brusthonin Brushback
+			29604 [XML] Drop into Draupnir
+			29605 [XML] Spiking the Spirits
+			29606 [XML] For Great Justice!
+			29607 [XML] Back to the Future from the Present
+			29608 [XML] Ready for Gelkmaros
+			29609 [XML] [Daily] Trouble Near Taloc
+			29610 [XML] Aether Aegis
+			29611 [XML] Under a Spell in Undirborg
+			29612 [XML] Temple and Tomb
+			29613 [TODO] Allies for Peace
+			29614 [TODO] [Daily] Protect the Oasis
+			29615 [XML] Dredgion Dismantling
+			29616 [TODO] Weaken the Stronghold
+			29617 [XML] A Time to Kill
+			29618 [XML] Recovering from Betrayal
+			29619 [XML] Reclaiming Relics
+			29620 [TODO] Dispatched Once More
+			29621 [TODO] Something in the Road
+			29622 [TODO] Down in the Depths
+			29623 [XML] Right Time for a War
+			29624 [XML] Flames and Stone
+			29625 [TODO] [Daily] Supplies Are Coming
+			29626 [XML] A Game of Bridge
+			29627 [XML] Come Back with Friends
+			29628 [XML] Foundry-Field Link
+			29629 [XML] Hyperion before It was Cool
+			29630 [XML] Light Up the Obelisk
+			29644 [XML] 
+			29645 [XML] 
+			29646 [XML] 
+			29647 [XML] 
+			29648 [XML] 
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS --> 
+	<report_to_many id="29600" end_npc_ids="804662" mission="true">
+		<npc_infos npc_id="804662" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29601" start_npc_ids="804662" end_npc_ids="804666" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804663" quest_dialog="1011"/>
+		<npc_infos var="1" npc_id="804664" quest_dialog="1352"/>
+		<npc_infos var="2" npc_id="804665" quest_dialog="1693" close_dialog="10255"/>
+	</report_to_many>
+	<report_to_many id="29604" start_npc_ids="804663" end_npc_ids="204817" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="204817" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29605" start_npc_ids="804663" end_npc_ids="800421" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="800421" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29606" start_npc_ids="804663" end_npc_ids="205225" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="205225" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29607" start_npc_ids="804663" end_npc_ids="204837" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="204837" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29608" start_npc_ids="804664" end_npc_ids="799225" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="205986" quest_dialog="1011" close_dialog="10255" set_reward_var="1"/>
+	</report_to_many>
+	<report_to_many id="29610" start_npc_ids="804664" end_npc_ids="799208" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="799208" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29611" start_npc_ids="804664" end_npc_ids="799333" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="799333" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29612" start_npc_ids="804664" end_npc_ids="799225" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="799225" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29615" start_npc_ids="804665" end_npc_ids="804821" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804821" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29617" start_npc_ids="804665" end_npc_ids="804869" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804869" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29618" start_npc_ids="804665" end_npc_ids="805156" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="805156" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29619" start_npc_ids="804665" end_npc_ids="804869" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804869" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29623" start_npc_ids="804666" end_npc_ids="802353" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="802353" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29624" start_npc_ids="804666" end_npc_ids="802433" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="802433" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29626" start_npc_ids="804666" end_npc_ids="801765" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="801765" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29627" start_npc_ids="804666" end_npc_ids="804866" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804866" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29628" start_npc_ids="804666" end_npc_ids="802353" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="802353" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29629" start_npc_ids="804666" end_npc_ids="801947" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="801947" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29630" start_npc_ids="804666" end_npc_ids="804599" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804599" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29644" start_npc_ids="804665" end_npc_ids="804719" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804719" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29646" start_npc_ids="804665" end_npc_ids="804914" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804914" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29648" start_npc_ids="804666" end_npc_ids="804736" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804736" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="29649" start_npc_ids="804665" end_npc_ids="804732" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="804732" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+</quest_scripts>

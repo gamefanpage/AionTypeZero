@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<player_titles>
+	<title id="1" nameId="2201801" desc="Хранитель Фоэты" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="20" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="2" nameId="2201803" desc="Воин Бертрона" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="30" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="3" nameId="2201805" desc="Защитник Тольбаса" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="4" nameId="2201807" desc="Союзник древней" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="5" nameId="2201809" desc="Охотник на краллов" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+			<add name="FLY_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="6" nameId="2201811" desc="Друг пугала" race="ELYOS">
+		<modifiers>
+			<add name="PARRY" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="7" nameId="2201813" desc="Знаток животных" race="ELYOS">
+		<modifiers>
+			<add name="MAXMP" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="8" nameId="2201815" desc="Знаток языка краллов" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="9" nameId="2201817" desc="Стоик" race="ELYOS">
+		<modifiers>
+			<add name="EVASION" value="3" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="10" nameId="2201819" desc="Посланник Мабанты" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="11" nameId="2201821" desc="Специалист по бомбам" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="12" nameId="2201823" desc="Герой Элтенена" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="13" nameId="2201825" desc="Охотник на ньютов" race="ELYOS">
+		<modifiers>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="14" nameId="2201827" desc="Мастер полетов" race="ELYOS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="FLY_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="15" nameId="2201829" desc="Повар брауни" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="57" bonus="true"/>
+			<add name="MAXMP" value="57" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="16" nameId="2201831" desc="Целитель душ" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="-5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="17" nameId="2201833" desc="Помощник духа" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="PARRY" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="18" nameId="2201835" desc="Защитник слабых" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="36" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+			<add name="BLOCK" value="12" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="19" nameId="2201837" desc="Обладатель желтой повязки" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="EVASION" value="6" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="20" nameId="2201839" desc="Спаситель Эйрона" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="30" bonus="true"/>
+			<add name="MAXMP" value="24" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="21" nameId="2201841" desc="Почетный археолог" race="ELYOS">
+		<modifiers>
+			<add name="MAXMP" value="36" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="22" nameId="2201843" desc="Одинокий авантюрист" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<rate name="FLY_SPEED" value="1" bonus="true"/>
+			<add name="FLY_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="23" nameId="2201845" desc="Избранник Фасерта" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="24" nameId="2201847" desc="Глава ищеек" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="25" nameId="2201849" desc="Захватчик Индрата" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="11" bonus="true"/>
+			<add name="FLY_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="26" nameId="2201851" desc="Покровитель Бальбоа" race="ELYOS">
+		<modifiers>
+			<add name="BLOCK" value="15" bonus="true"/>
+			<add name="MAXHP" value="35" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="27" nameId="2201853" desc="Шаман повстанцев" race="ELYOS">
+		<modifiers>
+			<add name="MAXMP" value="45" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="28" nameId="2201855" desc="Опытный рыболов" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="29" nameId="2201857" desc="Мастер шпионажа" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="57" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="30" nameId="2201859" desc="Знаток языка балауров" race="ELYOS">
+		<modifiers>
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAXMP" value="46" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="31" nameId="2201861" desc="Охотник на асмодиан" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="32" nameId="2201863" desc="Победитель асмодиан" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="33" nameId="2201865" desc="Непобедимый воин" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="34" nameId="2201867" desc="Герой Элиоса" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="60" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="35" nameId="2201869" desc="Гроза пиратов" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="36" nameId="2201871" desc="Великий мастер" race="ELYOS">
+		<modifiers>
+			<add name="EVASION" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="37" nameId="2201873" desc="Рыцарь Миразента" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="80" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="38" nameId="2201875" desc="Мастер DP" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="45" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="39" nameId="2201877" desc="Даэв в белых одеждах" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="REGEN_HP" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="40" nameId="2201879" desc="Хозяин меча балауров" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="41" nameId="2201881" desc="Посланник Темного облака" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="42" nameId="2201883" desc="Гроза краллов" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="44" bonus="true"/>
+			<add name="MAXMP" value="44" bonus="true"/>
+			<add name="FLY_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="43" nameId="2201885" desc="Профессиональный страж-охотник" race="ELYOS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="44" nameId="2201887" desc="Упорный преследователь" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="48" bonus="true"/>
+			<add name="MAXMP" value="48" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="45" nameId="2201889" desc="Растяпа" race="ELYOS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="EVASION" value="4" bonus="true"/>
+			<add name="FLY_TIME" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="46" nameId="2201891" desc="Разрушитель Аджотурана" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+			<add name="MAXMP" value="36" bonus="true"/>
+			<add name="PARRY" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="47" nameId="2201893" desc="Исследователь исполинов" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="MAXHP" value="-45" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="48" nameId="2201895" desc="Рыцарь Гоморона" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="40" bonus="true"/>
+			<add name="EVASION" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="-6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="49" nameId="2201897" desc="Покоритель судьбы" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="52" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="50" nameId="2201899" desc="Спаситель будущего" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="65" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="51" nameId="2202201" desc="Герой разбойников" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="20" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="52" nameId="2202203" desc="Кладоискатель" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="53" nameId="2202205" desc="Убийца медведей" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="54" nameId="2202207" desc="Знаток языка оборотней" race="ASMODIANS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="55" nameId="2202209" desc="Поборник мечты" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXMP" value="20" bonus="true"/>
+			<add name="FLY_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="56" nameId="2202211" desc="Легендарный охотник" race="ASMODIANS">
+		<modifiers>
+			<add name="PARRY" value="6" bonus="true"/>
+			<rate name="SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="57" nameId="2202213" desc="Хранитель Альтгарда" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="58" nameId="2202215" desc="Убийца рюкрога" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="59" nameId="2202217" desc="Повелитель ожерелья" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXMP" value="34" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="60" nameId="2202219" desc="Хранитель Морхейма" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="61" nameId="2202221" desc="Повар шиго" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="6" bonus="true"/>
+			<add name="FLY_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="62" nameId="2202223" desc="Чудотворец" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="40" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="63" nameId="2202225" desc="Член банды грабителей Кидорун" race="ASMODIANS">
+		<modifiers>
+			<add name="PARRY" value="8" bonus="true"/>
+			<add name="EVASION" value="6" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="64" nameId="2202227" desc="Защитник старших" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXMP" value="42" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="65" nameId="2202229" desc="Приятель Пата и Конга" race="ASMODIANS">
+		<modifiers>
+			<add name="BLOCK" value="15" bonus="true"/>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="66" nameId="2202231" desc="Покровитель Серебряной гривы" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="PARRY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="67" nameId="2202233" desc="Быстрый гонец древней" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="36" bonus="true"/>
+			<add name="MAXMP" value="36" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="68" nameId="2202235" desc="Победитель краллов" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="EVASION" value="6" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="69" nameId="2202237" desc="Помощник Дукара" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="70" nameId="2202239" desc="Друг Аскейра" race="ASMODIANS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+			<rate name="FLY_SPEED" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="71" nameId="2202241" desc="Упорный первопроходец" race="ASMODIANS">
+		<modifiers>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAXMP" value="28" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="72" nameId="2202243" desc="Хранитель Брустхонина" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="73" nameId="2202245" desc="Жертва Слейпнира" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="74" nameId="2202247" desc="Герой Белуслана" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="11" bonus="true"/>
+			<add name="FLY_TIME" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="75" nameId="2202249" desc="Охотник снежной долины" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="76" nameId="2202251" desc="Спаситель Весфера" race="ASMODIANS">
+		<modifiers>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="77" nameId="2202253" desc="Защитник Мусфеля" race="ASMODIANS">
+		<modifiers>
+			<add name="FIRE_RESISTANCE" value="3" bonus="true"/>
+			<add name="MAXHP" value="32" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="78" nameId="2202255" desc="Коллекционер манускриптов" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BLOCK" value="12" bonus="true"/>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="79" nameId="2202257" desc="Незадачливый посредник" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="57" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="80" nameId="2202259" desc="Знаток языка балауров" race="ASMODIANS">
+		<modifiers>
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAXMP" value="46" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="81" nameId="2202261" desc="Охотник на элийцев" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="40" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="82" nameId="2202263" desc="Победитель элийцев" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="83" nameId="2202265" desc="Доблестный воин" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="84" nameId="2202267" desc="Герой Асмодеи" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="60" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="85" nameId="2202269" desc="Гроза пиратов" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="86" nameId="2202271" desc="Великий мастер" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="87" nameId="2202273" desc="Клык Фенрира" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="80" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="88" nameId="2202275" desc="Специалист по DP" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="45" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="89" nameId="2202277" desc="Свет земли" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="REGEN_HP" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="90" nameId="2202279" desc="Хозяин проклятого меча" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="91" nameId="2202281" desc="Посланник торговцев" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="92" nameId="2202283" desc="Надоеда" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXMP" value="57" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="93" nameId="2202285" desc="Убийца стража" race="ASMODIANS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="94" nameId="2202287" desc="Союзник Серебряной гривы" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="44" bonus="true"/>
+			<add name="MAXMP" value="44" bonus="true"/>
+			<add name="FLY_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="95" nameId="2202289" desc="Прирожденный торговец" race="ASMODIANS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="EVASION" value="4" bonus="true"/>
+			<add name="FLY_TIME" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="96" nameId="2202291" desc="Хранитель правосудия" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="27" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAXMP" value="28" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="97" nameId="2202293" desc="Покоритель духов" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="98" nameId="2202295" desc="Грозный пират" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+			<add name="FLY_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="99" nameId="2202297" desc="Изменивший судьбу" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="52" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="100" nameId="2202299" desc="Защитник будущего" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="65" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="101" nameId="2203201" desc="Чемпион турнира" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="PARRY" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="102" nameId="2203203" desc="Миллионер из Атреи" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="36" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="103" nameId="2203205" desc="Наставник" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="EVASION" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="104" nameId="2203207" desc="Интеллектуал" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="105" nameId="2203209" desc="Мудрец Айона" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="150" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="106" nameId="2203211" desc="Щедрая душа" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="60" bonus="true"/>
+			<add name="MAXMP" value="60" bonus="true"/>
+			<rate name="SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="107" nameId="2201901" desc="Везунчик" race="ELYOS">
+		<modifiers>
+			<add name="REGEN_HP" value="3" bonus="true"/>
+			<add name="MAXHP" value="60" bonus="true"/>
+			<add name="REGEN_MP" value="3" bonus="true"/>
+			<add name="MAXMP" value="60" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="108" nameId="2201903" desc="Добрая душа" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="109" nameId="2201905" desc="Поборник справедливости" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="65" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="110" nameId="2201907" desc="Тень Кайсинеля" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="111" nameId="2201909" desc="Доброе сердце" race="ELYOS">
+		<modifiers>
+			<add name="HEAL_BOOST" value="12" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="112" nameId="2201911" desc="Надежда юнов" race="ELYOS">
+		<modifiers>
+			<add name="BLOCK" value="14" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="25" bonus="true"/>
+			<rate name="BOOST_HATE" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="113" nameId="2201913" desc="Хранитель тайны печати" race="ELYOS">
+		<modifiers>
+			<add name="EVASION" value="7" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="114" nameId="2201915" desc="Победитель Теграка" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="115" nameId="2201917" desc="Рыцарь ордена стражей" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="116" nameId="2201919" desc="Паладин ордена стражей" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="117" nameId="2201921" desc="Страж святости" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="118" nameId="2201923" desc="Захватчик" race="ELYOS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="119" nameId="2201925" desc="Защитник" race="ELYOS">
+		<modifiers>
+			<add name="PVP_DEFEND_RATIO" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="120" nameId="2201927" desc="Командир захватчиков" race="ELYOS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="121" nameId="2201929" desc="Командир защитников" race="ELYOS">
+		<modifiers>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="122" nameId="2201931" desc="Палач" race="ELYOS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="20" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="123" nameId="2201933" desc="Ученик охотника" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="124" nameId="2201935" desc="Опытный охотник" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="125" nameId="2201937" desc="Авантюрист" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="126" nameId="2202301" desc="Бич ауллау" race="ASMODIANS">
+		<modifiers>
+			<add name="REGEN_HP" value="3" bonus="true"/>
+			<add name="MAXHP" value="60" bonus="true"/>
+			<add name="REGEN_MP" value="3" bonus="true"/>
+			<add name="MAXMP" value="60" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="127" nameId="2202303" desc="Орудие мести" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="128" nameId="2202305" desc="Поборник справедливости" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="65" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="129" nameId="2202307" desc="Страж Маркутана" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="130" nameId="2202309" desc="Добрая душа" race="ASMODIANS">
+		<modifiers>
+			<add name="HEAL_BOOST" value="12" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="MAXHP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="131" nameId="2202311" desc="Союзник юнов" race="ASMODIANS">
+		<modifiers>
+			<add name="BLOCK" value="14" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="25" bonus="true"/>
+			<rate name="BOOST_HATE" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="132" nameId="2202313" desc="Свидетель Рудры" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="7" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="133" nameId="2202315" desc="Победитель Геры" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="134" nameId="2202317" desc="Рыцарь ордена смотрителей" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="135" nameId="2202319" desc="Паладин ордена смотрителей" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="136" nameId="2202321" desc="Хранитель башни" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="137" nameId="2202323" desc="Захватчик" race="ASMODIANS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="138" nameId="2202325" desc="Защитник" race="ASMODIANS">
+		<modifiers>
+			<add name="PVP_DEFEND_RATIO" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="139" nameId="2202327" desc="Командир захватчиков" race="ASMODIANS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="140" nameId="2202329" desc="Командир защитников" race="ASMODIANS">
+		<modifiers>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="141" nameId="2202331" desc="Палач" race="ASMODIANS">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="20" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="142" nameId="2202333" desc="Начинающий исследователь" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="143" nameId="2202335" desc="Опытный исследователь" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="144" nameId="2202337" desc="Опытный защитник" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="145" nameId="2398495" desc="Герой нации" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="MAXMP" value="100" bonus="true"/>
+			<add name="FLY_TIME" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="146" nameId="2398499" desc="Добряк" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="147" nameId="2398503" desc="Друг Френоса" race="ELYOS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="148" nameId="2398505" desc="Надежда Аркедила" race="ASMODIANS">
+		<modifiers>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="149" nameId="2398515" desc="Преследователь Тиамат" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="150" nameId="2398511" desc="Упорный преследователь" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="151" nameId="2398519" desc="Кормилец" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="152" nameId="2370065" desc="Учтивый даэв" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="153" nameId="2370069" desc="Смутьян" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="154" nameId="2201939" desc="Разумный советник" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="155" nameId="2201941" desc="Великодушный советник" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="156" nameId="2201943" desc="Лидер общества" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="157" nameId="2202339" desc="Проницательный советник" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="158" nameId="2202341" desc="Верховный советник" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="159" nameId="2202343" desc="Лидер братства" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="160" nameId="2398523" desc="Любимый клиент Гупринга" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="161" nameId="2398525" desc="Любимый клиент Джиэлинлин" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="162" nameId="2398527" desc="Лучший клиент Гупринга" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="4" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="163" nameId="2398529" desc="Лучший клиент Джиэлинлин" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="4" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="164" nameId="2398539" desc="Победитель 3-го этапа арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="165" nameId="2398541" desc="Победитель 5-го этапа арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="166" nameId="2398543" desc="Победитель 7-го этапа арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="167" nameId="2398545" desc="Победитель 9-го этапа арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="168" nameId="2398547" desc="Победитель 10-го этапа арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="169" nameId="2398549" desc="Покоритель 3-го этапа арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="170" nameId="2398551" desc="Покоритель 5-го этапа арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="171" nameId="2398553" desc="Покоритель 7-го этапа арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="172" nameId="2398555" desc="Покоритель 9-го этапа арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="173" nameId="2398557" desc="Покоритель 10-го этапа арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="174" nameId="2398579" desc="Мастер сыска" race="ELYOS">
+		<modifiers>
+			<add name="EVASION" value="10" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+			<add name="PARRY" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="175" nameId="2398583" desc="Мастер сыска" race="ASMODIANS">
+		<modifiers>
+			<add name="EVASION" value="10" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+			<add name="PARRY" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="176" nameId="2370073" desc="Символ зимних праздников" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="177" nameId="2370333" desc="[Ивент] Приятные воспоминания" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="25" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="178" nameId="2370337" desc="Храброе сердце" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="179" nameId="2370341" desc="С Новым годом!" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="180" nameId="2370345" desc="Выходи, подлый трус!" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="500" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="181" nameId="2370349" desc="Со мной лучше не связываться!" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="500" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="182" nameId="2370353" desc="Ваше сиятельство" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-4" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="183" nameId="2398587" desc="Победитель одиночной арены" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="MAXHP" value="30" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="184" nameId="2398589" desc="Победитель одиночной арены" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="MAXHP" value="30" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="185" nameId="2398595" desc="Главный первопроходец" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="186" nameId="2398599" desc="Идеальное тело" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="187" nameId="2398603" desc="Покоритель морей" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="188" nameId="2398615" desc="Новичок Атреи" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="189" nameId="2398619" desc="Возвращение в Атрею" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="190" nameId="2398623" desc="Участник массовых ивентов А" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="BLOCK" value="7" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="191" nameId="2398627" desc="Участник массовых ивентов В" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+			<add name="MAXMP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="192" nameId="2398631" desc="Путешественник Атреи" race="PC_ALL">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="20" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="193" nameId="2398635" desc="Участник совместных ивентов А" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="194" nameId="2398639" desc="Участник совместных ивентов В" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="200" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="195" nameId="2398643" desc="Участник совместных ивентов С" race="PC_ALL">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="196" nameId="2398647" desc="Участник жарких ивентов А" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="197" nameId="2398651" desc="Участник жарких ивентов В" race="PC_ALL">
+		<modifiers>
+			<add name="BLOCK" value="8" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="198" nameId="2398655" desc="Участник жарких ивентов С" race="PC_ALL">
+		<modifiers>
+			<add name="EVASION" value="10" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="199" nameId="2398659" desc="Участник жарких ивентов D" race="PC_ALL">
+		<modifiers>
+			<add name="PVP_ATTACK_RATIO" value="10" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="10" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="200" nameId="2398663" desc="Мечтатель" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="201" nameId="2398715" desc="Враг влюбленных" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAXMP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="202" nameId="2398719" desc="Хранитель силы печати" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="203" nameId="2398723" desc="Убийца разведчиков асмодиан" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<add name="MAXHP" value="70" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="204" nameId="2398727" desc="Гость Ока Тиамаранты" race="ELYOS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="205" nameId="2398731" desc="Легионер копья Сиэли" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="206" nameId="2398735" desc="Владелец дома" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="207" nameId="2398739" desc="Мастер вторжений" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="70" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="208" nameId="2398743" desc="Разрушитель печати Тамарэса" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+			<add name="BLOCK" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="209" nameId="2398747" desc="Даэв на час" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="70" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="210" nameId="2398751" desc="Спаситель Гортеи" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="211" nameId="2398755" desc="Спаситель юнов" race="ELYOS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="212" nameId="2398671" desc="Искатель легкой наживы" race="ASMODIANS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAXMP" value="50" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="213" nameId="2398675" desc="Хранитель силы печати" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="214" nameId="2398679" desc="Убийца разведчиков элийцев" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<add name="MAXHP" value="70" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="215" nameId="2398683" desc="Исследователь Ока Тиамаранты" race="ASMODIANS">
+		<modifiers>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="216" nameId="2398687" desc="Легионер копья Сиэли" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="217" nameId="2398691" desc="Владелец дома" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="50" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="218" nameId="2398695" desc="Мастер вторжений" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="70" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="219" nameId="2398699" desc="Победитель Ракши" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+			<add name="BLOCK" value="15" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="220" nameId="2398703" desc="Мститель Пупуринга" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="70" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="221" nameId="2398707" desc="Гость резиденции Доркель" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="222" nameId="2398711" desc="Спаситель базы Рентаса" race="ASMODIANS">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="223" nameId="2398759" desc="Владелец свободной души" race="PC_ALL">
+		<modifiers>
+			<add name="MAXMP" value="200" bonus="true"/>
+			<add name="MAXMP" value="200" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="224" nameId="2398761" desc="Настоящий герой" race="PC_ALL">
+		<modifiers>
+			<add name="BLOCK" value="8" bonus="true"/>
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="225" nameId="2398763" desc="Даэв изящества" race="PC_ALL">
+		<modifiers>
+			<add name="EVASION" value="7" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="226" nameId="2398765" desc="Председатель учеников" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="227" nameId="2398767" desc="Декорация 1" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="228" nameId="2398769" desc="Быстрый даэв" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="229" nameId="2398771" desc="Молниеносный даэв" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="FLY_SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="230" nameId="2398787" desc="Окруженный врагами даэв" race="PC_ALL">
+		<modifiers>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+			<add name="PARRY" value="10" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="231" nameId="2398789" desc="Раненый даэв" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="150" bonus="true"/>
+			<add name="MAXMP" value="100" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="232" nameId="2398791" desc="Агрессивный даэв" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="8" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="233" nameId="2398793" desc="Одинокий даэв" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="234" nameId="2398803" desc="Именинник" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="235" nameId="2398807" desc="Пьяный мастер" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="236" nameId="2398811" desc="Боец лучшего легиона" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="237" nameId="2398951" desc="Воитель Сиэли" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="238" nameId="2398953" desc="Защитник Сиэли" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="239" nameId="2399081" desc="Великий воин (10 побед)" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="80" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="240" nameId="2399083" desc="Великий воин (20 побед)" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="241" nameId="2399085" desc="Великий воин (30 побед)" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="242" nameId="2399087" desc="Великий воин (40 побед)" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="243" nameId="2399089" desc="Легенда арены Кайсинеля" race="ELYOS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="244" nameId="2399091" desc="Великий воин (10 побед)" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="80" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="245" nameId="2399093" desc="Великий воин (20 побед)" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="246" nameId="2399095" desc="Великий воин (30 побед)" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="247" nameId="2399097" desc="Великий воин (40 побед)" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="248" nameId="2399099" desc="Легенда арены Маркутана" race="ASMODIANS">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="249" nameId="2399591" desc="Победитель лорда балауров" race="ELYOS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="250" nameId="2399593" desc="Победитель лорда балауров" race="ASMODIANS">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="251" nameId="2399987" desc="Завоеватель Пангеи" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="150" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="252" nameId="2399663" desc="Противник Тиамат" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="253" nameId="2399665" desc="Бывалый воин" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="254" nameId="2399667" desc="Ветеран Атреи" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="255" nameId="2399669" desc="Чемпион Айона" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="256" nameId="2399779" desc="Надежда Каталама" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="15" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="257" nameId="2399781" desc="Свет Каталама" race="PC_ALL">
+		<modifiers>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="15" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="258" nameId="2399783" desc="Караульный синего леса" race="PC_ALL">
+		<modifiers>
+			<add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="21" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="259" nameId="2399785" desc="Друг природы" race="PC_ALL">
+		<modifiers>
+			<add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="21" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="260" nameId="2399795" desc="Сильнейший воин на сервере" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="261" nameId="2399867" desc="Мастер пяти элементов" race="PC_ALL">
+		<modifiers>
+			<add name="WATER_RESISTANCE" value="50" bonus="true"/>
+			<add name="WIND_RESISTANCE" value="80" bonus="true"/>
+			<add name="FIRE_RESISTANCE" value="100" bonus="true"/>
+			<add name="EARTH_RESISTANCE" value="150" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="262" nameId="2399871" desc="Неваляшка" race="PC_ALL">
+		<modifiers>
+			<add name="ROOT_RESISTANCE" value="50" bonus="true"/>
+			<add name="STUN_RESISTANCE" value="80" bonus="true"/>
+			<add name="SLEEP_RESISTANCE" value="100" bonus="true"/>
+			<add name="OPENAREIAL_RESISTANCE" value="150" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="263" nameId="2399879" desc="Герой экспедиционного отряда Каталама" race="ELYOS">
+		<modifiers>
+			<add name="MAGICAL_RESIST" value="12" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="264" nameId="2399885" desc="Герой карательной армии Каталама" race="ASMODIANS">
+		<modifiers>
+			<add name="MAGICAL_RESIST" value="12" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="265" nameId="2399887" desc="Бегун" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="266" nameId="2399889" desc="Ловкач" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="267" nameId="2399891" desc="Умница" race="PC_ALL">
+		<modifiers>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="268" nameId="2399899" desc="Победитель Айона" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="500" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="269" nameId="2399903" desc="Счастливчик" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="270" nameId="2399911" desc="Молчун" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="271" nameId="2399913" desc="Молчаливый даэв" race="PC_ALL">
+		<modifiers>
+			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+			<add name="MAXHP" value="120" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="272" nameId="2399919" desc="Спаситель Ариате" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-4" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="273" nameId="2399963" desc="Сильный союзник" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="274" nameId="2399967" desc="Прославленный мастер" race="PC_ALL">
+		<modifiers>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-4" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="4" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="275" nameId="2399987" desc="Завоеватель Пангеи" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="FLY_TIME" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="276" nameId="2399991" desc="Победитель Атраксы" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="4" bonus="true"/>
+			<rate name="FLY_SPEED" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="277" nameId="2371597" desc="Командир крепости Анохи" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="20" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="278" nameId="3600427" desc="Покоритель Кальдора" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="279" nameId="3600547" desc="Забытый повелитель" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="280" nameId="3600549" desc="Хранитель Атреи" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="281" nameId="3600551" desc="Забытый герой" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="100" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="282" nameId="3600579" desc="Именинник" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="12" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="283" nameId="3600597" desc="Враг Бритры" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="284" nameId="3600633" desc="Достойный противник Теграка" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="285" nameId="3600637" desc="Достойный противник Геры" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="286" nameId="3602151" desc="500" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="500" bonus="true"/>
+			<add name="MAXMP" value="500" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="287" nameId="3602309" desc="Победитель битвы за Ханор" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="288" nameId="3602313" desc="Победитель битвы за Адрею" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="289" nameId="3602317" desc="Победитель битвы за Эссику" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="290" nameId="3602321" desc="Победитель битвы за Амунт" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="291" nameId="3602325" desc="Победитель битвы за Сетас" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="292" nameId="3602329" desc="Победитель битвы за Беллид" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<add name="MAXHP" value="200" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="293" nameId="3602333" desc="Победитель Бритры" race="ELYOS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="294" nameId="3602337" desc="Победитель Бритры" race="ASMODIANS">
+		<modifiers>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+			<add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="295" nameId="2399887" desc="Бегун" race="PC_ALL">
+		<modifiers>
+			<rate name="SPEED" value="3" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="296" nameId="3602709" desc="Чемпион 1-го сезона" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="300" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="297" nameId="3602711" desc="Чемпион 2-го сезона" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
+			<rate name="SPEED" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="298" nameId="3602713" desc="Чемпион 3-го сезона" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="100" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+			<rate name="SPEED" value="1" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="299" nameId="3602715" desc="Чемпион 4-го сезона" race="PC_ALL">
+		<modifiers>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
+			<rate name="SPEED" value="3" bonus="true"/>
+		</modifiers>
+	</title>
+	<title id="300" nameId="3602717" desc="Палач Айона" race="PC_ALL">
+		<modifiers>
+			<add name="MAXHP" value="500" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-4" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="4" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+		</modifiers>
+	</title>
+</player_titles>

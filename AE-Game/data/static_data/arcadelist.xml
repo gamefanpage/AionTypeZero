@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<arcadelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="arcadelist.xsd">
+	<tab id="1">
+		<item id="167010180" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053620" uncheckedcount="1" checkedcount="1"/>
+		<item id="186000237" uncheckedcount="10" checkedcount="20"/>
+		<item id="186000247" uncheckedcount="1" checkedcount="1"/>
+		<item id="188051853" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053616" uncheckedcount="1" checkedcount="1"/>
+		<item id="188052822" uncheckedcount="0" checkedcount="20"/>
+		<item id="188052674" uncheckedcount="0" checkedcount="1"/>
+	</tab>
+	<tab id="2">
+		<item id="110900831" uncheckedcount="1" checkedcount="1"/>
+		<item id="188052674" uncheckedcount="1" checkedcount="1"/>
+		<item id="167010180" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053624" uncheckedcount="10" checkedcount="20"/>
+		<item id="188052654" uncheckedcount="1" checkedcount="1"/>
+		<item id="166100008" uncheckedcount="50" checkedcount="100"/>
+		<item id="188053628" uncheckedcount="0" checkedcount="1"/>
+		<item id="188053213" uncheckedcount="0" checkedcount="1"/>
+	</tab>
+	<tab id="3">
+		<item id="125045494" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053645" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053617" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053626" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053002" uncheckedcount="1" checkedcount="1"/>
+		<item id="166100011" uncheckedcount="100" checkedcount="200"/>
+		<item id="190020214" uncheckedcount="0" checkedcount="1"/>
+		<item id="188053618" uncheckedcount="0" checkedcount="1"/>
+	</tab>
+	<tab id="4">
+		<item id="188053627" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053628" uncheckedcount="1" checkedcount="1"/>
+		<item id="166150019" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053002" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053614" uncheckedcount="1" checkedcount="1"/>
+		<item id="188052675" uncheckedcount="1" checkedcount="1"/>
+		<item id="188053003" uncheckedcount="0" checkedcount="1"/>
+		<item id="187060161" uncheckedcount="0" checkedcount="1"/>
+	</tab>
+</arcadelist>

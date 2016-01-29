@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="210070000">
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="2680.2886" y="363.25845" z="573.54797" h="42" anchor="SINGEA_AM"/>	<!-- id 2170 -->
+			<spot x="1746.4091" y="140.65057" z="542.16638" h="45" anchor="SINGEA_BM"/>	<!-- id 2171 -->
+			<spot x="791.85522" y="1866.1117" z="463.74097" h="90" anchor="SINGEA_CM"/>	<!-- id 2172 -->
+			<spot x="2054.0703" y="1433.6185" z="428.19574" h="108" anchor="SINGEA_DM"/>	<!-- id 2173 -->
+			<spot x="1913.0323" y="2674.0725" z="326.46585" h="0" anchor="SINGEA_EM"/>	<!-- id 2174 -->
+			<spot x="921.86084" y="2380.6462" z="289.72208" h="41" anchor="SINGEA_FM"/>	<!-- id 2175 -->
+			<spot x="2471.4949" y="517.88892" z="577.70447" h="15" anchor="SINGEA_AS"/>	<!-- id 2280 -->
+			<spot x="1910.3715" y="487.89838" z="560.77167" h="65" anchor="SINGEA_BS"/>	<!-- id 2281 -->
+			<spot x="730.22198" y="1508.844" z="471.32031" h="32" anchor="SINGEA_CS"/>	<!-- id 2282 -->
+			<spot x="2021.3585" y="1321.0011" z="452.09579" h="107" anchor="SINGEA_DS"/>	<!-- id 2283 -->
+			<spot x="1776.8193" y="2534.353" z="338.30954" h="38" anchor="SINGEA_ES"/>	<!-- id 2284 -->
+			<spot x="507.68134" y="2304.4377" z="343.5907" h="41" anchor="SINGEA_FS"/>	<!-- id 2285 -->
+		</spawn>
+		<rift_spawn id="2170"/>
+		<rift_spawn id="2171"/>
+		<rift_spawn id="2172"/>
+		<rift_spawn id="2173"/>
+		<rift_spawn id="2174"/>
+		<rift_spawn id="2175"/>
+		<rift_spawn id="2280"/>
+		<rift_spawn id="2281"/>
+		<rift_spawn id="2282"/>
+		<rift_spawn id="2283"/>
+		<rift_spawn id="2284"/>
+		<rift_spawn id="2285"/>
+	</spawn_map>
+</spawns>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+	<!-- 80585: [XML] A Luckier Fight -->
+	<!-- 80586: [XML] Crystals Bring Luck -->
+	<!-- 80587: [XML] Find the Journal -->
+	<!-- 80588: [XML] Enter with Luck -->
+	<!-- 80589: [XML] A Vicarious Memento -->
+	<!-- 80590: [XML] New Cave, New Luck -->
+	<!-- 80591: [XML] Lucky Entry -->
+	<!-- 80592: [XML] The Lost Journal -->
+	<!-- 80593: [XML] Into the Reliquary -->
+	<!-- 80594: [XML] Memento Mauling -->
+	<!-- REPORTING QUESTS -->
+	<report_to_many id="80586" start_npc_ids="832267" end_npc_ids="832267">
+		<npc_infos npc_id="832267" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80588" start_npc_ids="832268" end_npc_ids="832268">
+		<npc_infos npc_id="832268" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80591" start_npc_ids="832267" end_npc_ids="832267">
+		<npc_infos npc_id="832267" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80593" start_npc_ids="832268" end_npc_ids="832268">
+		<npc_infos npc_id="832268" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="80585" start_npc_ids="832268" end_npc_ids="832267"/>
+	<item_collecting id="80587" start_npc_ids="832268"/>
+	<item_collecting id="80589" start_npc_ids="832268"/>
+	<item_collecting id="80590" start_npc_ids="832268" end_npc_ids="832267"/>
+	<item_collecting id="80592" start_npc_ids="832268"/>
+	<item_collecting id="80594" start_npc_ids="832268"/>
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

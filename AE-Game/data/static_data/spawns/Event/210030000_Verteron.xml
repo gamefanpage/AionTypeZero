@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="210030000">
+	<!-- Bufer -->
+		<spawn  npc_id="831031" respawn_time="295">
+			<spot x="1693.89" y="1481.78" z="121.449" h="60"/>
+			<spot x="2369.63" y="836.11" z="101.273" h="64"/>
+			<spot x="2328.28" y="1817.8" z="193.001" h="10"/>
+			<spot x="2058.15" y="2408.13" z="275.993" h="38"/>
+			<spot x="1296.79" y="2207.44" z="142.25" h="52"/>
+	</spawn>
+	</spawn_map>
+</spawns>

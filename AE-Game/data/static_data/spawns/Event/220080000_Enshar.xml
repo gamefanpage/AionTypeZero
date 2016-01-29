@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawns>
+    <spawn_map map_id="220080000">
+	<!-- Red Code Atreia -->
+ 		<spawn npc_id="831446" respawn_time="295">
+			<spot x="476.21878" y="2220.0906" z="219.74997" h="30"/>
+		</spawn>
+ 		<spawn npc_id="831441" respawn_time="295">
+			<spot x="478.6102" y="2225.0864" z="219.74997" h="30"/>
+		</spawn>
+ 		<spawn npc_id="831442" respawn_time="295">
+			<spot x="475.87616" y="2225.223" z="219.74997" h="30"/>
+		</spawn>
+ 		<spawn npc_id="831443" respawn_time="295">
+			<spot x="473.04767" y="2224.1016" z="219.74997" h="30"/>
+		</spawn>
+	<!-- GM Buff -->
+ 		<spawn npc_id="831526" respawn_time="295">
+			<spot x="440.95834" y="2260.663" z="219.96588" h="108"/>
+		</spawn>
+    </spawn_map>
+</spawns>

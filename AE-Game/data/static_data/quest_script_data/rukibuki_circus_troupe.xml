@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+	<!-- 80332: [XML] [Event] From the Fairy… -->
+	<!-- 80333: [XML] [Event] Request from Pucas -->
+	<!-- 80334: [XML] [Event] Ringmaster Rukibuki's Conspiracy Continues -->
+	<!-- 80335: [XML] [Event] Secret of Transformation -->
+	<!-- 80336: [XML] [Event] Secret of Transformation -->
+	<!-- 80337: [XML] [Event] IU Rescue Operation -->
+	<!-- 80338: [XML] [Event] Ringmaster Rukibuki's Conspiracy Continues 2 -->
+	<!-- 80339: [XML] [Event] Ringmaster Rukibuki's Conspiracy Continues 3 -->
+	<!-- 80340: [XML] [Event] Ringmaster Rukibuki's Conspiracy Continues 4 -->
+	<!-- 80341: [XML] [Event] Request from Pucas -->
+	<!-- 80342: [XML] [Event] Ringmaster Rukibuki's Conspiracy Continues -->
+	<!-- 80343: [XML] [Event] Ariatte Rescue Operation -->
+
+	<!-- REPORTING QUESTS -->
+	<report_to_many id="80333" start_npc_ids="831541" end_npc_ids="831541">
+		<npc_infos var="0" npc_id="831541" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80335" start_npc_ids="831726" end_npc_ids="831726">
+		<npc_infos var="0" npc_id="831726" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80336" start_npc_ids="831726" end_npc_ids="831726">
+		<npc_infos var="0" npc_id="831726" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="80341" start_npc_ids="831709 831714" end_npc_ids="831709 831714">
+		<npc_infos var="0" npc_id="831709" quest_dialog="2375" close_dialog="1009"/>
+		<npc_infos var="0" npc_id="831714" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<!-- ITEM ORDERS QUESTS -->
+	<item_order id="80332" start_item_id="182215306" end_npc_id="831541"/>
+	<!-- HUNTING QUESTS -->
+	<monster_hunt id="80334" start_npc_ids="831541" end_npc_ids="831541">
+		<monster var="0" npc_ids="233382" end_var="1"/>
+		<monster var="1" npc_ids="233380" end_var="50"/>
+	</monster_hunt>
+	<monster_hunt id="80337" start_npc_ids="831541" end_npc_ids="831541">
+		<monster var="0" npc_ids="233382" end_var="1"/>
+		<monster var="1" npc_ids="233380" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="80338" start_npc_ids="831709 831714" end_npc_ids="831709 831714">
+		<monster var="0" npc_ids="233161" end_var="10"/>
+	</monster_hunt>
+	<monster_hunt id="80339" start_npc_ids="831709 831714" end_npc_ids="831709 831714">
+		<monster var="0" npc_ids="233161" end_var="10"/>
+	</monster_hunt>
+	<monster_hunt id="80340" start_npc_ids="831709 831714" end_npc_ids="831709 831714">
+		<monster var="0" npc_ids="233161" end_var="10"/>
+	</monster_hunt>
+	<monster_hunt id="80342" start_npc_ids="831709" end_npc_ids="831709">
+		<monster var="0" npc_ids="233161" end_var="10"/>
+	</monster_hunt>
+	<monster_hunt id="80343" start_npc_ids="831718" end_npc_ids="831709 831714">
+		<monster var="0" npc_ids="831572" end_var="1"/>
+		<monster var="1" npc_ids="233161" end_var="1"/>
+	</monster_hunt>
+</quest_scripts>

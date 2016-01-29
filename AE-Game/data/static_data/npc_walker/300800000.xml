@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_walker>
+	<!-- 231090 -->
+	<walker_template route_id="idruneweapon_npcpathvrirm_path_01" pool="1">
+		<routestep step="1" x="135.99" y="158.15" z="120.503235"/>
+		<routestep step="2" x="129.14" y="158.77" z="118.36651"/>
+		<routestep step="3" x="122.28" y="157.44" z="116.3435"/>
+	</walker_template>
+	<!-- 231091 -->
+	<walker_template route_id="idruneweapon_npcpathvrirm_path_02" pool="1">
+		<routestep step="1" x="119.5" y="117.81" z="121.282326"/>
+		<routestep step="2" x="125.93" y="116.27" z="119.426186"/>
+		<routestep step="3" x="132.46" y="116.0" z="117.58272"/>
+	</walker_template>
+</npc_walker>

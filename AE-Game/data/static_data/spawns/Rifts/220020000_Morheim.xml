@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="220020000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="450" y="2350" z="439" anchor="MORHEIM_AM"/>				<!--  id 2220 -->
+			<spot x="750" y="920" z="329.25" anchor="MORHEIM_BM"/>				<!--  id 2221 -->
+			<spot x="250" y="500" z="436.25" anchor="MORHEIM_CM"/>				<!--  id 2222 -->
+			<spot x="1650" y="1400" z="124" anchor="MORHEIM_DM"/>				<!-- id 2223 -->
+			<spot x="1624.59" y="1119.29" z="187.13" anchor="MORHEIM_EM"/>		<!-- id 2224 -->
+			<spot x="2400" y="2300" z="108" anchor="MORHEIM_FM"/>				<!--  id 2225 -->
+			<spot x="3020.912" y="883.3438" z="362.875" anchor="MORHEIM_GM"/>	<!-- id 2226 -->
+			<spot x="745.42" y="1872.32" z="364.746" anchor="MORHEIM_AS"/>		<!-- id 2120 -->
+			<spot x="1364.66" y="1334.97" z="238.177" anchor="MORHEIM_BS"/>		<!-- id 2121 -->
+			<spot x="617.477" y="209.07" z="518.337" anchor="MORHEIM_CS"/>		<!-- id 2122 -->
+			<spot x="1820.14" y="1309.38" z="21.6041" anchor="MORHEIM_DS"/>		<!-- id 2123 -->
+			<spot x="1559.14" y="2757.69" z="358.771" anchor="MORHEIM_ES"/>		<!-- id 2124 -->
+			<spot x="2613.38" y="2235.68" z="95.959" anchor="MORHEIM_FS"/>		<!-- id 2125 -->
+			<spot x="2930.68" y="879.49" z="370.009" anchor="MORHEIM_GS"/>		<!-- id 2126 -->
+		</spawn>
+		<!-- MORHEIM_AM -->
+		<rift_spawn id="2220">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_BM -->
+		<rift_spawn id="2221">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_CM -->
+		<rift_spawn id="2222">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_DM -->
+		<rift_spawn id="2223">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_EM -->
+		<rift_spawn id="2224">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_FM -->
+		<rift_spawn id="2225">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_GM -->
+		<rift_spawn id="2226">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_AS -->
+		<rift_spawn id="2120">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="784.4537" y="2031.09" z="330.86368"/>
+				<spot x="779.6799" y="2035.029" z="331.05527"/>
+				<spot x="448.7326" y="1873.969" z="418.20462"/>
+				<spot x="445.2293" y="1871.063" z="417.142"/>
+				<spot x="376.881" y="2033.208" z="475.39816"/>
+				<spot x="375.9373" y="2027.715" z="475.7025"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="786.5656" y="2029.294" z="331.52963"/>
+				<spot x="450.587" y="1876.161" z="418.60303"/>
+				<spot x="378.6298" y="2036.037" z="475.39816"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="776.6111" y="2036.096" z="331.73117"/>
+				<spot x="442.455" y="1869.453" z="417.1677"/>
+				<spot x="375.9769" y="2024.295" z="475.9136"/>
+			</spawn>
+		</rift_spawn>
+		<!-- MORHEIM_BS -->
+		<rift_spawn id="2121">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="923.5136" y="1543.421" z="238.01964"/>
+				<spot x="918.5466" y="1538.566" z="238.34445"/>
+				<spot x="955.4907" y="1221.636" z="267.77124"/>
+				<spot x="960.2899" y="1215.378" z="268.06494"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="926.6133" y="1545.269" z="238.73233"/>
+				<spot x="963.5032" y="1214.915" z="268.1074"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="916.8279" y="1536.297" z="239.24237"/>
+				<spot x="953.6152" y="1224.116" z="267.5756"/>
+			</spawn>
+		</rift_spawn>
+		<!-- MORHEIM_CS -->
+		<rift_spawn id="2122">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="682.1317" y="300.211" z="497.0806"/>
+				<spot x="688.0009" y="302.2127" z="497.38684"/>
+				<spot x="353.4727" y="618.9949" z="403.9597"/>
+				<spot x="354.9388" y="609.1384" z="403.52615"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="690.623" y="304.1911" z="498.10986"/>
+				<spot x="354.1224" y="605.9196" z="402.9172"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="678.6425" y="299.9322" z="497.64478"/>
+				<spot x="351.7731" y="621.7693" z="404.11603"/>
+			</spawn>
+		</rift_spawn>
+		<!-- MORHEIM_DS -->
+		<rift_spawn id="2123">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- MORHEIM_ES -->
+		<rift_spawn id="2124">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="2176.62" y="1946.245" z="196.67438"/>
+				<spot x="2180.195" y="1949.292" z="197"/>
+				<spot x="1990.608" y="2069.152" z="221.97311"/>
+				<spot x="1993.289" y="2071.002" z="222.07494"/>
+				<spot x="2181.579" y="2930.19" z="222.68019"/>
+				<spot x="2189.077" y="2936.242" z="223.0629"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="2182.866" y="1950.732" z="196.63727"/>
+				<spot x="1987.109" y="2066.744" z="221.00336"/>
+				<spot x="2186.442" y="2934.851" z="222.77032"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="2174.484" y="1943.656" z="195.99196"/>
+				<spot x="1985.391" y="2063.794" z="220.75"/>
+				<spot x="2179.821" y="2927.844" z="222.53212"/>
+			</spawn>
+		</rift_spawn>
+		<!-- MORHEIM_FS -->
+		<rift_spawn id="2125">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="2833.437" y="2343.451" z="132.3052"/>
+				<spot x="2823.641" y="2347.569" z="131.29915"/>
+				<spot x="2486.266" y="2730.527" z="112.977905"/>
+				<spot x="2481.772" y="2726.11" z="112.89102"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="2830.83" y="2345.459" z="132.78372"/>
+				<spot x="2489.072" y="2732.259" z="113.66644"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="2819.344" y="2347.855" z="131.24104"/>
+				<spot x="2480.154" y="2723.645" z="113.19473"/>
+			</spawn>
+		</rift_spawn>
+		<!-- MORHEIM_GS -->
+		<rift_spawn id="2126">
+			<spawn npc_id="209521" respawn_time="4540">
+				<spot x="2442.81" y="950.4671" z="206.89323"/>
+				<spot x="2450.867" y="947.8676" z="206.71585"/>
+				<spot x="2101.143" y="923.432" z="213.14345"/>
+				<spot x="2101.218" y="926.3605" z="212.76172"/>
+			</spawn>
+			<spawn npc_id="209539" respawn_time="4540">
+				<spot x="2448.733" y="949.3329" z="206.73721"/>
+				<spot x="2100.128" y="932.1859" z="212.65094"/>
+			</spawn>
+			<spawn npc_id="209542" respawn_time="4540">
+				<spot x="2439.728" y="950.2908" z="207.9111"/>
+				<spot x="2099.094" y="934.5485" z="213.43785"/>
+			</spawn>
+		</rift_spawn>
+	</spawn_map>
+</spawns>

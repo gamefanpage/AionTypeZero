@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+	<!-- 80230: TODO: [Event] Fortune Opportunities -->
+	<!-- 80231: TODO: [Event] Lucky Winner! -->
+	<!-- 80232: TODO: [Event] Lucky Winner! -->
+	<!-- 80233: TODO: [Event] Lucky Winner! -->
+	<!-- 80234: TODO: [Event] Lucky Winner! -->
+	<!-- 80235: TODO: [Event] Lucky Winner! -->
+	<!-- 80236: TODO: [Event] Lucky Winner! -->
+	<!-- 80237: TODO: [Event] Lucky Winner! -->
+	<!-- 80238: TODO: [Event] Lucky Winner! -->
+	<!-- 80239: TODO: [Event] Lucky Winner! -->
+	<!-- 80240: TODO: [Event] Lucky Winner! -->
+	<!-- 80241: TODO: [Event] Lucky Winner! -->
+	<!-- 80242: TODO: [Event] Lucky Winner! -->
+	<!-- 80243: TODO: [Event] Lucky Winner! -->
+	<!-- 80244: TODO: [Event] Lucky Winner! -->
+	<!-- 80245: TODO: [Event] Lucky Winner! -->
+	<!-- 80246: TODO: [Event] Lucky Winner! -->
+	<!-- 80247: TODO: [Event] Lucky Winner! -->
+	<!-- 80248: TODO: [Event] Lucky Winner! -->
+	<!-- 80249: TODO: [Event] Lucky Winner! -->
+	<!-- 80250: TODO: [Event] Lucky Winner! -->
+	<!-- 80251: TODO: [Event] Lucky Winner! -->
+	<!-- 80252: TODO: [Event] Lucky Winner! -->
+	<!-- 80253: TODO: [Event] Lucky Winner! -->
+	<!-- 80254: TODO: [Event] Lucky Winner! -->
+	<!-- 80286: [XML] [Event/Repeat] Mithril Medal Deal -->
+	<!-- 80287: [XML] [Event/Repeat] Mithril Medal Deal -->
+	<!-- 80288: [XML] [Event/Repeat] Mithril Medal Deal -->
+	<!-- 80289: [XML] [Event/Repeat] Mithril Medal Deal -->
+	<item_collecting id="80286" start_npc_ids="831362"/>
+	<item_collecting id="80287" start_npc_ids="831363"/>
+	<item_collecting id="80288" start_npc_ids="831371"/>
+	<item_collecting id="80289" start_npc_ids="831372"/>
+</quest_scripts>

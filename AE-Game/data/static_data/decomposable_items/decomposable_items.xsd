@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="../items/item_templates.xsd"/>
+	<xs:element name="decomposable_items">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="decomposable" type="DecomposableItem" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DecomposableItem">
+		<xs:sequence>
+			<xs:element name="items" type="ExtractedItemsCollection" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="item_id" type="itemId" use="required"/>
+        <xs:attribute name="type" type="DecomposableType" use="optional" default="NONE"/>
+	</xs:complexType>
+	<xs:complexType name="ExtractedItemsCollection">
+		<xs:complexContent>
+			<xs:extension base="ResultedItemsCollection">
+				<xs:attribute name="chance" type="xs:float" use="optional" default="100"/>
+				<xs:attribute name="minlevel" type="xs:int" use="optional" default="0"/>
+				<xs:attribute name="maxlevel" type="xs:int" use="optional" default="0"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ResultedItem">
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="count" type="xs:int" use="optional" default="1"/>
+		<xs:attribute name="rnd_min" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="rnd_max" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="race" type="Race" use="optional" default="PC_ALL"/>
+		<xs:attribute name="player_class" type="playerClass" use="optional" default="ALL"/>
+	</xs:complexType>
+	<xs:complexType name="ResultedItemsCollection">
+		<xs:sequence>
+			<xs:element name="item" type="ResultedItem" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="random_item" type="RandomItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RandomItem">
+		<xs:attribute name="type" type="RandomType" use="required"/>
+		<xs:attribute name="count" type="xs:int" use="optional" default="1"/>
+		<xs:attribute name="rnd_min" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="rnd_max" type="xs:int" use="optional" default="0"/>
+	</xs:complexType>
+	<xs:simpleType name="RandomType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ENCHANTMENT"/>
+			<xs:enumeration value="MANASTONE"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_10"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_20"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_30"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_40"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_50"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_60"/>
+			<xs:enumeration value="MANASTONE_COMMON_GRADE_70"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_20"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_30"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_40"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_50"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_60"/>
+			<xs:enumeration value="MANASTONE_RARE_GRADE_70"/>
+			<xs:enumeration value="MANASTONE_LEGEND_GRADE_30"/>
+			<xs:enumeration value="MANASTONE_LEGEND_GRADE_40"/>
+			<xs:enumeration value="MANASTONE_LEGEND_GRADE_50"/>
+			<xs:enumeration value="MANASTONE_LEGEND_GRADE_60"/>
+			<xs:enumeration value="MANASTONE_LEGEND_GRADE_70"/>
+			<xs:enumeration value="SHINING_MANASTONE_LEGEND_GRADE_70"/>
+			<xs:enumeration value="ANCIENT_MANASTONE_RARE_70"/>
+			<xs:enumeration value="ANCIENT_MANASTONE_LEGEND_70"/>
+			<xs:enumeration value="ANCIENT_MANASTONE_GOLD_70"/>
+			<xs:enumeration value="ANCIENT_MANASTONE_EPIC_70"/>
+			<xs:enumeration value="ANCIENTITEMS"/>
+			<xs:enumeration value="CHUNK_EARTH"/>
+			<xs:enumeration value="CHUNK_ROCK"/>
+			<xs:enumeration value="CHUNK_SAND"/>
+			<xs:enumeration value="CHUNK_GEMSTONE"/>
+			<xs:enumeration value="SCROLLS"/>
+			<xs:enumeration value="POTION"/>
+			<xs:enumeration value="GOD_STONE_50"/>
+			<xs:enumeration value="GOD_STONE_60"/>
+			<xs:enumeration value="GOD_STONE_LEGEND"/>
+			<xs:enumeration value="GOD_STONE_UNIQUE"/>
+			<xs:enumeration value="RELIC"/>
+			<xs:enumeration value="ENCHANTMENT_50_100"/>
+			<xs:enumeration value="ENCHANTMENT_100_150"/>
+			<xs:enumeration value="EPIC_CRAFT_ITEM_47"/>
+			<xs:enumeration value="IDIAN_STONE_50_60"/>
+			<xs:enumeration value="MYSTIC_STONE_40"/>
+			<xs:enumeration value="MYSTIC_STONE_50"/>
+			<xs:enumeration value="MYSTIC_STONE_65"/>
+			<xs:enumeration value="MYSTIC_STONE_BONUS"/>
+		</xs:restriction>
+	</xs:simpleType>
+    <xs:simpleType name="DecomposableType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="NONE"/>
+            <xs:enumeration value="SELECT"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,486 @@
+/*
+ * Copyright (c) 2015, TypeZero Engine (game.developpers.com)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * Neither the name of TypeZero Engine nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+package org.typezero.gameserver.world;
+
+import gnu.trove.map.hash.TIntObjectHashMap;
+import javolution.util.FastList;
+import javolution.util.FastMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.typezero.gameserver.configs.main.WorldConfig;
+import org.typezero.gameserver.instance.handlers.InstanceHandler;
+import org.typezero.gameserver.model.gameobjects.AionObject;
+import org.typezero.gameserver.model.gameobjects.Npc;
+import org.typezero.gameserver.model.gameobjects.StaticDoor;
+import org.typezero.gameserver.model.gameobjects.VisibleObject;
+import org.typezero.gameserver.model.gameobjects.player.Player;
+import org.typezero.gameserver.model.team2.alliance.PlayerAlliance;
+import org.typezero.gameserver.model.team2.group.PlayerGroup;
+import org.typezero.gameserver.model.team2.league.League;
+import org.typezero.gameserver.model.templates.quest.QuestNpc;
+import org.typezero.gameserver.model.templates.world.WorldMapTemplate;
+import org.typezero.gameserver.model.templates.zone.ZoneClassName;
+import org.typezero.gameserver.model.templates.zone.ZoneType;
+import org.typezero.gameserver.questEngine.QuestEngine;
+import org.typezero.gameserver.world.exceptions.DuplicateAionObjectException;
+import org.typezero.gameserver.world.knownlist.Visitor;
+import org.typezero.gameserver.world.zone.RegionZone;
+import org.typezero.gameserver.world.zone.ZoneInstance;
+import org.typezero.gameserver.world.zone.ZoneName;
+import org.typezero.gameserver.world.zone.ZoneService;
+
+import java.util.*;
+import java.util.concurrent.Future;
+
+/**
+ * World map instance object.
+ *
+ * @author -Nemesiss-
+ */
+public abstract class WorldMapInstance {
+
+	/**
+	 * Logger for this class.
+	 */
+	private static final Logger log = LoggerFactory.getLogger(WorldMapInstance.class);
+	/**
+	 * Size of region
+	 */
+	public static final int regionSize = WorldConfig.WORLD_REGION_SIZE;
+	/**
+	 * WorldMap witch is parent of this instance.
+	 */
+	private final WorldMap parent;
+	/**
+	 * Map of active regions.
+	 */
+	protected final TIntObjectHashMap<MapRegion> regions = new TIntObjectHashMap<MapRegion>();
+
+	/**
+	 * All objects spawned in this world map instance
+	 */
+	private final Map<Integer, VisibleObject> worldMapObjects = new FastMap<Integer, VisibleObject>().shared();
+
+	/**
+	 * All players spawned in this world map instance
+	 */
+	private final FastMap<Integer, Player> worldMapPlayers = new FastMap<Integer, Player>().shared();
+
+	private final Set<Integer> registeredObjects = Collections.newSetFromMap(new FastMap<Integer, Boolean>().shared());
+
+	private PlayerGroup registeredGroup = null;
+
+	private Future<?> emptyInstanceTask = null;
+
+	/**
+	 * Id of this instance (channel)
+	 */
+	private int instanceId;
+
+	private final FastList<Integer> questIds = new FastList<Integer>();
+
+	private InstanceHandler instanceHandler;
+
+	private Map<ZoneName, ZoneInstance> zones = new HashMap<ZoneName, ZoneInstance>();
+
+	// TODO: Merge this with owner
+	private Integer soloPlayer;
+
+	private PlayerAlliance registredAlliance;
+	private League registredLeague;
+
+	/**
+	 * Constructor.
+	 *
+	 * @param parent
+	 */
+	public WorldMapInstance(WorldMap parent, int instanceId) {
+		this.parent = parent;
+		this.instanceId = instanceId;
+		this.zones = ZoneService.getInstance().getZoneInstancesByWorldId(parent.getMapId());
+		initMapRegions();
+	}
+
+	/**
+	 * Return World map id.
+	 *
+	 * @return world map id
+	 */
+	public Integer getMapId() {
+		return getParent().getMapId();
+	}
+
+	/**
+	 * Returns WorldMap witch is parent of this instance
+	 *
+	 * @return parent
+	 */
+	public WorldMap getParent() {
+		return parent;
+	}
+
+	public WorldMapTemplate getTemplate() {
+		return parent.getTemplate();
+	}
+
+	/**
+	 * Returns MapRegion that contains coordinates of VisibleObject. If the region doesn't exist, it's created.
+	 *
+	 * @param object
+	 * @return a MapRegion
+	 */
+	MapRegion getRegion(VisibleObject object) {
+		return getRegion(object.getX(), object.getY(), object.getZ());
+	}
+
+	/**
+	 * Returns MapRegion that contains given x,y coordinates. If the region doesn't exist, it's created.
+	 *
+	 * @param x
+	 * @param y
+	 * @return a MapRegion
+	 */
+	public abstract MapRegion getRegion(float x, float y, float z);
+
+	/**
+	 * Create new MapRegion and add link to neighbours.
+	 *
+	 * @param regionId
+	 * @return newly created map region
+	 */
+	protected abstract MapRegion createMapRegion(int regionId);
+
+	protected abstract void initMapRegions();
+
+	public abstract boolean isPersonal();
+
+	public abstract int getOwnerId();
+
+	/**
+	 * Returs {@link World} instance to which belongs this WorldMapInstance
+	 *
+	 * @return World
+	 */
+	public World getWorld() {
+		return getParent().getWorld();
+	}
+
+	/**
+	 * @param object
+	 */
+	public void addObject(VisibleObject object) {
+		if (worldMapObjects.put(object.getObjectId(), object) != null) {
+			throw new DuplicateAionObjectException("Object with templateId "
+				+ String.valueOf(object.getObjectTemplate().getTemplateId()) + " already spawned in the instance "
+				+ String.valueOf(this.getMapId()) + " " + String.valueOf(this.getInstanceId()));
+		}
+		if (object instanceof Npc) {
+			QuestNpc data = QuestEngine.getInstance().getQuestNpc(((Npc) object).getNpcId());
+			if (data != null) {
+				for (int id : data.getOnQuestStart())
+					if (!questIds.contains(id))
+						questIds.add(id);
+			}
+		}
+		if (object instanceof Player){
+			if (this.getParent().isPossibleFly())
+				((Player)object).setInsideZoneType(ZoneType.FLY);
+			worldMapPlayers.put(object.getObjectId(), (Player) object);
+		}
+	}
+
+	/**
+	 * @param object
+	 */
+	public void removeObject(AionObject object) {
+		worldMapObjects.remove(object.getObjectId());
+		if (object instanceof Player){
+			if (this.getParent().isPossibleFly())
+				((Player)object).unsetInsideZoneType(ZoneType.FLY);
+			worldMapPlayers.remove(object.getObjectId());
+		}
+	}
+
+	/**
+	 * @param npcId
+	 *
+	 * @return npc
+	 */
+	public Npc getNpc(int npcId) {
+		for (Iterator<VisibleObject> iter = objectIterator(); iter.hasNext();) {
+			VisibleObject obj = iter.next();
+			if (obj instanceof Npc) {
+				Npc npc = (Npc) obj;
+				if (npc.getNpcId() == npcId) {
+					return npc;
+				}
+			}
+		}
+		return null;
+	}
+
+	public List<Player> getPlayersInside() {
+		List<Player> playersInside = new ArrayList<Player>();
+		Iterator<Player> players = playerIterator();
+		while (players.hasNext()) {
+			playersInside.add(players.next());
+		}
+		return playersInside;
+	}
+
+	/**
+	 * @param npcId
+	 *
+	 * @return List<npc>
+	 */
+	public List<Npc> getNpcs(int npcId) {
+		List<Npc> npcs = new ArrayList<Npc>();
+		for (Iterator<VisibleObject> iter = objectIterator(); iter.hasNext();) {
+			VisibleObject obj = iter.next();
+			if (obj instanceof Npc) {
+				Npc npc = (Npc) obj;
+				if (npc.getNpcId() == npcId) {
+					npcs.add(npc);
+				}
+			}
+		}
+		return npcs;
+	}
+
+	/**
+	 * @return List<npcs>
+	 */
+	public List<Npc> getNpcs() {
+		List<Npc> npcs = new ArrayList<Npc>();
+		for (Iterator<VisibleObject> iter = objectIterator(); iter.hasNext();) {
+			VisibleObject obj = iter.next();
+			if (obj instanceof Npc) {
+				npcs.add((Npc) obj);
+			}
+		}
+		return npcs;
+	}
+
+	/**
+	 * @return List<doors>
+	 */
+	public Map<Integer,StaticDoor> getDoors() {
+		Map<Integer,StaticDoor> doors = new HashMap<Integer,StaticDoor>();
+		for (Iterator<VisibleObject> iter = objectIterator(); iter.hasNext();) {
+			VisibleObject obj = iter.next();
+			if (obj instanceof StaticDoor) {
+				StaticDoor door = (StaticDoor) obj;
+				doors.put(door.getSpawn().getStaticId(), door);
+			}
+		}
+		return doors;
+	}
+
+	/**
+	 * @return the instanceIndex
+	 */
+	public int getInstanceId() {
+		return instanceId;
+	}
+
+	/**
+	 * Check player is in instance
+	 *
+	 * @param objId
+	 * @return
+	 */
+	public boolean isInInstance(int objId) {
+		return worldMapPlayers.containsKey(objId);
+	}
+
+	/**
+	 * @return
+	 */
+	public Iterator<VisibleObject> objectIterator() {
+		return worldMapObjects.values().iterator();
+	}
+
+	/**
+	 * @return
+	 */
+	public Iterator<Player> playerIterator() {
+		return worldMapPlayers.values().iterator();
+	}
+
+	public void registerGroup(PlayerGroup group) {
+		registeredGroup = group;
+		register(group.getTeamId());
+	}
+
+	public void registerGroup(PlayerAlliance group) {
+		registredAlliance = group;
+		register(group.getObjectId());
+	}
+
+	public void registerGroup(League group) {
+		registredLeague = group;
+		register(group.getObjectId());
+	}
+
+	public PlayerAlliance getRegistredAlliance() {
+		return registredAlliance;
+	}
+
+	public League getRegistredLeague() {
+		return registredLeague;
+	}
+
+	/**
+	 * @param objectId
+	 */
+	public void register(int objectId) {
+		registeredObjects.add(objectId);
+	}
+
+	/**
+	 * @param objectId
+	 * @return
+	 */
+	public boolean isRegistered(int objectId) {
+		return registeredObjects.contains(objectId);
+	}
+
+	/**
+	 * @return the emptyInstanceTask
+	 */
+	public Future<?> getEmptyInstanceTask() {
+		return emptyInstanceTask;
+	}
+
+	/**
+	 * @param emptyInstanceTask
+	 *          the emptyInstanceTask to set
+	 */
+	public void setEmptyInstanceTask(Future<?> emptyInstanceTask) {
+		this.emptyInstanceTask = emptyInstanceTask;
+	}
+
+	/**
+	 * @return the registeredGroup
+	 */
+	public PlayerGroup getRegisteredGroup() {
+		return registeredGroup;
+	}
+
+	/**
+	 * @return
+	 */
+	public int playersCount() {
+		return worldMapPlayers.size();
+	}
+
+	public FastList<Integer> getQuestIds() {
+		return questIds;
+	}
+
+	public final InstanceHandler getInstanceHandler() {
+		return instanceHandler;
+	}
+
+	public final void setInstanceHandler(InstanceHandler instanceHandler) {
+		this.instanceHandler = instanceHandler;
+	}
+
+	public Player getPlayer(Integer object) {
+		for (Player player : worldMapPlayers.values()) {
+			if (object == player.getObjectId()) {
+				return player;
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * @param visitor
+	 */
+	public void doOnAllPlayers(Visitor<Player> visitor) {
+		try {
+			for (Player player : worldMapPlayers.values())
+				if (player != null) {
+					visitor.visit(player);
+				}
+		}
+		catch (Exception ex) {
+			log.error("Exception when running visitor on all players" + ex);
+		}
+	}
+
+	protected ZoneInstance[] filterZones(int mapId, int regionId, float startX, float startY, float minZ, float maxZ) {
+		List<ZoneInstance> regionZones = new ArrayList<ZoneInstance>();
+		RegionZone regionZone = new RegionZone(startX, startY, minZ, maxZ);
+
+		for (ZoneInstance zoneInstance : zones.values()) {
+			if (zoneInstance.getAreaTemplate().intersectsRectangle(regionZone))
+				regionZones.add(zoneInstance);
+			else if (zoneInstance.getZoneTemplate().getZoneType() == ZoneClassName.DUMMY) {
+				log.error("Region " + regionId + " should intersect with whole map zone!!! (map=" + mapId + ")");
+			}
+		}
+		return regionZones.toArray(new ZoneInstance[regionZones.size()]);
+	}
+
+	/**
+	 * @param player
+	 * @param zoneName
+	 * @return
+	 */
+	public boolean isInsideZone(VisibleObject object, ZoneName zoneName) {
+		ZoneInstance zoneTemplate = zones.get(zoneName);
+		if (zoneTemplate == null)
+			return false;
+		return isInsideZone(object.getPosition(), zoneName);
+	}
+
+	/**
+	 * @param pos
+	 * @param zone
+	 * @return
+	 */
+	public boolean isInsideZone(WorldPosition pos, ZoneName zoneName) {
+		MapRegion mapRegion = this.getRegion(pos.getX(), pos.getY(), pos.getZ());
+		return mapRegion.isInsideZone(zoneName, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	public void  setSoloPlayerObj(Integer obj) {
+		soloPlayer = obj;
+	}
+
+	public Integer getSoloPlayerObj() {
+		return soloPlayer;
+	}
+
+}

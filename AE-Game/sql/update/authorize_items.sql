@@ -1,0 +1,1 @@
+ALTER TABLE `inventory` ADD COLUMN `authorize` INT NOT NULL DEFAULT 0 AFTER `rnd_bonus`;

@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_drops>
+ <!-- Anoha -->
+	<npc_drop npc_id="855263" droptype="replace">
+		 <drop_group name="NAMED_ITEM" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000242" noreduce="true" eachmember="true"/>
+			<drop chance="100" max_amount="10" min_amount="10" item_id="186000236" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+ <!-- Event Cards Triniel
+	<npc_drop npc_id="215280" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217206" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215783" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215795" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214669" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217313" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217475" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217647" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701541" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230662" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230740" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230743" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701795" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230854" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230855" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230856" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230857" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230858" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233089" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230080" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230081" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230092" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700937" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700938" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701579" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701580" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219299" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219300" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219359" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701542" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217371" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217373" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217376" droptype="merge">
+		 <drop_group name="EVENT_CARDS_TRINIEL" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000381" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+  End Event Cards Triniel -->
+<!-- Event Snowball 
+	<npc_drop npc_id="214621" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212846" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217005" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217006" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215081" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213780" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215443" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215443" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215449" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215134" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233631" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215220" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233717" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215177" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233674" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214669" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214696" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214904" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217206" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215488" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215793" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215795" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700937" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700938" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701579" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701580" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219299" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219300" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217475" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217647" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217234" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217242" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="218782" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217313" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701541" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701542" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701795" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230853" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233380" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230662" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230665" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230743" droptype="merge">
+		 <drop_group name="EVENT_SNOWBALL" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="188052986" noreduce="false" eachmember="false"/>
+			<drop chance="0.3" max_amount="1" min_amount="1" item_id="188052999" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+ End Event Snowball -->
+<!-- Boiling Point Event
+	<npc_drop npc_id="214621" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212846" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217005" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217006" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215081" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213780" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215443" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215443" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215449" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215134" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233631" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215220" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233717" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215177" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233674" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214669" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214696" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214904" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217206" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215488" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215793" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215795" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700937" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700938" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701579" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701580" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219299" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219300" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217475" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217647" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217234" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217242" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="218782" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217313" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701541" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701542" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701795" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230853" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233380" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230662" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230665" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230743" droptype="merge">
+		 <drop_group name="BOILING_POINT_EVENT" use_category="true">
+			<drop chance="5" max_amount="1" min_amount="1" item_id="186000387" noreduce="false" eachmember="false"/>
+			<drop chance="1" max_amount="1" min_amount="1" item_id="186000388" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+End Boiling Point Event -->
+<!-- Event Alchmic
+	<npc_drop npc_id="214621" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212846" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212211" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214598" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215081" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215080" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213780" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214028" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214159" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215284" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215283" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215282" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215281" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215280" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217206" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215783" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215795" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214669" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214696" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217313" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217475" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217647" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701541" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230662" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230665" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230743" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701795" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230857" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230858" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233380" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230080" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230081" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230093" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700937" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700938" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701579" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701580" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219359" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701542" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233632" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233633" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233675" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233676" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233718" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233719" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="234691" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233740" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="234686" droptype="merge">
+		 <drop_group name="EVENT_ALCHMIC" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052641" noreduce="false" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+ End Event Alchmic -->
+<!-- Event Half of the Heart 
+	<npc_drop npc_id="214621" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212846" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="212211" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214598" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215081" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215080" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213780" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214028" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214159" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215284" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215283" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215282" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215281" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215280" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217206" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215783" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215795" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214669" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214696" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217313" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217475" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="217647" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701541" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230662" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230665" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230743" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701795" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230857" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230858" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233380" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230080" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230081" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230093" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700937" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="700938" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701579" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701580" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219359" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="701542" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233632" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233633" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233675" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233676" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233718" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233719" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="234691" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233740" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="234686" droptype="merge">
+		 <drop_group name="EVENT_HALF_HEART" use_category="true">
+			<drop chance="5.5" max_amount="1" min_amount="1" item_id="188052317" noreduce="false" eachmember="false"/>
+		</drop_group>	
+	</npc_drop>
+ End Event Half of the Heart -->
+ <!-- Event Street Musicians
+	<npc_drop npc_id="802184" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100252" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="284376" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100252" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230857" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100253" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230858" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100253" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231050" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100254" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233740" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100255" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="234686" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100255" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="231073" droptype="merge">
+		 <drop_group name="STREET_MUSICIANS" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="188100256" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+ End Event Street Musicians -->
+ <!-- Event Violet Revolution
+	<npc_drop npc_id="213780" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215280" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216264" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219358" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230857" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230858" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233740" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="100" max_amount="1" min_amount="1" item_id="186000386" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214843" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214849" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214850" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214851" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214864" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215387" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214880" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215388" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215389" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214894" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214895" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214896" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214897" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214904" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215281" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215282" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215283" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="215284" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213771" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213772" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213773" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213774" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213775" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213776" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213778" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213779" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213587" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213588" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="213802" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="214026" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216238" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216160" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216734" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216735" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216737" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216245" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216163" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216242" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216158" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216246" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216250" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216248" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216263" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216159" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216247" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216525" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="216168" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219352" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219353" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219354" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219355" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219356" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="219357" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230849" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230850" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230851" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230852" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="230853" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233255" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233256" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233257" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+	<npc_drop npc_id="233258" droptype="merge">
+		 <drop_group name="REVOLUTION" use_category="false">
+			<drop chance="10" max_amount="1" min_amount="1" item_id="188100180" noreduce="true" eachmember="true"/>
+		</drop_group>	
+	</npc_drop>
+ End Event Violet Revolution -->
+</npc_drops> 

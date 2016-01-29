@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+	<report_to_many id="13830" end_npc_ids="798380" mission="true">
+		<npc_infos npc_id="798380" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="13831" end_npc_ids="798381" mission="true">
+		<npc_infos npc_id="798381" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="13832" end_npc_ids="203711" mission="true">
+		<npc_infos npc_id="203711" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="13833" end_npc_ids="203711" mission="true">
+		<npc_infos npc_id="203711" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="13834" end_npc_ids="798909" mission="true">
+		<npc_infos npc_id="798909" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="23830" end_npc_ids="798382" mission="true">
+		<npc_infos npc_id="798382" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="23831" end_npc_ids="798383" mission="true">
+		<npc_infos npc_id="798383" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="23832" end_npc_ids="204061" mission="true">
+		<npc_infos npc_id="204061" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="23833" end_npc_ids="204061" mission="true">
+		<npc_infos npc_id="204061" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="23834" end_npc_ids="799208" mission="true">
+		<npc_infos npc_id="799208" var="0" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+</quest_scripts>

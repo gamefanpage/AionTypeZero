@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="220010000">
+		<!-- NPC buffer -->
+		<spawn npc_id="831029" respawn_time="295">
+			<spot x="582.7912" y="2463.3035" z="278.581" h="103"/>
+			<spot x="938.916" y="1704.93" z="259.5" h="39"/>
+		</spawn>
+		<!-- Announcer -->
+		<spawn npc_id="831731" respawn_time="295">
+			<spot x="586.34985" y="2519.8804" z="275.1319" h="36"/>
+		</spawn>
+	</spawn_map>
+</spawns>

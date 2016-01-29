@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<in_game_shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="in_game_shop.xsd">
+	<!-- can be more category -->
+	<category id="0" name="Оружие">
+		<sub_category id="3" name="Щиты"/>
+		<sub_category id="4" name="Мечи, кинжалы"/>
+		<sub_category id="5" name="Булава, посохи"/>
+		<sub_category id="6" name="Орбы, гримуары"/>
+		<sub_category id="7" name="Двуруч. мечи"/>
+		<sub_category id="8" name="Копья"/>
+		<sub_category id="9" name="Луки"/>
+		<sub_category id="10" name="Пистолеты, пушки"/>
+		<sub_category id="11" name="Арфы"/>
+		<sub_category id="12" name="Ключи"/>		
+	</category>
+	<category id="1" name="Одежда">
+		<sub_category id="3" name="Шапки на ремодел"/>
+		<sub_category id="4" name="Одежда на ремодел"/>
+		<sub_category id="5" name="Крылья"/>
+		<sub_category id="6" name="Комп. кавалериста, шута"/>
+		<sub_category id="7" name="Комп. древнего элементаля"/>
+		<sub_category id="8" name="Комп. Геры,Теграка"/>
+		<sub_category id="9" name="Лучезарный комп. эксперта"/>
+		<sub_category id="10" name="Комп. стража Тиамат"/>
+		<sub_category id="11" name="Комп. ниндзя, поэта"/>
+		<sub_category id="12" name="Комп. хаоса"/>
+		<sub_category id="13" name="Комп. фанатика"/>
+		<sub_category id="14" name="Комп. др.реликвий"/>
+		<sub_category id="15" name="Комп. одеж.животных"/>
+		<sub_category id="16" name="Комп. одеж.кота"/>
+		<sub_category id="17" name="Комп. сноубордиста"/>
+	</category>	
+	<category id="2" name="Маунты и петы">
+		<sub_category id="3" name="Маунты"/>
+		<sub_category id="4" name="Маунты на прокат"/>
+		<sub_category id="5" name="Питомцы"/>
+		<sub_category id="6" name="Питомцы с сумкой"/>
+		<sub_category id="7" name="Питомцы полез.предм"/>
+		<sub_category id="8" name="Питомцы автоподбор"/>
+		<sub_category id="9" name="Питомцы сиг.тревоги"/>
+		<sub_category id="10" name="Питомцы универсальные"/>
+	</category>
+	<category id="3" name="Разное">
+		<sub_category id="3" name="Конфеты"/>
+		<sub_category id="4" name="Краски"/>			
+		<sub_category id="5" name="Купоны, свитки"/>		
+		<sub_category id="6" name="Волш.камни"/>
+		<sub_category id="7" name="Значки , медали"/>
+		<sub_category id="8" name="Свитки времени"/>
+		<sub_category id="9" name="Корм"/>
+		<sub_category id="10" name="Книги, умения"/>
+		<sub_category id="11" name="Полезное"/>
+		<sub_category id="12" name="Титулы"/>
+	</category>
+	<category id="4" name="Крафт">
+		<sub_category id="3" name="Рецепты"/>
+		<sub_category id="4" name="Расходники"/>
+		<sub_category id="5" name="Преобразование"/>	
+	</category>
+	<category id="5" name="Для дома">	
+		<sub_category id="7" name="Кровати"/>	
+		<sub_category id="8" name="Диваны"/>	
+		<sub_category id="9" name="Столики"/>	
+		<sub_category id="10" name="Комоды"/>	
+		<sub_category id="11" name="Украшения"/>
+		<sub_category id="12" name="Обои"/>	
+		<sub_category id="13" name="Полы"/>
+		<sub_category id="14" name="Краска для мебели"/>
+		<sub_category id="15" name="Стены, крыши"/>
+		<sub_category id="16" name="Наборы мебели"/>				
+	</category>
+	<category id="6" name="Ивенты">
+		<sub_category id="3" name="Постоянные"/>
+		<sub_category id="4" name="Временные"/>	
+	</category>
+	<category id="7" name="Акция">
+		<sub_category id="3" name="Акционные"/>
+	</category>
+</in_game_shop>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			29631 [TODO] Glug, Glug, Glug
+			29632 [TODO] Sweeping Nahor Lake
+			29633 [TODO] Stabilize the Saplands
+			29634 [TODO] Scared Skurvs
+			29635 [TODO] Beach Day
+			29636 [TODO] Back to Surt
+			29637 [TODO] Trouble, Not Trivial
+			29638 [TODO] Not So Sweet
+			29639 [TODO] Monsters Unholy
+			29640 [TODO] Final Krug Clearing
+			29641 [TODO] Move Along Now
+			29642 [TODO] Good On Gelkmaros
+			29643 [TODO] Special Mission Request
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS --> 
+	<report_to id="29631" start_npc_ids="802431" end_npc_ids="802383"/>
+</quest_scripts>

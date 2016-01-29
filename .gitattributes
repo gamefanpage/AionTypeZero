@@ -1,0 +1,18 @@
+* text eol=lf
+*.bat text eol=crlf
+*.patch text eol=lf
+*.cfg text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.properties text eol=lf
+*.yml text eol=lf
+*.cfg text eol=lf
+*.png binary
+*.xml text eol=lf
+*.jar binary
+*.exe binary
+*.dll binary
+*.zip binary
+*.pyd binary
+*.jar binary
+*.lzma binary

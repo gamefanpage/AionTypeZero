@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="210040000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="2662.01" y="434.266" z="398.717" anchor="HEIRON_AM"/>	<!-- id 2140 -->
+			<spot x="1300.27" y="1437.92" z="112.788" anchor="HEIRON_BM"/>	<!-- id 2141 -->
+			<spot x="1103.57" y="656.18" z="132.959" anchor="HEIRON_CM"/>	<!-- id 2142 -->
+			<spot x="649.655" y="1821.23" z="105.332" anchor="HEIRON_DM"/>	<!-- id 2143 -->
+			<spot x="722.995" y="2524.74" z="126.14" anchor="HEIRON_EM"/>	<!-- id 2144 -->
+			<spot x="503.393" y="555.31" z="128.5" anchor="HEIRON_FM"/>		<!-- id 2145 -->
+			<spot x="2742.7" y="2078.44" z="142.533" anchor="HEIRON_GM"/>	<!-- id 2146 -->
+			<spot x="2132.44" y="434.266" z="228" anchor="HEIRON_AS"/>	<!-- id 2240 -->
+			<spot x="1955.41" y="1833.32" z="124.302" anchor="HEIRON_BS"/>	<!-- id 2241 -->
+			<spot x="881.969" y="903.924" z="119.97" anchor="HEIRON_CS"/>	<!-- id 2242 -->
+			<spot x="861.482" y="2194.45" z="124.491" anchor="HEIRON_DS"/>	<!-- id 2243 -->
+			<spot x="291.566" y="2658.45" z="103.402" anchor="HEIRON_ES"/>	<!-- id 2244 -->
+			<spot x="362.175" y="514.962" z="133.875" anchor="HEIRON_FS"/>	<!-- id 2245 -->
+			<spot x="1905.49" y="2577.75" z="148.369" anchor="HEIRON_GS"/>	<!-- id 2246 -->
+		</spawn>
+		<!-- HEIRON_AM -->
+		<rift_spawn id="2140">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_BM -->
+		<rift_spawn id="2141">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_CM -->
+		<rift_spawn id="2142">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_DM -->
+		<rift_spawn id="2143">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_EM -->
+		<rift_spawn id="2144">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_FM -->
+		<rift_spawn id="2145">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_GM -->
+		<rift_spawn id="2146">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_AS -->
+		<rift_spawn id="2240">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="2172.711" y="537.7632" z="245.02357"/>
+				<spot x="2161.894" y="540.4702" z="245.4557"/>
+				<spot x="1799.012" y="837.5003" z="230.35202"/>
+				<spot x="1798.656" y="850.2105" z="231.70285"/>
+				<spot x="2464.742" y="572.8505" z="326.92572"/>
+				<spot x="2458.481" y="577.6215" z="326.8512"/>
+				<spot x="1568.148" y="523.7294" z="106.405495"/>
+				<spot x="1553.475" y="525.7847" z="107.125"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="2164.453" y="539.5272" z="245.1231"/>
+				<spot x="1798.618" y="840.8262" z="230.68155"/>
+				<spot x="2462.801" y="579.271" z="326.8847"/>
+				<spot x="1556.536" y="525.2132" z="107.10761"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="1798.625" y="847.0803" z="231.20273"/>
+				<spot x="2465.614" y="577.2823" z="326.8951"/>
+			</spawn>
+			<spawn npc_id="209532" respawn_time="4540">
+				<spot x="2169.82" y="538.3505" z="245.03094"/>
+				<spot x="1565.099" y="524.1988" z="106.73169"/>
+			</spawn>
+		</rift_spawn>
+		<!-- HEIRON_BS -->
+		<rift_spawn id="2241">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="1331.56" y="1715.8" z="116.041756"/>
+				<spot x="1333.019" y="1702.303" z="115.625"/>
+				<spot x="2009.516" y="1751.444" z="152.60687"/>
+				<spot x="2004.538" y="1732.818" z="150.51418"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="1332.468" y="1712.613" z="115.92154"/>
+				<spot x="2004.619" y="1738.461" z="150.08975"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="2008.587" y="1745.645" z="151.20648"/>
+			</spawn>
+			<spawn npc_id="209532" respawn_time="4540">
+				<spot x="1333.284" y="1705.1" z="115.625"/>
+			</spawn>
+		</rift_spawn>
+		<!-- HEIRON_CS -->
+		<rift_spawn id="2242">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="516.2361" y="399.5169" z="124.875"/>
+				<spot x="512.4304" y="386.4838" z="124.625"/>
+				<spot x="491.496" y="914.0034" z="132.60458"/>
+				<spot x="496.6157" y="925.2098" z="130.38226"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="515.3014" y="396.8092" z="124.875"/>
+				<spot x="495.2646" y="922.3685" z="130.70372"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="492.7357" y="916.8778" z="131.5436"/>
+			</spawn>
+			<spawn npc_id="209532" respawn_time="4540">
+				<spot x="513.6191" y="389.546" z="124.75"/>
+			</spawn>
+		</rift_spawn>
+		<!-- HEIRON_DS -->
+		<rift_spawn id="2243">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="729.9266" y="2072.563" z="108.74844"/>
+				<spot x="734.0448" y="2058.723" z="108.653656"/>
+				<spot x="354.3587" y="2174.052" z="131.36095"/>
+				<spot x="341.0479" y="2174.334" z="131.17482"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="731.5015" y="2069.429" z="108.37274"/>
+				<spot x="344.2634" y="2174.217" z="131.13405"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="733.9468" y="2061.932" z="108.50224"/>
+			</spawn>
+			<spawn npc_id="209532" respawn_time="4540">
+				<spot x="350.8356" y="2174.055" z="131.24107"/>
+			</spawn>
+		</rift_spawn>
+		<!-- HEIRON_ES -->
+		<rift_spawn id="2244">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="654.5149" y="2719.992" z="123.53792"/>
+				<spot x="645.6293" y="2716.209" z="123.28528"/>
+				<spot x="681.4451" y="2555.502" z="121.57257"/>
+				<spot x="677.8334" y="2543.662" z="120.51925"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="647.405" y="2718.991" z="123.38565"/>
+				<spot x="678.8446" y="2546.546" z="120.69034"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="656.6238" y="2717.268" z="123.654655"/>
+			</spawn>
+			<spawn npc_id="209532" respawn_time="4540">
+				<spot x="680.6226" y="2552.578" z="121.378235"/>
+			</spawn>
+		</rift_spawn>
+		<!-- HEIRON_FS -->
+		<rift_spawn id="2245">
+			<!-- someone to spawn -->
+			<!-- <spawn npc_id="000" respawn_time="000">
+				<spot x="000.000" y="000.000" z="000.000"/>
+			</spawn> -->
+		</rift_spawn>
+		<!-- HEIRON_GS -->
+		<rift_spawn id="2246">
+			<spawn npc_id="209519" respawn_time="4540">
+				<spot x="1133.88" y="1170.943" z="105.25433"/>
+				<spot x="1125.753" y="1183.259" z="105.9347"/>
+				<spot x="2522.124" y="2234.333" z="140.36989"/>
+				<spot x="2521.05" y="2224.853" z="140.86539"/>
+			</spawn>
+			<spawn npc_id="209529" respawn_time="4540">
+				<spot x="1127.745" y="1180.223" z="105.763275"/>
+				<spot x="2518.854" y="2227.249" z="140.86539"/>
+			</spawn>
+			<spawn npc_id="209531" respawn_time="4540">
+				<spot x="1131.988" y="1173.164" z="105.625"/>
+				<spot x="2520.153" y="2236.461" z="140.17305"/>
+			</spawn>
+		</rift_spawn>
+	</spawn_map>
+</spawns>

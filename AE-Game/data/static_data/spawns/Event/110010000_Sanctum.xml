@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="110010000">
+	<!-- GP Event
+		<spawn npc_id="832736" respawn_time="295">
+			<spot x="1350" y="1506" z="569.104" h="30"/>
+		</spawn>
+		<spawn npc_id="832913" respawn_time="295">
+			<spot x="1347" y="1506" z="569.104" h="30"/>
+		</spawn> -->
+	<!-- GM Buff -->
+		<spawn npc_id="831520" respawn_time="295">
+			<spot x="1349.3446" y="1518.3397" z="569.1132" h="90"/>
+		</spawn>
+	<!-- Event Snake
+		<spawn respawn_time="295" npc_id="832963">
+			<spot x="1459.328" y="1493.5995" z="573.0719" h="65"/>
+		</spawn> -->
+		<!-- Shop
+		<spawn npc_id="802020" respawn_time="295">
+			<spot x="1373.0808" y="1490.7573" z="569.0456" h="60"/>
+		</spawn> -->
+		<!-- Shugo Shop -->
+		<spawn respawn_time="295" npc_id="833539">
+			<spot x="1534" y="1468.5" z="566.00977" h="30"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="833541">
+			<spot x="1530" y="1468.5" z="566.00977" h="30"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="833543">
+			<spot x="1527" y="1469" z="566.00964" h="30"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="833544">
+			<spot x="1525" y="1469" z="566.00964" h="30"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="833545">
+			<spot x="1537" y="1469" z="566.00964" h="30"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="833546">
+			<spot x="1539" y="1469" z="566.00964" h="30"/>
+		</spawn>
+	<!-- Red Code Atreia
+		<spawn npc_id="831433" respawn_time="295">
+			<spot x="1437.6475" y="1491.2626" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831434" respawn_time="295">
+			<spot x="1437.773" y="1493.4314" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831518" respawn_time="295">
+			<spot x="1438.96" y="1492.37" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831447" respawn_time="295">
+			<spot x="1435.0659" y="1486.1254" z="573.0719"/>
+		</spawn> -->
+		<spawn npc_id="831435" respawn_time="295">
+			<spot x="1438.834" y="1489.3618" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831436" respawn_time="295">
+			<spot x="1439.1348" y="1495.4078" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831437" respawn_time="295">
+			<spot x="1438.96" y="1492.37" z="573.0719"/>
+		</spawn>
+		<spawn npc_id="831445" respawn_time="295">
+			<spot x="1433.8416" y="1492.6101" z="573.0719"/>
+		</spawn>
+	<!-- Honorable Mithril Medal Event
+		<spawn npc_id="831582" respawn_time="295">
+			<spot x="1330" y="1506" z="569.07837" h="30"/>
+		</spawn>
+		<spawn npc_id="831355" respawn_time="295">
+			<spot x="1335" y="1506" z="569.07837" h="30"/>
+		</spawn>
+		<spawn npc_id="831358" respawn_time="295">
+			<spot x="1340" y="1506" z="569.08435" h="30"/>
+		</spawn>
+		<spawn npc_id="831359" respawn_time="295">
+			<spot x="1345" y="1506" z="569.0952" h="30"/>
+		</spawn>
+		<spawn npc_id="831363" respawn_time="295">
+			<spot x="1350" y="1506" z="569.104" h="30"/>
+		</spawn> -->
+	<!-- Kihah 15 lv -->
+		<spawn npc_id="205480" respawn_time="295">
+			<spot x="1460.0569" y="1487.6183" z="573.0719" h="51"/>
+		</spawn>
+	<!-- Danse party
+		<spawn npc_id="831993" respawn_time="295">
+			<spot x="1366.3688" y="1474.2413" z="569.03845" h="30"/>
+		</spawn> -->
+	<!-- Event IU
+		<spawn npc_id="831714" respawn_time="295">
+			<spot x="1370.1292" y="1514.6006" z="569.06744" h="58"/>
+		</spawn> -->
+	<!-- EVENT ALCHEMIST
+		<spawn npc_id="831785" respawn_time="295">
+			<spot h="90" z="565.961" y="1548.6527" x="1528.9749"/>
+		</spawn>
+		<spawn npc_id="831786" respawn_time="295">
+			<spot h="90" z="565.958" y="1547.2666" x="1539.8978"/>
+		</spawn>
+		<spawn npc_id="831787" respawn_time="295">
+			<spot h="90" z="566.0119" y="1554.1505" x="1536.3229"/>
+		</spawn> -->
+	<!-- EVENT ALCHEMIST -->
+	<!-- Event Lotto
+		<spawn npc_id="831791" respawn_time="295">
+			<spot h="40" z="566.0067" y="1469.0842" x="1534.3541"/>
+		</spawn>
+		<spawn npc_id="831855" respawn_time="295">
+			<spot h="31" z="566.0149" y="1468.8164" x="1537.1068"/>
+		</spawn> -->
+	<!-- Event Daevanion -->
+		<spawn npc_id="831385" respawn_time="295">
+			<spot x="1460" y="1531" z="573.0719" h="60"/>
+		</spawn>
+		<spawn npc_id="831386" respawn_time="295">
+			<spot x="1460" y="1535" z="573.0719" h="60"/>
+		</spawn>
+		<spawn npc_id="831384" respawn_time="295">
+			<spot x="1460" y="1533" z="573.0719" h="60"/>
+		</spawn>
+	<!-- Event Wing
+		<spawn respawn_time="295" npc_id="831863">
+			<spot x="1736.8475" y="1517.111" z="587.04016" h="6"/>
+		</spawn> -->
+	<!-- Event Daeva dey buff
+		<spawn respawn_time="295" npc_id="831857">
+			<spot x="1579.75" y="1476.36" z="572.87" h="45"/>
+		</spawn> -->
+	<!-- World Bless 65 lv -->
+		<spawn npc_id="831025" respawn_time="295">
+			<spot x="1459.4822" y="1525.4078" z="573.0719" h="63"/>
+		</spawn>
+		<spawn npc_id="831031" respawn_time="295">
+			<spot x="1459.8422" y="1528.0028" z="573.0719" h="63"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="831853">
+			<spot x="1433.9305" y="1536.0272" z="573.0719"/>
+		</spawn>
+		<spawn respawn_time="295" npc_id="831869">
+			<spot x="1433.7896" y="1533.4678" z="573.0719"/>
+		</spawn>
+	</spawn_map>
+</spawns>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			13400 [TODO] Jogging Memories
+			13401 [TODO] Old Words, New Leads
+			13402 [TODO] Report Circuit
+			23400 [TODO] Searching for Sites
+			23401 [TODO] Illusive Reports
+			23402 [TODO] Imminent Threat of Invasion
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS --> 
+	<report_to id="13400" start_npc_ids="801058" end_npc_ids="801138"/>
+	<report_to id="13401" start_npc_ids="801138" end_npc_ids="801096"/>
+	<report_to id="13402" start_npc_ids="801096" end_npc_ids="801070"/>
+	<report_to_many id="23400" start_npc_ids="801062" end_npc_ids="801138">
+		<npc_infos var="0" npc_id="801063" quest_dialog="1352"/>
+		<npc_infos var="1" npc_id="730970" quest_dialog="1693"/>
+		<npc_infos var="2" npc_id="730971" quest_dialog="2034"/>
+		<npc_infos var="3" npc_id="801138" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to id="23401" start_npc_ids="801138" end_npc_ids="801104"/>
+	<report_to id="23402" start_npc_ids="801104" end_npc_ids="801110"/>
+</quest_scripts>

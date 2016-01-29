@@ -1,0 +1,96 @@
+/*
+ * Copyright (c) 2015, TypeZero Engine (game.developpers.com)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * Neither the name of TypeZero Engine nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+package org.typezero.gameserver.dao;
+
+import com.aionemu.commons.database.dao.DAO;
+import org.typezero.gameserver.model.gameobjects.player.BlockList;
+import org.typezero.gameserver.model.gameobjects.player.Player;
+
+/**
+ * Responsible for saving and loading data on players' block lists
+ *
+ * @author Ben
+ */
+public abstract class BlockListDAO implements DAO {
+
+	/**
+	 * Loads the blocklist for the player given
+	 *
+	 * @param player
+	 * @return BlockList
+	 */
+	public abstract BlockList load(Player player);
+
+	/**
+	 * Adds the given object id to the list of blocked players for the given player
+	 *
+	 * @param playerObjId
+	 *          ID of player to edit the blocklist of
+	 * @param objIdToBlock
+	 *          ID of player to add to the blocklist
+	 * @return Success
+	 */
+	public abstract boolean addBlockedUser(int playerObjId, int objIdToBlock, String reason);
+
+	/**
+	 * Deletes the given object id from the list of blocked players for the given player
+	 *
+	 * @param playerObjId
+	 *          ID of player to edit the blocklist of
+	 * @param objIdToDelete
+	 *          ID of player to remove from the blocklist
+	 * @return Success
+	 */
+	public abstract boolean delBlockedUser(int playerObjId, int objIdToDelete);
+
+	/**
+	 * Sets the reason for blocking a player
+	 *
+	 * @param playerObjId
+	 *          Object ID of the player whos list is being edited
+	 * @param blockedObjId
+	 *          Object ID of the player whos reason is being edited
+	 * @param reason
+	 *          The reason to be set
+	 * @return true or false
+	 */
+	public abstract boolean setReason(int playerObjId, int blockedObjId, String reason);
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public String getClassName() {
+		return BlockListDAO.class.getName();
+	}
+
+}

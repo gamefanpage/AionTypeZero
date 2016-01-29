@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_walker>
+	<!-- 236005 -->
+    <walker_template route_id="idraksha_solo_npcpathidraksha_solo_4.8_alias1" pool="1">
+        <routestep step="1" x="533.51" y="305.66" z="927.9906"/>
+        <routestep step="2" x="527.31" y="312.56" z="927.9906"/>
+        <routestep step="3" x="521.53" y="318.81" z="927.9906"/>
+        <routestep step="4" x="515.44" y="325.57" z="927.9906"/>
+        <routestep step="5" x="513.54" y="327.63" z="927.9906"/>
+        <routestep step="6" x="514.11" y="328.18" z="927.9906"/>
+        <routestep step="7" x="516.02" y="326.08" z="927.9906"/>
+        <routestep step="8" x="522.12" y="319.34" z="927.9906"/>
+        <routestep step="9" x="527.82" y="313.06" z="927.9906"/>
+        <routestep step="10" x="534.03" y="306.13" z="927.9906"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_3_np" pool="1">
+        <routestep step="1" x="1016.22" y="823.06" z="748.9865"/>
+        <routestep step="2" x="1015.28" y="815.49" z="747.4168"/>
+        <routestep step="3" x="1012.0" y="803.88" z="745.49634"/>
+        <routestep step="4" x="1015.73" y="815.36" z="747.438"/>
+        <routestep step="5" x="1018.82" y="823.25" z="749.06696"/>
+        <routestep step="6" x="1019.43" y="826.24" z="749.734"/>
+        <routestep step="7" x="1019.5" y="831.64" z="751.5107"/>
+        <routestep step="8" x="1020.51" y="843.88" z="754.46204"/>
+        <routestep step="9" x="1019.03" y="831.64" z="751.4985"/>
+        <routestep step="10" x="1017.31" y="826.27" z="749.8705"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_2_np" pool="1">
+        <routestep step="1" x="1008.79" y="773.69" z="741.1637"/>
+        <routestep step="2" x="1006.17" y="759.85" z="740.8055"/>
+        <routestep step="3" x="1001.33" y="756.02" z="740.1371"/>
+        <routestep step="4" x="996.4" y="753.79" z="739.6598"/>
+        <routestep step="5" x="1001.65" y="755.44" z="740.1757"/>
+        <routestep step="6" x="1006.59" y="759.37" z="740.8669"/>
+        <routestep step="7" x="1012.23" y="773.24" z="741.1094"/>
+        <routestep step="8" x="1012.61" y="775.57" z="741.28516"/>
+        <routestep step="9" x="1011.99" y="796.14" z="744.48755"/>
+        <routestep step="10" x="1009.22" y="775.71" z="741.37427"/>
+    </walker_template>
+	<!-- 236007 -->
+    <walker_template route_id="idraksha_solo_idraksha_3f_drakanknightbone_57_ae_6_np" pool="1">
+        <routestep step="1" x="929.42" y="903.12" z="766.2906"/>
+        <routestep step="2" x="936.01" y="902.34" z="765.54816"/>
+        <routestep step="3" x="941.45" y="902.97" z="765.2059"/>
+        <routestep step="4" x="936.27" y="902.99" z="765.5378"/>
+        <routestep step="5" x="929.36" y="905.05" z="766.47186"/>
+        <routestep step="6" x="918.98" y="905.04" z="749.97577"/>
+        <routestep step="7" x="911.32" y="906.38" z="750.3261"/>
+        <routestep step="8" x="903.17" y="905.16" z="750.3261"/>
+        <routestep step="9" x="911.37" y="906.02" z="750.3261"/>
+        <routestep step="10" x="918.85" y="904.27" z="750.3261"/>
+        <routestep step="11" x="927.25" y="903.14" z="766.7707"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_2f_drakanhealercbone_57_ae_3_np" pool="1">
+        <routestep step="1" x="496.05" y="317.59" z="929.1009"/>
+        <routestep step="2" x="499.83" y="320.56" z="928.9482"/>
+        <routestep step="3" x="497.83" y="323.01" z="928.9482"/>
+        <routestep step="4" x="507.61" y="331.11" z="927.9906"/>
+        <routestep step="5" x="505.42" y="333.68" z="927.9906"/>
+        <routestep step="6" x="495.65" y="325.59" z="928.9482"/>
+        <routestep step="7" x="493.43" y="328.03" z="928.9482"/>
+        <routestep step="8" x="487.81" y="327.9" z="929.1009"/>
+        <routestep step="9" x="479.96" y="336.41" z="927.9944"/>
+        <routestep step="10" x="478.46" y="334.99" z="927.9906"/>
+        <routestep step="11" x="485.56" y="325.97" z="929.1009"/>
+        <routestep step="12" x="484.45" y="320.34" z="928.9482"/>
+        <routestep step="13" x="490.76" y="312.99" z="929.1009"/>
+        <routestep step="14" x="495.15" y="316.6" z="929.1009"/>
+    </walker_template>
+	<!-- 236008 -->
+    <walker_template route_id="idraksha_solo_idraksha_3f_nagamageghost_57_ae_4_np" pool="1">
+        <routestep step="1" x="847.48" y="892.2" z="782.64716"/>
+        <routestep step="2" x="850.1" y="892.3" z="782.51184"/>
+        <routestep step="3" x="858.48" y="894.56" z="781.7069"/>
+        <routestep step="4" x="872.43" y="898.65" z="779.0001"/>
+        <routestep step="5" x="858.37" y="895.16" z="781.66125"/>
+        <routestep step="6" x="850.05" y="893.85" z="782.30835"/>
+        <routestep step="7" x="844.72" y="893.44" z="782.90076"/>
+        <routestep step="8" x="838.81" y="894.87" z="783.5989"/>
+        <routestep step="9" x="846.07" y="891.8" z="782.9193"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksah_2f_drakanfightercbone_57_ae_7_np" pool="1">
+        <routestep step="1" x="467.3" y="357.51" z="927.9754"/>
+        <routestep step="2" x="474.32" y="349.64" z="927.9754"/>
+        <routestep step="3" x="471.99" y="347.61" z="927.9754"/>
+        <routestep step="4" x="462.54" y="358.02" z="927.9754"/>
+        <routestep step="5" x="464.86" y="360.26" z="927.9754"/>
+        <routestep step="6" x="467.1" y="357.89" z="927.9754"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_npcpathidraksha_mob_3f1" pool="1">
+        <routestep step="1" x="1002.16" y="893.89" z="762.55774"/>
+        <routestep step="2" x="998.45" y="898.76" z="762.5612"/>
+        <routestep step="3" x="995.2" y="895.34" z="762.55774"/>
+        <routestep step="4" x="990.52" y="889.68" z="762.55914"/>
+        <routestep step="5" x="985.7" y="884.78" z="762.55774"/>
+        <routestep step="6" x="994.42" y="878.03" z="762.55774"/>
+        <routestep step="7" x="1001.88" y="872.08" z="762.55774"/>
+        <routestep step="8" x="1003.46" y="873.76" z="762.55774"/>
+        <routestep step="9" x="996.01" y="879.22" z="762.55774"/>
+        <routestep step="10" x="989.44" y="884.47" z="762.55774"/>
+        <routestep step="11" x="998.75" y="894.53" z="762.5112"/>
+        <routestep step="12" x="1001.19" y="892.36" z="762.89075"/>
+        <routestep step="13" x="1002.17" y="893.53" z="762.55774"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_npcpathidraksha_mob_3f3" pool="1">
+        <routestep step="1" x="970.71" y="917.0" z="763.1915"/>
+        <routestep step="2" x="965.25" y="912.62" z="763.1306"/>
+        <routestep step="3" x="958.42" y="907.2" z="763.646"/>
+        <routestep step="4" x="953.17" y="902.99" z="764.23755"/>
+        <routestep step="5" x="951.42" y="899.12" z="764.3074"/>
+        <routestep step="6" x="953.68" y="896.39" z="763.7051"/>
+        <routestep step="7" x="954.65" y="896.83" z="763.674"/>
+        <routestep step="8" x="952.65" y="899.0" z="764.1578"/>
+        <routestep step="9" x="954.11" y="902.14" z="764.14703"/>
+        <routestep step="10" x="959.22" y="906.45" z="763.6287"/>
+        <routestep step="11" x="965.82" y="912.05" z="763.12775"/>
+        <routestep step="12" x="971.3" y="916.51" z="763.189"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_1_np" pool="1">
+        <routestep step="1" x="934.89" y="808.04" z="734.07367"/>
+        <routestep step="2" x="948.79" y="770.06" z="734.05475"/>
+        <routestep step="3" x="964.85" y="776.03" z="734.05475"/>
+        <routestep step="4" x="963.61" y="778.69" z="734.05475"/>
+        <routestep step="5" x="949.58" y="773.39" z="734.05475"/>
+        <routestep step="6" x="936.48" y="808.61" z="734.07367"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksah_2f_drakanscoutcbone_57_ae_4_np" pool="1">
+        <routestep step="1" x="518.13" y="264.25" z="927.9906"/>
+        <routestep step="2" x="516.12" y="262.52" z="927.9915"/>
+        <routestep step="3" x="501.34" y="278.76" z="927.9906"/>
+        <routestep step="4" x="502.25" y="279.78" z="927.9906"/>
+        <routestep step="5" x="508.9" y="272.43" z="927.9906"/>
+        <routestep step="6" x="509.99" y="273.38" z="927.9906"/>
+        <routestep step="7" x="516.45" y="266.15" z="927.9906"/>
+        <routestep step="8" x="521.09" y="270.23" z="927.9906"/>
+        <routestep step="9" x="521.48" y="269.75" z="927.9906"/>
+        <routestep step="10" x="516.9" y="265.65" z="927.9906"/>
+    </walker_template>
+	<!-- 236011 -->
+    <walker_template route_id="idraksha_solo_npcpathb_2_condition_mon4" pool="1">
+        <routestep step="1" x="621.08" y="201.75" z="924.7015"/>
+        <routestep step="2" x="616.82" y="208.23" z="924.3917"/>
+        <routestep step="3" x="612.28" y="214.31" z="924.6487"/>
+        <routestep step="4" x="604.1" y="227.24" z="925.1956"/>
+        <routestep step="5" x="592.97" y="231.32" z="927.9511"/>
+        <routestep step="6" x="583.24" y="234.97" z="927.9906"/>
+        <routestep step="7" x="575.59" y="237.69" z="927.9906"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_npcpathb_2_condition_mon3" pool="1">
+        <routestep step="1" x="619.34" y="199.31" z="924.6977"/>
+        <routestep step="2" x="615.07" y="205.79" z="924.03876"/>
+        <routestep step="3" x="610.54" y="211.87" z="924.3044"/>
+        <routestep step="4" x="602.35" y="224.8" z="925.16034"/>
+        <routestep step="5" x="591.22" y="228.88" z="927.75635"/>
+        <routestep step="6" x="581.49" y="232.53" z="927.9906"/>
+        <routestep step="7" x="573.85" y="235.25" z="927.9906"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_npcpathb_2_condition_mon2" pool="1">
+        <routestep step="1" x="622.81" y="204.32" z="924.59985"/>
+        <routestep step="2" x="618.55" y="210.8" z="924.43976"/>
+        <routestep step="3" x="614.01" y="216.88" z="924.4492"/>
+        <routestep step="4" x="605.83" y="229.81" z="925.14923"/>
+        <routestep step="5" x="594.69" y="233.89" z="928.0398"/>
+        <routestep step="6" x="584.96" y="237.54" z="927.8903"/>
+        <routestep step="7" x="577.32" y="240.26" z="927.9906"/>
+    </walker_template>
+	<!-- 236015 -->
+    <walker_template route_id="idraksha_solo_npcpathidraksha_mob_3f2" pool="1">
+        <routestep step="1" x="899.8" y="812.67" z="728.75336"/>
+        <routestep step="2" x="899.38" y="815.42" z="728.7551"/>
+        <routestep step="3" x="895.15" y="815.24" z="728.7565"/>
+        <routestep step="4" x="892.62" y="819.99" z="728.7602"/>
+        <routestep step="5" x="886.18" y="823.01" z="728.7642"/>
+        <routestep step="6" x="884.8" y="822.9" z="728.76465"/>
+        <routestep step="7" x="884.81" y="822.19" z="728.7642"/>
+        <routestep step="8" x="886.07" y="822.3" z="728.76385"/>
+        <routestep step="9" x="892.17" y="819.37" z="728.75995"/>
+        <routestep step="10" x="894.33" y="814.75" z="728.7565"/>
+        <routestep step="11" x="898.91" y="814.83" z="728.75494"/>
+        <routestep step="12" x="899.33" y="812.64" z="728.7535"/>
+    </walker_template>
+	<!-- 236018 -->
+    <walker_template route_id="idraksha_solo_idraksha_5f_drakanhealercbone_58_ae_2_np1" pool="1">
+        <routestep step="1" x="273.58" y="773.69" z="147.51335"/>
+        <routestep step="2" x="266.44" y="764.94" z="147.04372"/>
+        <routestep step="3" x="260.6" y="749.73" z="145.4479"/>
+        <routestep step="4" x="259.3" y="731.47" z="143.37329"/>
+        <routestep step="5" x="260.95" y="749.74" z="145.44977"/>
+        <routestep step="6" x="266.5" y="764.8" z="147.03726"/>
+        <routestep step="7" x="274.02" y="773.73" z="147.51161"/>
+        <routestep step="8" x="283.22" y="781.46" z="147.57437"/>
+        <routestep step="9" x="295.38" y="789.45" z="147.70786"/>
+        <routestep step="10" x="283.12" y="781.56" z="147.58026"/>
+        <routestep step="11" x="274.28" y="774.38" z="147.50777"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_5f_drakanhealercbone_58_ae_2_np" pool="1">
+        <routestep step="1" x="272.12" y="775.3" z="147.51134"/>
+        <routestep step="2" x="264.98" y="766.55" z="147.10368"/>
+        <routestep step="3" x="259.14" y="751.34" z="145.48718"/>
+        <routestep step="4" x="257.84" y="733.08" z="142.91641"/>
+        <routestep step="5" x="259.49" y="751.35" z="145.49838"/>
+        <routestep step="6" x="265.04" y="766.41" z="147.09723"/>
+        <routestep step="7" x="272.56" y="775.33" z="147.50963"/>
+        <routestep step="8" x="281.76" y="783.06" z="147.6667"/>
+        <routestep step="9" x="293.91" y="791.06" z="147.72133"/>
+        <routestep step="10" x="281.65" y="783.17" z="147.67189"/>
+        <routestep step="11" x="272.82" y="775.99" z="147.50575"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_5f_drakanfighterghost_58_ae_1_np1" pool="1">
+        <routestep step="1" x="326.29" y="500.03" z="120.95213"/>
+        <routestep step="2" x="325.3" y="512.13" z="122.01339"/>
+        <routestep step="3" x="319.66" y="522.36" z="124.53682"/>
+        <routestep step="4" x="317.32" y="530.96" z="126.09148"/>
+        <routestep step="5" x="318.79" y="522.29" z="124.4684"/>
+        <routestep step="6" x="324.36" y="512.18" z="122.14452"/>
+        <routestep step="7" x="325.56" y="499.43" z="120.942215"/>
+        <routestep step="8" x="329.99" y="485.19" z="120.26214"/>
+        <routestep step="9" x="326.43" y="499.04" z="120.98701"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_5f_drakanfighterghost_58_ae_1_np" pool="1">
+        <routestep step="1" x="324.19" y="492.51" z="121.022194"/>
+        <routestep step="2" x="335.69" y="496.4" z="121.43572"/>
+        <routestep step="3" x="345.36" y="499.33" z="121.760155"/>
+        <routestep step="4" x="355.07" y="500.22" z="122.26023"/>
+        <routestep step="5" x="345.11" y="500.3" z="121.68202"/>
+        <routestep step="6" x="335.52" y="497.33" z="121.393425"/>
+        <routestep step="7" x="323.44" y="493.07" z="120.94379"/>
+        <routestep step="8" x="310.69" y="485.33" z="119.02557"/>
+        <routestep step="9" x="323.27" y="492.13" z="120.927795"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_5f_nagamagebone_58_ae_1_np1" pool="1">
+        <routestep step="1" x="269.15" y="663.09" z="148.80972"/>
+        <routestep step="2" x="263.25" y="675.53" z="148.66273"/>
+        <routestep step="3" x="260.66" y="690.54" z="148.50089"/>
+        <routestep step="4" x="262.76" y="675.18" z="148.62953"/>
+        <routestep step="5" x="269.02" y="662.07" z="148.79623"/>
+        <routestep step="6" x="275.28" y="652.95" z="148.65164"/>
+        <routestep step="7" x="284.47" y="644.23" z="148.05704"/>
+        <routestep step="8" x="275.68" y="653.44" z="148.74202"/>
+        <routestep step="9" x="269.47" y="662.88" z="148.82877"/>
+    </walker_template>
+    <walker_template route_id="idraksha_solo_idraksha_5f_nagamagebone_58_ae_1_np" pool="1">
+        <routestep step="1" x="267.51" y="662.08" z="148.7013"/>
+        <routestep step="2" x="261.61" y="674.51" z="148.55196"/>
+        <routestep step="3" x="259.02" y="689.53" z="148.47931"/>
+        <routestep step="4" x="261.12" y="674.17" z="148.51877"/>
+        <routestep step="5" x="267.39" y="661.06" z="148.68611"/>
+        <routestep step="6" x="273.64" y="651.93" z="148.49358"/>
+        <routestep step="7" x="282.84" y="643.22" z="148.00514"/>
+        <routestep step="8" x="274.04" y="652.43" z="148.54683"/>
+        <routestep step="9" x="267.83" y="661.87" z="148.72034"/>
+    </walker_template>
+</npc_walker>

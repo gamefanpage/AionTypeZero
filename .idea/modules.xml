@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AE-Chat/AE-Chat.iml" filepath="$PROJECT_DIR$/AE-Chat/AE-Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Commons/AE-Commons.iml" filepath="$PROJECT_DIR$/AE-Commons/AE-Commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Game/AE-Game.iml" filepath="$PROJECT_DIR$/AE-Game/AE-Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Login/AE-Login.iml" filepath="$PROJECT_DIR$/AE-Login/AE-Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Commons/testdata/scripts/scripts.iml" filepath="$PROJECT_DIR$/AE-Commons/testdata/scripts/scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Login/data/scripts/system/system.iml" filepath="$PROJECT_DIR$/AE-Login/data/scripts/system/system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Game/build/dist/gameserver/data/scripts/system/system1.iml" filepath="$PROJECT_DIR$/AE-Game/build/dist/gameserver/data/scripts/system/system1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE-Game/data/scripts/system/system2.iml" filepath="$PROJECT_DIR$/AE-Game/data/scripts/system/system2.iml" />
+    </modules>
+  </component>
+</project>

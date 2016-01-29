@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="80462" start_npc_ids="831791"/>
+	<item_collecting id="80463" start_npc_ids="831791"/>
+	<item_collecting id="80464" start_npc_ids="831791"/>
+	<item_collecting id="80465" start_npc_ids="831791"/>
+	<item_collecting id="80466" start_npc_ids="831791"/>
+	<!-- REPORTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

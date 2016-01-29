@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="libs3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/javolution-5.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/lambdaj-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/netty-3.6.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/guava-13.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/javac-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/jsr305-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/ae-commons-1.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/commons-io-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/bonecp-0.7.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/objenesis-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/quartz-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/hamcrest-all-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/c3p0-0.9.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/ae-commons-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/logback-core-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/lambdaj-2.4-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/joda-time-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/cglib-nodep-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/mysql-connector-java-5.1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/guice-3.0-rc3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/logback-classic-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/junit-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/jsr166-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/xercesImpl-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/javassist-3.15.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Chat/libs/trove4j-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

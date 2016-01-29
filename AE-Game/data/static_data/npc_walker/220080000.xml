@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_walker>
+	<!-- 220073 -->
+	<walker_template route_id="df5_npcpathguard_all27" pool="1">
+		<routestep step="1" x="503.00" y="2404.00" z="242.60"/>
+		<routestep step="2" x="517.77" y="2395.76" z="242.50"/>
+		<routestep step="3" x="528.56" y="2387.16" z="242.50"/>
+		<routestep step="4" x="536.95" y="2377.36" z="242.60"/>
+		<routestep step="5" x="542.93" y="2366.34" z="242.50"/>
+		<routestep step="6" x="547.55" y="2353.69" z="242.50"/>
+		<routestep step="7" x="550.14" y="2341.37" z="242.60"/>
+		<routestep step="8" x="547.55" y="2353.69" z="242.50"/>
+		<routestep step="9" x="542.98" y="2365.84" z="242.50"/>
+		<routestep step="10" x="536.95" y="2377.36" z="242.60"/>
+		<routestep step="11" x="528.56" y="2387.16" z="242.50"/>
+		<routestep step="12" x="517.77" y="2395.76" z="242.50"/>
+		<routestep step="13" x="503.00" y="2404.00" z="242.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all28" pool="1">
+		<routestep step="1" x="466.50" y="2411.50" z="242.60"/>
+		<routestep step="2" x="456.99" y="2411.66" z="242.50"/>
+		<routestep step="3" x="456.49" y="2411.70" z="242.50"/>
+		<routestep step="4" x="443.78" y="2409.08" z="242.50"/>
+		<routestep step="5" x="430.89" y="2403.97" z="242.60"/>
+		<routestep step="6" x="418.29" y="2395.82" z="242.50"/>
+		<routestep step="7" x="407.01" y="2385.09" z="242.50"/>
+		<routestep step="8" x="398.06" y="2371.68" z="242.60"/>
+		<routestep step="9" x="407.01" y="2385.09" z="242.50"/>
+		<routestep step="10" x="418.29" y="2395.82" z="242.50"/>
+		<routestep step="11" x="430.89" y="2403.97" z="242.60"/>
+		<routestep step="12" x="443.78" y="2409.08" z="242.50"/>
+		<routestep step="13" x="456.99" y="2411.66" z="242.50"/>
+		<routestep step="14" x="466.50" y="2411.50" z="242.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all10" pool="1">
+		<routestep step="1" x="472.23" y="2347.50" z="252.60"/>
+		<routestep step="2" x="477.63" y="2372.84" z="256.60"/>
+		<routestep step="3" x="482.26" y="2393.84" z="252.60"/>
+		<routestep step="4" x="487.36" y="2418.50" z="248.60"/>
+		<routestep step="5" x="491.11" y="2436.30" z="256.60"/>
+		<routestep step="6" x="487.49" y="2419.00" z="248.60"/>
+		<routestep step="7" x="482.26" y="2394.37" z="252.60"/>
+		<routestep step="8" x="477.76" y="2373.00" z="256.60"/>
+		<routestep step="9" x="472.23" y="2347.50" z="252.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all12" pool="1">
+		<routestep step="1" x="474.00" y="2451.00" z="242.60"/>
+		<routestep step="2" x="464.50" y="2450.50" z="242.50"/>
+		<routestep step="3" x="464.00" y="2450.50" z="242.50"/>
+		<routestep step="4" x="451.50" y="2447.00" z="242.50"/>
+		<routestep step="5" x="439.00" y="2441.00" z="242.60"/>
+		<routestep step="6" x="427.00" y="2432.00" z="242.50"/>
+		<routestep step="7" x="416.50" y="2420.50" z="242.50"/>
+		<routestep step="8" x="408.50" y="2406.50" z="242.60"/>
+		<routestep step="9" x="416.50" y="2420.50" z="242.50"/>
+		<routestep step="10" x="427.00" y="2432.00" z="242.50"/>
+		<routestep step="11" x="439.00" y="2441.00" z="242.60"/>
+		<routestep step="12" x="451.50" y="2447.00" z="242.50"/>
+		<routestep step="13" x="464.50" y="2450.50" z="242.50"/>
+		<routestep step="14" x="474.00" y="2451.00" z="242.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all20" pool="1">
+		<routestep step="1" x="474.00" y="2451.00" z="224.10"/>
+		<routestep step="2" x="464.50" y="2450.50" z="224.00"/>
+		<routestep step="3" x="464.00" y="2450.50" z="224.00"/>
+		<routestep step="4" x="451.50" y="2447.00" z="224.00"/>
+		<routestep step="5" x="439.00" y="2441.00" z="224.10"/>
+		<routestep step="6" x="427.00" y="2432.00" z="224.00"/>
+		<routestep step="7" x="416.50" y="2420.50" z="224.00"/>
+		<routestep step="8" x="408.50" y="2406.50" z="224.10"/>
+		<routestep step="9" x="416.50" y="2420.50" z="224.00"/>
+		<routestep step="10" x="427.00" y="2432.00" z="224.00"/>
+		<routestep step="11" x="439.00" y="2441.00" z="224.10"/>
+		<routestep step="12" x="451.50" y="2447.00" z="224.00"/>
+		<routestep step="13" x="464.50" y="2450.50" z="224.00"/>
+		<routestep step="14" x="474.00" y="2451.00" z="224.10"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all18" pool="1">
+		<routestep step="1" x="474.00" y="2451.00" z="235.10"/>
+		<routestep step="2" x="464.50" y="2450.50" z="235.00"/>
+		<routestep step="3" x="464.00" y="2450.50" z="235.00"/>
+		<routestep step="4" x="451.50" y="2447.00" z="235.00"/>
+		<routestep step="5" x="439.00" y="2441.00" z="235.10"/>
+		<routestep step="6" x="427.00" y="2432.00" z="235.00"/>
+		<routestep step="7" x="416.50" y="2420.50" z="235.00"/>
+		<routestep step="8" x="408.50" y="2406.50" z="235.10"/>
+		<routestep step="9" x="416.50" y="2420.50" z="235.00"/>
+		<routestep step="10" x="427.00" y="2432.00" z="235.00"/>
+		<routestep step="11" x="439.00" y="2441.00" z="235.10"/>
+		<routestep step="12" x="451.50" y="2447.00" z="235.00"/>
+		<routestep step="13" x="464.50" y="2450.50" z="235.00"/>
+		<routestep step="14" x="474.00" y="2451.00" z="235.10"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all15" pool="1">
+		<routestep step="1" x="491.36" y="2436.31" z="248.72"/>
+		<routestep step="2" x="485.97" y="2410.98" z="236.72"/>
+		<routestep step="3" x="481.34" y="2389.98" z="244.72"/>
+		<routestep step="4" x="476.23" y="2365.31" z="252.72"/>
+		<routestep step="5" x="472.48" y="2347.51" z="248.72"/>
+		<routestep step="6" x="476.10" y="2364.81" z="252.72"/>
+		<routestep step="7" x="481.34" y="2389.45" z="244.72"/>
+		<routestep step="8" x="485.84" y="2410.81" z="236.72"/>
+		<routestep step="9" x="491.36" y="2436.31" z="248.72"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all13" pool="1">
+		<routestep step="1" x="510.50" y="2443.50" z="242.60"/>
+		<routestep step="2" x="524.50" y="2434.00" z="242.50"/>
+		<routestep step="3" x="534.50" y="2424.50" z="242.50"/>
+		<routestep step="4" x="542.00" y="2414.00" z="242.60"/>
+		<routestep step="5" x="547.00" y="2402.50" z="242.50"/>
+		<routestep step="6" x="550.50" y="2389.50" z="242.50"/>
+		<routestep step="7" x="552.00" y="2377.00" z="242.60"/>
+		<routestep step="8" x="550.50" y="2389.50" z="242.50"/>
+		<routestep step="9" x="547.00" y="2402.00" z="242.50"/>
+		<routestep step="10" x="542.00" y="2414.00" z="242.60"/>
+		<routestep step="11" x="534.50" y="2424.50" z="242.50"/>
+		<routestep step="12" x="524.50" y="2434.00" z="242.50"/>
+		<routestep step="13" x="510.50" y="2443.50" z="242.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all21" pool="1">
+		<routestep step="1" x="510.50" y="2443.50" z="224.10"/>
+		<routestep step="2" x="524.50" y="2434.00" z="224.00"/>
+		<routestep step="3" x="534.50" y="2424.50" z="224.00"/>
+		<routestep step="4" x="542.00" y="2414.00" z="224.10"/>
+		<routestep step="5" x="547.00" y="2402.50" z="224.00"/>
+		<routestep step="6" x="550.50" y="2389.50" z="224.00"/>
+		<routestep step="7" x="552.00" y="2377.00" z="224.10"/>
+		<routestep step="8" x="550.50" y="2389.50" z="224.00"/>
+		<routestep step="9" x="547.00" y="2402.00" z="224.00"/>
+		<routestep step="10" x="542.00" y="2414.00" z="224.10"/>
+		<routestep step="11" x="534.50" y="2424.50" z="224.00"/>
+		<routestep step="12" x="524.50" y="2434.00" z="224.00"/>
+		<routestep step="13" x="510.50" y="2443.50" z="224.10"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all19" pool="1">
+		<routestep step="1" x="510.50" y="2443.50" z="235.10"/>
+		<routestep step="2" x="524.50" y="2434.00" z="235.00"/>
+		<routestep step="3" x="534.50" y="2424.50" z="235.00"/>
+		<routestep step="4" x="542.00" y="2414.00" z="235.10"/>
+		<routestep step="5" x="547.00" y="2402.50" z="235.00"/>
+		<routestep step="6" x="550.50" y="2389.50" z="235.00"/>
+		<routestep step="7" x="552.00" y="2377.00" z="235.10"/>
+		<routestep step="8" x="550.50" y="2389.50" z="235.00"/>
+		<routestep step="9" x="547.00" y="2402.00" z="235.00"/>
+		<routestep step="10" x="542.00" y="2414.00" z="235.10"/>
+		<routestep step="11" x="534.50" y="2424.50" z="235.00"/>
+		<routestep step="12" x="524.50" y="2434.00" z="235.00"/>
+		<routestep step="13" x="510.50" y="2443.50" z="235.10"/>
+	</walker_template>
+	<!-- 220075 -->
+	<walker_template route_id="df5_npcpathguard_all8" pool="1">
+		<routestep step="1" x="460.00" y="2381.00" z="263.60"/>
+		<routestep step="2" x="450.50" y="2380.50" z="263.50"/>
+		<routestep step="3" x="450.00" y="2380.50" z="263.50"/>
+		<routestep step="4" x="437.50" y="2377.00" z="263.50"/>
+		<routestep step="5" x="425.00" y="2371.00" z="263.60"/>
+		<routestep step="6" x="413.00" y="2362.00" z="263.50"/>
+		<routestep step="7" x="402.50" y="2350.50" z="263.50"/>
+		<routestep step="8" x="394.50" y="2336.50" z="263.60"/>
+		<routestep step="9" x="402.50" y="2350.50" z="263.50"/>
+		<routestep step="10" x="413.00" y="2362.00" z="263.50"/>
+		<routestep step="11" x="425.00" y="2371.00" z="263.60"/>
+		<routestep step="12" x="437.50" y="2377.00" z="263.50"/>
+		<routestep step="13" x="450.50" y="2380.50" z="263.50"/>
+		<routestep step="14" x="460.00" y="2381.00" z="263.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all23" pool="1">
+		<routestep step="1" x="460.00" y="2381.00" z="255.60"/>
+		<routestep step="2" x="450.50" y="2380.50" z="255.50"/>
+		<routestep step="3" x="450.00" y="2380.50" z="255.50"/>
+		<routestep step="4" x="437.50" y="2377.00" z="255.50"/>
+		<routestep step="5" x="425.00" y="2371.00" z="255.60"/>
+		<routestep step="6" x="413.00" y="2362.00" z="255.50"/>
+		<routestep step="7" x="402.50" y="2350.50" z="255.50"/>
+		<routestep step="8" x="394.50" y="2336.50" z="255.60"/>
+		<routestep step="9" x="402.50" y="2350.50" z="255.50"/>
+		<routestep step="10" x="413.00" y="2362.00" z="255.50"/>
+		<routestep step="11" x="425.00" y="2371.00" z="255.60"/>
+		<routestep step="12" x="437.50" y="2377.00" z="255.50"/>
+		<routestep step="13" x="450.50" y="2380.50" z="255.50"/>
+		<routestep step="14" x="460.00" y="2381.00" z="255.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all25" pool="1">
+		<routestep step="1" x="460.00" y="2381.00" z="246.60"/>
+		<routestep step="2" x="450.50" y="2380.50" z="242.50"/>
+		<routestep step="3" x="437.50" y="2377.00" z="246.50"/>
+		<routestep step="4" x="425.00" y="2371.00" z="242.60"/>
+		<routestep step="5" x="413.00" y="2362.00" z="246.50"/>
+		<routestep step="6" x="402.50" y="2350.50" z="242.50"/>
+		<routestep step="7" x="394.50" y="2336.50" z="238.60"/>
+		<routestep step="8" x="402.50" y="2350.50" z="242.50"/>
+		<routestep step="9" x="413.00" y="2362.00" z="246.50"/>
+		<routestep step="10" x="425.00" y="2371.00" z="242.60"/>
+		<routestep step="11" x="437.50" y="2377.00" z="246.50"/>
+		<routestep step="12" x="450.50" y="2380.50" z="242.50"/>
+		<routestep step="13" x="460.00" y="2381.00" z="246.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all22" pool="1">
+		<routestep step="1" x="496.50" y="2373.50" z="255.60"/>
+		<routestep step="2" x="510.50" y="2364.00" z="255.50"/>
+		<routestep step="3" x="520.50" y="2354.50" z="255.50"/>
+		<routestep step="4" x="528.00" y="2344.00" z="255.60"/>
+		<routestep step="5" x="533.00" y="2332.50" z="255.50"/>
+		<routestep step="6" x="536.50" y="2319.50" z="255.50"/>
+		<routestep step="7" x="538.00" y="2307.00" z="255.60"/>
+		<routestep step="8" x="536.50" y="2319.50" z="255.50"/>
+		<routestep step="9" x="533.00" y="2332.00" z="255.50"/>
+		<routestep step="10" x="528.00" y="2344.00" z="255.60"/>
+		<routestep step="11" x="520.50" y="2354.50" z="255.50"/>
+		<routestep step="12" x="510.50" y="2364.00" z="255.50"/>
+		<routestep step="13" x="496.50" y="2373.50" z="255.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all9" pool="1">
+		<routestep step="1" x="496.50" y="2373.50" z="263.60"/>
+		<routestep step="2" x="510.50" y="2364.00" z="263.50"/>
+		<routestep step="3" x="520.50" y="2354.50" z="263.50"/>
+		<routestep step="4" x="528.00" y="2344.00" z="263.60"/>
+		<routestep step="5" x="533.00" y="2332.50" z="263.50"/>
+		<routestep step="6" x="536.50" y="2319.50" z="263.50"/>
+		<routestep step="7" x="538.00" y="2307.00" z="263.60"/>
+		<routestep step="8" x="536.50" y="2319.50" z="263.50"/>
+		<routestep step="9" x="533.00" y="2332.00" z="263.50"/>
+		<routestep step="10" x="528.00" y="2344.00" z="263.60"/>
+		<routestep step="11" x="520.50" y="2354.50" z="263.50"/>
+		<routestep step="12" x="510.50" y="2364.00" z="263.50"/>
+		<routestep step="13" x="496.50" y="2373.50" z="263.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all24" pool="1">
+		<routestep step="1" x="496.50" y="2373.50" z="246.60"/>
+		<routestep step="2" x="510.50" y="2364.00" z="242.50"/>
+		<routestep step="3" x="520.50" y="2354.50" z="246.50"/>
+		<routestep step="4" x="528.00" y="2344.00" z="242.60"/>
+		<routestep step="5" x="533.00" y="2332.50" z="246.50"/>
+		<routestep step="6" x="536.50" y="2319.50" z="242.50"/>
+		<routestep step="7" x="538.00" y="2307.00" z="238.60"/>
+		<routestep step="8" x="536.50" y="2319.50" z="242.50"/>
+		<routestep step="9" x="533.00" y="2332.00" z="246.50"/>
+		<routestep step="10" x="528.00" y="2344.00" z="242.60"/>
+		<routestep step="11" x="520.50" y="2354.50" z="246.50"/>
+		<routestep step="12" x="510.50" y="2364.00" z="242.50"/>
+		<routestep step="13" x="496.50" y="2373.50" z="246.60"/>
+	</walker_template>
+	<!-- 220076 -->
+	<walker_template route_id="df5_npcpathguard_op7" pool="1">
+		<routestep step="1" x="458.00" y="2306.00" z="291.60"/>
+		<routestep step="2" x="450.00" y="2304.50" z="291.60"/>
+		<routestep step="3" x="441.50" y="2300.00" z="291.60"/>
+		<routestep step="4" x="435.00" y="2291.50" z="291.60"/>
+		<routestep step="5" x="433.50" y="2281.00" z="291.60"/>
+		<routestep step="6" x="435.00" y="2271.50" z="291.60"/>
+		<routestep step="7" x="440.50" y="2263.00" z="291.60"/>
+		<routestep step="8" x="448.50" y="2258.00" z="291.60"/>
+		<routestep step="9" x="458.00" y="2256.50" z="291.60"/>
+		<routestep step="10" x="469.00" y="2258.50" z="291.60"/>
+		<routestep step="11" x="476.50" y="2264.50" z="291.60"/>
+		<routestep step="12" x="481.00" y="2272.00" z="291.60"/>
+		<routestep step="13" x="483.00" y="2281.00" z="291.60"/>
+		<routestep step="14" x="480.50" y="2291.50" z="291.60"/>
+		<routestep step="15" x="475.00" y="2299.00" z="291.60"/>
+		<routestep step="16" x="467.50" y="2304.00" z="291.60"/>
+		<routestep step="17" x="458.50" y="2306.00" z="291.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all26" pool="1">
+		<routestep step="1" x="458.00" y="2306.00" z="319.60"/>
+		<routestep step="2" x="467.50" y="2304.00" z="319.50"/>
+		<routestep step="3" x="475.00" y="2299.00" z="319.50"/>
+		<routestep step="4" x="480.50" y="2291.50" z="319.50"/>
+		<routestep step="5" x="483.00" y="2281.00" z="319.60"/>
+		<routestep step="6" x="481.00" y="2272.00" z="319.50"/>
+		<routestep step="7" x="476.50" y="2264.50" z="319.50"/>
+		<routestep step="8" x="469.00" y="2258.50" z="319.50"/>
+		<routestep step="9" x="458.00" y="2256.50" z="319.60"/>
+		<routestep step="10" x="448.50" y="2258.00" z="319.50"/>
+		<routestep step="11" x="440.50" y="2263.00" z="319.50"/>
+		<routestep step="12" x="435.00" y="2271.00" z="319.50"/>
+		<routestep step="13" x="433.50" y="2281.00" z="319.60"/>
+		<routestep step="14" x="435.00" y="2291.50" z="319.50"/>
+		<routestep step="15" x="441.50" y="2300.00" z="319.50"/>
+		<routestep step="16" x="450.00" y="2304.50" z="319.50"/>
+		<routestep step="17" x="458.00" y="2306.00" z="319.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_op3" pool="1">
+		<routestep step="1" x="463.50" y="2331.50" z="234.10"/>
+		<routestep step="2" x="455.50" y="2330.00" z="234.10"/>
+		<routestep step="3" x="447.00" y="2325.50" z="234.10"/>
+		<routestep step="4" x="440.50" y="2317.00" z="234.10"/>
+		<routestep step="5" x="439.00" y="2306.50" z="234.10"/>
+		<routestep step="6" x="440.50" y="2297.00" z="234.10"/>
+		<routestep step="7" x="446.00" y="2288.50" z="234.10"/>
+		<routestep step="8" x="454.00" y="2283.50" z="234.10"/>
+		<routestep step="9" x="463.50" y="2282.00" z="234.10"/>
+		<routestep step="10" x="474.50" y="2284.00" z="234.10"/>
+		<routestep step="11" x="482.00" y="2290.00" z="234.10"/>
+		<routestep step="12" x="486.50" y="2297.50" z="234.10"/>
+		<routestep step="13" x="488.50" y="2306.50" z="234.10"/>
+		<routestep step="14" x="486.00" y="2317.00" z="234.10"/>
+		<routestep step="15" x="480.50" y="2324.50" z="234.10"/>
+		<routestep step="16" x="473.00" y="2329.50" z="234.10"/>
+		<routestep step="17" x="464.00" y="2331.50" z="234.10"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all11" pool="1">
+		<routestep step="1" x="463.50" y="2331.50" z="247.60"/>
+		<routestep step="2" x="473.00" y="2329.50" z="247.50"/>
+		<routestep step="3" x="480.50" y="2324.50" z="247.50"/>
+		<routestep step="4" x="486.00" y="2317.00" z="247.50"/>
+		<routestep step="5" x="488.50" y="2306.50" z="247.60"/>
+		<routestep step="6" x="486.50" y="2297.50" z="247.50"/>
+		<routestep step="7" x="482.00" y="2290.00" z="247.50"/>
+		<routestep step="8" x="474.50" y="2284.00" z="247.50"/>
+		<routestep step="9" x="463.50" y="2282.00" z="247.60"/>
+		<routestep step="10" x="454.00" y="2283.50" z="247.50"/>
+		<routestep step="11" x="446.00" y="2288.50" z="247.50"/>
+		<routestep step="12" x="440.50" y="2296.50" z="247.50"/>
+		<routestep step="13" x="439.00" y="2306.50" z="247.60"/>
+		<routestep step="14" x="440.50" y="2317.00" z="247.50"/>
+		<routestep step="15" x="447.00" y="2325.50" z="247.50"/>
+		<routestep step="16" x="455.50" y="2330.00" z="247.50"/>
+		<routestep step="17" x="463.50" y="2331.50" z="247.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_all17" pool="1">
+		<routestep step="1" x="463.50" y="2331.50" z="238.60"/>
+		<routestep step="2" x="473.00" y="2329.50" z="238.50"/>
+		<routestep step="3" x="480.50" y="2324.50" z="238.50"/>
+		<routestep step="4" x="486.00" y="2317.00" z="238.50"/>
+		<routestep step="5" x="488.50" y="2306.50" z="238.60"/>
+		<routestep step="6" x="486.50" y="2297.50" z="238.50"/>
+		<routestep step="7" x="482.00" y="2290.00" z="238.50"/>
+		<routestep step="8" x="474.50" y="2284.00" z="238.50"/>
+		<routestep step="9" x="463.50" y="2282.00" z="238.60"/>
+		<routestep step="10" x="454.00" y="2283.50" z="238.50"/>
+		<routestep step="11" x="446.00" y="2288.50" z="238.50"/>
+		<routestep step="12" x="440.50" y="2296.50" z="238.50"/>
+		<routestep step="13" x="439.00" y="2306.50" z="238.60"/>
+		<routestep step="14" x="440.50" y="2317.00" z="238.50"/>
+		<routestep step="15" x="447.00" y="2325.50" z="238.50"/>
+		<routestep step="16" x="455.50" y="2330.00" z="238.50"/>
+		<routestep step="17" x="463.50" y="2331.50" z="238.60"/>
+	</walker_template>
+	<walker_template route_id="df5_npcpathguard_op2" pool="1">
+		<routestep step="1" x="463.50" y="2331.50" z="243.10"/>
+		<routestep step="2" x="455.50" y="2330.00" z="243.10"/>
+		<routestep step="3" x="447.00" y="2325.50" z="243.10"/>
+		<routestep step="4" x="440.50" y="2317.00" z="243.10"/>
+		<routestep step="5" x="439.00" y="2306.50" z="243.10"/>
+		<routestep step="6" x="440.50" y="2297.00" z="243.10"/>
+		<routestep step="7" x="446.00" y="2288.50" z="243.10"/>
+		<routestep step="8" x="454.00" y="2283.50" z="243.10"/>
+		<routestep step="9" x="463.50" y="2282.00" z="243.10"/>
+		<routestep step="10" x="474.50" y="2284.00" z="243.10"/>
+		<routestep step="11" x="482.00" y="2290.00" z="243.10"/>
+		<routestep step="12" x="486.50" y="2297.50" z="243.10"/>
+		<routestep step="13" x="488.50" y="2306.50" z="243.10"/>
+		<routestep step="14" x="486.00" y="2317.00" z="243.10"/>
+		<routestep step="15" x="480.50" y="2324.50" z="243.10"/>
+		<routestep step="16" x="473.00" y="2329.50" z="243.10"/>
+		<routestep step="17" x="464.00" y="2331.50" z="243.10"/>
+	</walker_template>
+</npc_walker>

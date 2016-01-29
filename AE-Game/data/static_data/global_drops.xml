@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globaldrops>
+	<drop_level lvlmin="40" lvlmax="50">
+		<globaldropitem item_id="160003561" chance="0.1" min_amount="1" max_amount="1"/>
+	</drop_level>
+	<drop_level lvlmin="65" lvlmax="66">
+		<globaldropitem item_id="188053547" chance="0.001" min_amount="1" max_amount="1"/>
+		<globaldropitem item_id="188053548" chance="0.001" min_amount="1" max_amount="1"/>
+	</drop_level>
+</globaldrops>

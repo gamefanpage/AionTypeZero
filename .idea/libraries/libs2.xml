@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="libs2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/logback-core-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/javolution-5.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/javassist-3.15.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/guava-13.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/bonecp-0.7.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/logback-classic-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/quartz-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AE-Commons/libs/javac-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

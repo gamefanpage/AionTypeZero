@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<spawn_map map_id="301160000">
+		<spawn npc_id="831718">
+			<spot x="472.842957" y="564.049927" z="202.589233" h="56"/>
+		</spawn>
+		<spawn npc_id="831719">
+			<spot x="473.079193" y="571.305054" z="202.589233" h="44"/>
+		</spawn>
+		<spawn npc_id="831720">
+			<spot x="471.448303" y="572.521912" z="202.589233" h="50"/>
+		</spawn>
+		<spawn npc_id="831721">
+			<spot x="471.671844" y="562.432495" z="202.589233" h="76"/>
+		</spawn>
+		<!--
+		<spawn npc_id="831727">
+			<spot x="517.783997" y="562.049500" z="200.161789" h="60"/>
+		</spawn>
+		<spawn npc_id="831728">
+			<spot x="520.415588" y="563.304688" z="200.161789" h="60"/>
+		</spawn>
+		<spawn npc_id="831729">
+			<spot x="517.843872" y="568.376221" z="200.161789" h="80"/>
+		</spawn>
+		<spawn npc_id="831730">
+			<spot x="520.566406" y="567.832764" z="200.161789" h="80"/>
+		</spawn> -->
+		<!-- Ariatte -->
+		<spawn npc_id="831741">
+			<spot x="524.807556" y="565.477783" z="200.118851" h="60"/>
+		</spawn>
+		<!-- IDasteria_IU_FOBJ -->
+		<spawn npc_id="831572">
+			<spot x="522.04095" y="565.48944" z="199.34138" static_id="17"/>
+		</spawn>
+		<!-- Door close -->
+		<spawn npc_id="831743">
+			<spot x="522.39825" y="564.69006" z="199.03371" static_id="142"/>
+		</spawn>
+		<spawn npc_id="831747">
+			<spot x="522.389526" y="571.335693" z="199.720016" h="0" />
+		</spawn>
+		<spawn npc_id="831752">
+			<spot x="504.916840" y="563.220703" z="200.963821" h="0" />
+			<spot x="505.013641" y="571.162781" z="200.985489" h="0" />
+			<spot x="504.894318" y="559.485718" z="200.963821" h="0" />
+			<spot x="504.947632" y="567.493896" z="200.963821" h="0" />
+		</spawn>
+		<!-- Circus Exit -->
+		<spawn npc_id="831746">
+			<spot x="461.57" y="567.33" z="201.73489"/>
+		</spawn>
+	</spawn_map>
+</spawns>

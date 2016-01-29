@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zones>
+	<zone mapid="301500000" name="ARENA_301500000" area_type="POLYGON" zone_type="PVP" flags="64">
+		<points bottom="53.486198" top="153.486198">
+		<!--
+			<point x="67.292236" y="102.933510"/>
+			<point x="396.222656" y="78.545166"/>
+			<point x="420.585968" y="419.064972"/>
+			<point x="104.154480" y="453.520752"/>
+		-->
+			<point x="200.85966" y="236.44577"/>
+			<point x="261.59793" y="233.91891"/>
+			<point x="257.42776" y="292.48065"/>
+			<point x="203.99787" y="290.20123"/>
+		</points>
+	</zone>
+</zones>

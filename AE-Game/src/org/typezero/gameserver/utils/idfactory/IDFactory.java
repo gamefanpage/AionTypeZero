@@ -1,0 +1,250 @@
+/*
+ * Copyright (c) 2015, TypeZero Engine (game.developpers.com)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * Neither the name of TypeZero Engine nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+package org.typezero.gameserver.utils.idfactory;
+
+import java.util.BitSet;
+import java.util.Collection;
+import java.util.concurrent.locks.ReentrantLock;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.aionemu.commons.database.dao.DAOManager;
+import com.aionemu.commons.utils.GenericValidator;
+import org.typezero.gameserver.dao.GuideDAO;
+import org.typezero.gameserver.dao.HousesDAO;
+import org.typezero.gameserver.dao.InventoryDAO;
+import org.typezero.gameserver.dao.LegionDAO;
+import org.typezero.gameserver.dao.MailDAO;
+import org.typezero.gameserver.dao.PlayerDAO;
+import org.typezero.gameserver.dao.PlayerRegisteredItemsDAO;
+
+/**
+ * This class is responsible for id generation for all Aion-Emu objects.<br>
+ * This class is Thread-Safe.<br>
+ * This class is designed to be very strict with id usage. Any illegal operation will throw {@link IDFactoryError}
+ *
+ * @author SoulKeeper
+ */
+public class IDFactory {
+
+	private static final Logger log = LoggerFactory.getLogger(IDFactory.class);
+	/**
+	 * Bitset that is used for all id's.<br>
+	 * We are allowing BitSet to grow over time, so in the end it can be as big as {@link Integer#MAX_VALUE}
+	 */
+	private final BitSet idList;
+
+	/**
+	 * Synchronization of bitset
+	 */
+	private final ReentrantLock lock;
+
+	/**
+	 * Id that will be used as minimal on next id request
+	 */
+	private volatile int nextMinId = 1;
+
+	/**
+	 * Returns next free id.
+	 *
+	 * @return next free id
+	 * @throws IDFactoryError
+	 *           if there is no free id's
+	 */
+
+	private IDFactory() {
+		idList = new BitSet();
+		lock = new ReentrantLock();
+		lockIds(0);
+		// Here should be calls to all IDFactoryAwareDAO implementations to initialize
+		// used values in IDFactory
+		lockIds(DAOManager.getDAO(PlayerDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(InventoryDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(PlayerRegisteredItemsDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(LegionDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(MailDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(GuideDAO.class).getUsedIDs());
+		lockIds(DAOManager.getDAO(HousesDAO.class).getUsedIDs());
+		log.info("IDFactory: " + getUsedCount() + " id's used.");
+	}
+
+	public static final IDFactory getInstance() {
+		return SingletonHolder.instance;
+	}
+
+	public int nextId() {
+		try {
+			lock.lock();
+
+			int id;
+			if (nextMinId == Integer.MIN_VALUE) {
+				// Error will be thrown few lines later, we have no more free id's.
+				// BitSet will throw IllegalArgumentException if nextMinId is negative
+				id = Integer.MIN_VALUE;
+			}
+			else {
+				id = idList.nextClearBit(nextMinId);
+			}
+
+			// If BitSet reached Integer.MAX_VALUE size and returned last free id before - it will return
+			// Intger.MIN_VALUE as the next id, so we must catch such case and throw error (no free id's left)
+			if (id == Integer.MIN_VALUE) {
+				throw new IDFactoryError("All id's are used, please clear your database");
+			}
+			idList.set(id);
+
+			// It ok to have Integer OverFlow here, on next ID request IDFactory will throw error
+			nextMinId = id + 1;
+			return id;
+		}
+		finally {
+			lock.unlock();
+		}
+	}
+
+	/**
+	 * Locks given ids.
+	 *
+	 * @param ids
+	 *          ids to lock
+	 * @throws IDFactoryError
+	 *           if some of the id's were locked before
+	 */
+	private void lockIds(int... ids) {
+		try {
+			lock.lock();
+			for (int id : ids) {
+				boolean status = idList.get(id);
+				if (status) {
+					throw new IDFactoryError("ID " + id + " is already taken, fatal error!!!");
+				}
+				idList.set(id);
+			}
+		}
+		finally {
+			lock.unlock();
+		}
+	}
+
+	/**
+	 * Locks given ids.
+	 *
+	 * @param ids
+	 *          ids to lock
+	 * @throws IDFactoryError
+	 *           if some of the id's were locked before
+	 */
+	public void lockIds(Iterable<Integer> ids) {
+		try {
+			lock.lock();
+			for (int id : ids) {
+				boolean status = idList.get(id);
+				if (status) {
+					throw new IDFactoryError("ID " + id + " is already taken, fatal error!!!");
+				}
+				idList.set(id);
+			}
+		}
+		finally {
+			lock.unlock();
+		}
+	}
+
+	/**
+	 * Releases given id
+	 *
+	 * @param id
+	 *          id to release
+	 * @throws IDFactoryError
+	 *           if id was not taken earlier
+	 */
+	public void releaseId(int id) {
+		try {
+			lock.lock();
+			boolean status = idList.get(id);
+			if (!status) {
+				throw new IDFactoryError("ID " + id + " is not taken, can't release it.");
+			}
+			idList.clear(id);
+			if (id < nextMinId || nextMinId == Integer.MIN_VALUE) {
+				nextMinId = id;
+			}
+		}
+		finally {
+			lock.unlock();
+		}
+	}
+
+	public void releaseIds(Collection<Integer> ids){
+		if(GenericValidator.isBlankOrNull(ids)){
+			return;
+		}
+
+		try {
+			lock.lock();
+			for(Integer id : ids){
+				boolean status = idList.get(id);
+				if (!status) {
+					throw new IDFactoryError("ID " + id + " is not taken, can't release it.");
+				}
+				idList.clear(id);
+				if (id < nextMinId || nextMinId == Integer.MIN_VALUE) {
+					nextMinId = id;
+				}
+			}
+		} finally {
+			lock.unlock();
+		}
+	}
+
+	/**
+	 * Returns amount of used ids
+	 *
+	 * @return amount of used ids
+	 */
+	public int getUsedCount() {
+		try {
+			lock.lock();
+			return idList.cardinality();
+		}
+		finally {
+			lock.unlock();
+		}
+	}
+
+	@SuppressWarnings("synthetic-access")
+	private static class SingletonHolder {
+
+		protected static final IDFactory instance = new IDFactory();
+	}
+}

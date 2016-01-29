@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summon_stats_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../stats.xsd">
+	<!-- 19 -->
+	<summon_stats npc_id_light="833305" npc_id_dark="833306" level="19">
+		<stats_template maxHp="750" pdefense="132" mresist="410" main_hand_attack="115" run_speed="9.6" main_hand_accuracy="588" main_hand_crit_rate="30" magic_accuracy="364" mcrit="18" parry="0" evasion="588"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833305" npc_id_dark="833306" level="20">
+		<stats_template maxHp="817" pdefense="138" mresist="427" main_hand_attack="120" run_speed="9.6" main_hand_accuracy="609" main_hand_crit_rate="30" magic_accuracy="385" mcrit="18" parry="0" evasion="609"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833305" npc_id_dark="833306" level="21">
+		<stats_template maxHp="884" pdefense="144" mresist="444" main_hand_attack="125" run_speed="9.6" main_hand_accuracy="630" main_hand_crit_rate="30" magic_accuracy="406" mcrit="18" parry="0" evasion="630"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833305" npc_id_dark="833306" level="22">
+		<stats_template maxHp="951" pdefense="150" mresist="461" main_hand_attack="130" run_speed="9.6" main_hand_accuracy="651" main_hand_crit_rate="30" magic_accuracy="427" mcrit="18" parry="0" evasion="651"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833305" npc_id_dark="833306" level="23">
+		<stats_template maxHp="1018" pdefense="156" mresist="478" main_hand_attack="135" run_speed="9.6" main_hand_accuracy="672" main_hand_crit_rate="30" magic_accuracy="448" mcrit="18" parry="0" evasion="672"/>
+	</summon_stats>
+	<!-- 24 -->
+	<summon_stats npc_id_light="833307" npc_id_dark="833308" level="24">
+		<stats_template maxHp="1085" pdefense="162" mresist="495" main_hand_attack="140" run_speed="9.6" main_hand_accuracy="693" main_hand_crit_rate="30" magic_accuracy="469" mcrit="18" parry="0" evasion="693"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833307" npc_id_dark="833308" level="25">
+		<stats_template maxHp="1152" pdefense="168" mresist="512" main_hand_attack="145" run_speed="9.6" main_hand_accuracy="714" main_hand_crit_rate="30" magic_accuracy="490" mcrit="18" parry="0" evasion="714"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833307" npc_id_dark="833308" level="26">
+		<stats_template maxHp="1219" pdefense="174" mresist="529" main_hand_attack="150" run_speed="9.6" main_hand_accuracy="735" main_hand_crit_rate="30" magic_accuracy="511" mcrit="18" parry="0" evasion="735"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833307" npc_id_dark="833308" level="27">
+		<stats_template maxHp="1286" pdefense="180" mresist="546" main_hand_attack="155" run_speed="9.6" main_hand_accuracy="756" main_hand_crit_rate="30" magic_accuracy="532" mcrit="18" parry="0" evasion="756"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833307" npc_id_dark="833308" level="28">
+		<stats_template maxHp="1486" pdefense="180" mresist="546" main_hand_attack="155" run_speed="9.6" main_hand_accuracy="756" main_hand_crit_rate="30" magic_accuracy="532" mcrit="18" parry="0" evasion="756"/>
+	</summon_stats>
+	<!-- 29 -->
+	<summon_stats npc_id_light="833309" npc_id_dark="833310" level="29">
+		<stats_template maxHp="1586" pdefense="180" mresist="546" main_hand_attack="155" run_speed="9.6" main_hand_accuracy="756" main_hand_crit_rate="30" magic_accuracy="532" mcrit="18" parry="0" evasion="756"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833309" npc_id_dark="833310" level="30">
+		<stats_template maxHp="1456" pdefense="180" mresist="546" main_hand_attack="155" run_speed="9.6" main_hand_accuracy="756" main_hand_crit_rate="30" magic_accuracy="532" mcrit="18" parry="0" evasion="756"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833309" npc_id_dark="833310" level="31">
+		<stats_template maxHp="1703" pdefense="195" mresist="625" main_hand_attack="186" run_speed="9.6" main_hand_accuracy="842" main_hand_crit_rate="30" magic_accuracy="574" mcrit="18" parry="0" evasion="842"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833309" npc_id_dark="833310" level="32">
+		<stats_template maxHp="1779" pdefense="201" mresist="642" main_hand_attack="190" run_speed="9.6" main_hand_accuracy="863" main_hand_crit_rate="30" magic_accuracy="595" mcrit="18" parry="0" evasion="863"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833309" npc_id_dark="833310" level="33">
+		<stats_template maxHp="1855" pdefense="207" mresist="659" main_hand_attack="194" run_speed="9.6" main_hand_accuracy="884" main_hand_crit_rate="30" magic_accuracy="616" mcrit="18" parry="0" evasion="884"/>
+	</summon_stats>
+	<!-- 34 -->
+	<summon_stats npc_id_light="833311" npc_id_dark="833312" level="34">
+		<stats_template maxHp="1931" pdefense="213" mresist="676" main_hand_attack="198" run_speed="9.6" main_hand_accuracy="905" main_hand_crit_rate="30" magic_accuracy="637" mcrit="18" parry="0" evasion="905"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833311" npc_id_dark="833312" level="35">
+		<stats_template maxHp="2001" pdefense="219" mresist="693" main_hand_attack="202" run_speed="9.6" main_hand_accuracy="926" main_hand_crit_rate="30" magic_accuracy="658" mcrit="18" parry="0" evasion="926"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833311" npc_id_dark="833312" level="36">
+		<stats_template maxHp="2083" pdefense="225" mresist="710" main_hand_attack="206" run_speed="9.6" main_hand_accuracy="947" main_hand_crit_rate="30" magic_accuracy="679" mcrit="18" parry="0" evasion="947"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833311" npc_id_dark="833312" level="37">
+		<stats_template maxHp="2159" pdefense="231" mresist="727" main_hand_attack="206" run_speed="9.6" main_hand_accuracy="968" main_hand_crit_rate="30" magic_accuracy="700" mcrit="18" parry="0" evasion="968"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833311" npc_id_dark="833312" level="38">
+		<stats_template maxHp="2235" pdefense="237" mresist="744" main_hand_attack="206" run_speed="9.6" main_hand_accuracy="989" main_hand_crit_rate="30" magic_accuracy="721" mcrit="18" parry="0" evasion="989"/>
+	</summon_stats>
+	<!-- 39 -->
+	<summon_stats npc_id_light="833313" npc_id_dark="833314" level="39">
+		<stats_template maxHp="2303" pdefense="247" mresist="756" main_hand_attack="206" run_speed="9.6" main_hand_accuracy="1010" main_hand_crit_rate="30" magic_accuracy="742" mcrit="18" parry="0" evasion="1010"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833313" npc_id_dark="833314" level="40">
+		<stats_template maxHp="2403" pdefense="247" mresist="756" main_hand_attack="206" run_speed="9.6" main_hand_accuracy="1010" main_hand_crit_rate="30" magic_accuracy="742" mcrit="18" parry="0" evasion="1010"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833313" npc_id_dark="833314" level="41">
+		<stats_template maxHp="2481" pdefense="255" mresist="795" main_hand_attack="228" run_speed="9.6" main_hand_accuracy="1054" main_hand_crit_rate="30" magic_accuracy="749" mcrit="18" parry="0" evasion="1054"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833313" npc_id_dark="833314" level="42">
+		<stats_template maxHp="2575" pdefense="261" mresist="812" main_hand_attack="232" run_speed="9.6" main_hand_accuracy="1075" main_hand_crit_rate="30" magic_accuracy="770" mcrit="18" parry="0" evasion="1075"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833313" npc_id_dark="833314" level="43">
+		<stats_template maxHp="2669" pdefense="267" mresist="829" main_hand_attack="236" run_speed="9.6" main_hand_accuracy="1096" main_hand_crit_rate="30" magic_accuracy="791" mcrit="18" parry="0" evasion="1096"/>
+	</summon_stats>
+	<!-- 44 -->
+	<summon_stats npc_id_light="833315" npc_id_dark="833316" level="44">
+		<stats_template maxHp="2793" pdefense="273" mresist="846" main_hand_attack="240" run_speed="9.6" main_hand_accuracy="1117" main_hand_crit_rate="30" magic_accuracy="812" mcrit="18" parry="0" evasion="1117"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833315" npc_id_dark="833316" level="45">
+		<stats_template maxHp="2857" pdefense="279" mresist="863" main_hand_attack="244" run_speed="9.6" main_hand_accuracy="1138" main_hand_crit_rate="30" magic_accuracy="833" mcrit="18" parry="0" evasion="1138"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833315" npc_id_dark="833316" level="46">
+		<stats_template maxHp="2951" pdefense="285" mresist="880" main_hand_attack="248" run_speed="9.6" main_hand_accuracy="1159" main_hand_crit_rate="30" magic_accuracy="854" mcrit="18" parry="0" evasion="1559"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833315" npc_id_dark="833316" level="47">
+		<stats_template maxHp="3045" pdefense="291" mresist="897" main_hand_attack="252" run_speed="9.6" main_hand_accuracy="1180" main_hand_crit_rate="30" magic_accuracy="875" mcrit="18" parry="0" evasion="1180"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833315" npc_id_dark="833316" level="48">
+		<stats_template maxHp="3139" pdefense="297" mresist="914" main_hand_attack="256" run_speed="9.6" main_hand_accuracy="1201" main_hand_crit_rate="30" magic_accuracy="896" mcrit="18" parry="0" evasion="1201"/>
+	</summon_stats>
+	<!-- 49 -->
+	<summon_stats npc_id_light="833317" npc_id_dark="833318" level="49">
+		<stats_template maxHp="3233" pdefense="303" mresist="931" main_hand_attack="260" run_speed="9.6" main_hand_accuracy="1222" main_hand_crit_rate="30" magic_accuracy="917" mcrit="18" parry="0" evasion="1222"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833317" npc_id_dark="833318" level="50">
+		<stats_template maxHp="3333" pdefense="303" mresist="931" main_hand_attack="260" run_speed="9.6" main_hand_accuracy="1222" main_hand_crit_rate="30" magic_accuracy="917" mcrit="18" parry="0" evasion="1222"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833317" npc_id_dark="833318" level="51">
+		<stats_template maxHp="3433" pdefense="303" mresist="931" main_hand_attack="260" run_speed="9.6" main_hand_accuracy="1222" main_hand_crit_rate="30" magic_accuracy="917" mcrit="18" parry="0" evasion="1222"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833317" npc_id_dark="833318" level="52">
+		<stats_template maxHp="3533" pdefense="303" mresist="931" main_hand_attack="260" run_speed="9.6" main_hand_accuracy="1222" main_hand_crit_rate="30" magic_accuracy="917" mcrit="18" parry="0" evasion="1222"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833317" npc_id_dark="833318" level="53">
+		<stats_template maxHp="3603" pdefense="327" mresist="1003" main_hand_attack="278" run_speed="9.6" main_hand_accuracy="1241" main_hand_crit_rate="30" magic_accuracy="959" mcrit="18" parry="0" evasion="1309"/>
+	</summon_stats>
+	<!-- 54 -->
+	<summon_stats npc_id_light="833319" npc_id_dark="833320" level="54">
+		<stats_template maxHp="3760" pdefense="326" mresist="1022" main_hand_attack="289" run_speed="9.6" main_hand_accuracy="1260" main_hand_crit_rate="30" magic_accuracy="980" mcrit="18" parry="0" evasion="1330"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833319" npc_id_dark="833320" level="55">
+		<stats_template maxHp="3872" pdefense="331" mresist="1039" main_hand_attack="293" run_speed="9.6" main_hand_accuracy="1279" main_hand_crit_rate="30" magic_accuracy="1001" mcrit="18" parry="0" evasion="1351"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833319" npc_id_dark="833320" level="56">
+		<stats_template maxHp="3984" pdefense="336" mresist="1056" main_hand_attack="297" run_speed="9.6" main_hand_accuracy="1298" main_hand_crit_rate="30" magic_accuracy="1022" mcrit="18" parry="0" evasion="1372"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833319" npc_id_dark="833320" level="57">
+		<stats_template maxHp="4148" pdefense="351" mresist="1071" main_hand_attack="300" run_speed="9.6" main_hand_accuracy="1333" main_hand_crit_rate="30" magic_accuracy="1043" mcrit="18" parry="0" evasion="1393"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833319" npc_id_dark="833320" level="58">
+		<stats_template maxHp="4286" pdefense="354" mresist="1088" main_hand_attack="304" run_speed="9.6" main_hand_accuracy="1374" main_hand_crit_rate="30" magic_accuracy="1064" mcrit="18" parry="0" evasion="1414"/>
+	</summon_stats>
+	<!-- 59 -->
+	<summon_stats npc_id_light="833321" npc_id_dark="833322" level="59">
+		<stats_template maxHp="4324" pdefense="355" mresist="1105" main_hand_attack="308" run_speed="9.6" main_hand_accuracy="1435" main_hand_crit_rate="30" magic_accuracy="1085" mcrit="18" parry="0" evasion="1435"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833320" npc_id_dark="833322" level="60">
+		<stats_template maxHp="4432" pdefense="356" mresist="1124" main_hand_attack="313" run_speed="9.6" main_hand_accuracy="1456" main_hand_crit_rate="30" magic_accuracy="1106" mcrit="18" parry="0" evasion="1456"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833320" npc_id_dark="833322" level="61">
+		<stats_template maxHp="4560" pdefense="360" mresist="1141" main_hand_attack="323" run_speed="9.6" main_hand_accuracy="1475" main_hand_crit_rate="30" magic_accuracy="1125" mcrit="18" parry="0" evasion="1475"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833320" npc_id_dark="833322" level="62">
+		<stats_template maxHp="4678" pdefense="364" mresist="1160" main_hand_attack="335" run_speed="9.6" main_hand_accuracy="1513" main_hand_crit_rate="30" magic_accuracy="1144" mcrit="18" parry="0" evasion="1513"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833320" npc_id_dark="833322" level="63">
+		<stats_template maxHp="4756" pdefense="368" mresist="1179" main_hand_attack="347" run_speed="9.6" main_hand_accuracy="1575" main_hand_crit_rate="30" magic_accuracy="1163" mcrit="18" parry="0" evasion="1575"/>
+	</summon_stats>
+	<!-- 64 -->
+	<summon_stats npc_id_light="833255" npc_id_dark="833256" level="64">
+		<stats_template maxHp="4834" pdefense="372" mresist="1186" main_hand_attack="361" run_speed="9.6" main_hand_accuracy="1637" main_hand_crit_rate="30" magic_accuracy="1182" mcrit="18" parry="0" evasion="1637"/>
+	</summon_stats>
+	<summon_stats npc_id_light="833255" npc_id_dark="833256" level="65">
+		<stats_template maxHp="4904" pdefense="382" mresist="1197" main_hand_attack="379" run_speed="9.6" main_hand_accuracy="1706" main_hand_crit_rate="30" magic_accuracy="1204" mcrit="18" parry="0" evasion="1706"/>
+	</summon_stats>
+</summon_stats_templates>

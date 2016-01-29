@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			18737[XML]
+			18738[TODO]
+			18739[XML]
+			18740[SCRIPT]
+			18741[TODO]
+			18742[XML]
+			18743[SCRIPT]
+			18744[TODO]
+			28737[XML]
+			28738[TODO]
+			28739[XML]
+			28740[SCRIPT]
+			28741[TODO]
+			28742[XML]
+			28743[SCRIPT]
+			28744[TODO]
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<report_to_many id="18737" start_npc_ids="804707" end_npc_ids="206380" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="206380" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="28737" start_npc_ids="804732" end_npc_ids="206397" start_dialog_id="4762">
+		<npc_infos var="0" npc_id="206397" quest_dialog="10002" close_dialog="1009"/>
+	</report_to_many>
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="18739" start_npc_ids="206380" start_dialog_id="4762" start_dialog_id2="1011" end_npc_ids="804707"/>
+	<item_collecting id="18742" start_npc_ids="206380" start_dialog_id="4762" start_dialog_id2="1011" end_npc_ids="804707"/>
+	<item_collecting id="28739" start_npc_ids="206397" start_dialog_id="4762" start_dialog_id2="1011" end_npc_ids="804732"/>
+	<item_collecting id="28742" start_npc_ids="206397" start_dialog_id="4762" start_dialog_id2="1011" end_npc_ids="804732"/>
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

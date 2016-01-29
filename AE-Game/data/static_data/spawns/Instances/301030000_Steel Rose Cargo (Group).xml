@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<spawn_map map_id="301030000">
+		<!-- steel rose veteran -->
+		<spawn npc_id="230669" respawn_time="295">
+			<spot x="332.48" y="505.88" z="894.4312" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f83"/>
+			<spot x="352.02" y="526.22" z="899.9866" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f76"/>
+			<spot x="403.42" y="445.61" z="891.693" walker_id="idshulack_rose_01_npcpathmain1"/>
+			<spot x="495.90" y="465.87" z="885.4783" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f103"/>
+		</spawn>
+		<!-- steel rose archmage -->
+		<spawn npc_id="230673" respawn_time="295">
+			<spot x="273.57" y="523.19" z="900.3699" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f68"/>
+			<spot x="552.41" y="455.07" z="882.0684" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f107"/>
+			<spot x="559.47" y="561.43" z="882.0682" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f114"/>
+		</spawn>
+		<!-- steel rose slayer -->
+		<spawn npc_id="230677" respawn_time="295">
+			<spot x="345.47" y="559.37" z="901.1506" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f75"/>
+			<spot x="383.16" y="488.48" z="894.40656" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f79"/>
+		</spawn>
+		<!-- steel rose houngan -->
+		<spawn npc_id="230681" respawn_time="295">
+			<spot x="409.39" y="547.27" z="885.4783" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f93"/>
+			<spot x="514.86" y="546.91" z="885.4783" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f97"/>
+			<spot x="505.86" y="436.36" z="885.1844" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f100"/>
+		</spawn>
+		<!-- steel rose sharpshooter -->
+		<spawn npc_id="230685" respawn_time="295">
+			<spot x="353.01" y="516.59" z="894.4312" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f81"/>
+			<spot x="562.76" y="510.17" z="882.2136" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f109"/>
+			<spot x="600.15" y="509.82" z="880.04285" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f115"/>
+		</spawn>
+		<!-- steel rose machinist -->
+		<spawn npc_id="230693" respawn_time="295">
+			<spot x="544.49" y="493.12" z="882.1774" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f108"/>
+			<spot x="565.82" y="531.66" z="882.2148" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f116"/>
+		</spawn>
+		<!-- twin blade lizakiki -->
+		<spawn npc_id="230719" respawn_time="295">
+			<spot x="351.56" y="497.82" z="894.43115" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f21"/>
+		</spawn>
+		<!-- steel rose fiddler -->
+		<spawn npc_id="231430" respawn_time="295">
+			<spot x="421.22" y="509.91" z="886.0192" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f87"/>
+			<spot x="462.11" y="454.74" z="887.706" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f89"/>
+			<spot x="502.49" y="509.83" z="886.0192" walker_id="idshulack_rose_01_npcpathidshulackship_02_mob_1f88"/>
+		</spawn>
+	</spawn_map>
+</spawns>

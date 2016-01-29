@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			19631 [TODO] Coastal Crush
+			19632 [TODO] Cascade Critters
+			19633 [TODO] Alisary Assistance
+			19634 [TODO] Further Aid for Alisary
+			19635 [TODO] Southern Quell
+			19636 [TODO] Final Stabilization
+			19637 [TODO] Onboard for One
+			19638 [TODO] Trouble with Twos
+			19639 [TODO] Trees and Threes
+			19640 [TODO] Flying through Four
+			19641 [TODO] Fidgety Fives
+			19642 [TODO] Success for Six
+			19643 [TODO] Outrageous Outremus
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS --> 
+	<report_to id="19631" start_npc_ids="802431" end_npc_ids="802383"/>
+</quest_scripts>

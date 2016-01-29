@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_walker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_walker.xsd">
+	<!-- Crucible Challenge -->
+	<walker_template route_id="6000700001" pool="1">
+		<routestep step="1" x="684.18" y="736.88" z="512.98"/>
+		<routestep step="2" x="684.12" y="745.95" z="512.98"/>
+		<routestep step="3" x="683.91" y="756.82" z="512.98"/>
+		<routestep step="4" x="683.88" y="769.57" z="512.98"/>
+		<routestep step="5" x="683.77" y="780.68" z="512.98"/>
+		<routestep step="6" x="683.76" y="795.02" z="512.98"/>
+		<routestep step="7" x="691.43" y="795.00" z="512.98"/>
+		<routestep step="8" x="699.26" y="794.87" z="512.98"/>
+		<routestep step="9" x="699.10" y="784.48" z="512.98"/>
+		<routestep step="10" x="699.17" y="774.87" z="512.98"/>
+		<routestep step="11" x="699.30" y="762.27" z="512.98"/>
+		<routestep step="12" x="699.11" y="749.48" z="512.98"/>
+		<routestep step="13" x="699.18" y="736.94" z="512.98"/>
+		<routestep step="14" x="691.63" y="736.97" z="512.98"/>
+		<routestep step="15" x="684.17" y="736.94" z="512.98"/>
+	</walker_template>
+	<walker_template route_id="6000600001" pool="1">
+		<routestep step="1" x="2549.94" y="1688.06" z="141.1"/>
+		<routestep step="1" x="2552.42" y="1689.28" z="141.1"/>
+		<routestep step="1" x="2556.07" y="1691.53" z="141.1"/>
+		<routestep step="1" x="2552.42" y="1689.30" z="141.1"/>
+		<routestep step="1" x="2549.87" y="1687.99" z="141.1"/>
+	</walker_template>
+	<walker_template route_id="1200200001" pool="1">
+		<routestep step="1" x="1542.9343" y="1435.7242" z="264.7671"/>
+		<routestep step="1" x="1546.0096" y="1436.8569" z="264.76474"/>
+		<routestep step="1" x="1549.3136" y="1437.8188" z="264.76102"/>
+		<routestep step="1" x="1553.076" y="1437.5502" z="264.75037"/>
+		<routestep step="1" x="1549.1068" y="1436.0118" z="264.75302"/>
+	</walker_template>
+</npc_walker>

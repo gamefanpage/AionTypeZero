@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_walker>
+	<!-- 233331 -->
+	<walker_template route_id="idldf5_under_02_e_npcpathbosses1" pool="1">
+		<routestep step="1" x="1050.43" y="823.35" z="286.05"/>
+		<routestep step="2" x="1051.06" y="821.84" z="286.05"/>
+		<routestep step="3" x="1054.77" y="820.26" z="286.05"/>
+		<routestep step="4" x="1055.82" y="815.99" z="286.05"/>
+		<routestep step="5" x="1055.95" y="812.94" z="286.05"/>
+	</walker_template>
+	<!-- 235591 -->
+	<walker_template route_id="idldf5_under_02_e_npcpatha_section2" pool="1">
+		<routestep step="1" x="1022.83" y="428.43" z="298.27"/>
+		<routestep step="2" x="1022.54" y="425.50" z="298.17"/>
+		<routestep step="3" x="1022.24" y="421.87" z="298.27"/>
+		<routestep step="4" x="1022.14" y="417.95" z="298.27"/>
+		<routestep step="5" x="1022.09" y="421.89" z="298.27"/>
+		<routestep step="6" x="1022.30" y="425.50" z="298.27"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design49" pool="1">
+		<routestep step="1" x="1055.20" y="1286.93" z="328.92"/>
+		<routestep step="2" x="1055.44" y="1290.47" z="328.92"/>
+		<routestep step="3" x="1054.13" y="1295.94" z="328.92"/>
+		<routestep step="4" x="1053.00" y="1300.34" z="328.92"/>
+		<routestep step="5" x="1049.76" y="1307.06" z="328.92"/>
+		<routestep step="6" x="1043.48" y="1308.54" z="328.92"/>
+		<routestep step="7" x="1038.94" y="1306.80" z="328.92"/>
+		<routestep step="8" x="1035.63" y="1302.72" z="328.92"/>
+		<routestep step="9" x="1034.11" y="1299.55" z="328.92"/>
+		<routestep step="10" x="1034.16" y="1294.96" z="328.92"/>
+		<routestep step="11" x="1035.15" y="1291.50" z="328.92"/>
+		<routestep step="12" x="1038.45" y="1285.76" z="328.92"/>
+		<routestep step="13" x="1042.70" y="1283.51" z="328.92"/>
+		<routestep step="14" x="1046.67" y="1283.84" z="328.92"/>
+		<routestep step="15" x="1050.05" y="1284.71" z="328.92"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design50" pool="1">
+		<routestep step="1" x="1047.45" y="1210.74" z="317.45"/>
+		<routestep step="2" x="1048.33" y="1213.89" z="317.45"/>
+		<routestep step="3" x="1046.58" y="1218.32" z="317.45"/>
+		<routestep step="4" x="1043.82" y="1221.80" z="317.45"/>
+		<routestep step="5" x="1041.95" y="1223.03" z="317.45"/>
+		<routestep step="6" x="1038.98" y="1221.07" z="317.45"/>
+		<routestep step="7" x="1035.77" y="1218.26" z="317.45"/>
+		<routestep step="8" x="1036.00" y="1216.61" z="317.45"/>
+		<routestep step="9" x="1037.83" y="1213.95" z="317.45"/>
+		<routestep step="10" x="1039.88" y="1210.65" z="317.45"/>
+		<routestep step="11" x="1042.13" y="1208.42" z="317.45"/>
+		<routestep step="12" x="1044.09" y="1208.91" z="317.45"/>
+	</walker_template>
+	<!-- 235595 -->
+	<walker_template route_id="idldf5_under_02_e_npcpatha_section10" pool="1">
+		<routestep step="1" x="1030.87" y="422.41" z="300.86"/>
+		<routestep step="2" x="1030.96" y="414.79" z="300.86"/>
+		<routestep step="3" x="1030.79" y="407.36" z="300.86"/>
+		<routestep step="4" x="1031.25" y="415.17" z="300.76"/>
+		<routestep step="5" x="1031.24" y="421.96" z="300.86"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design15" pool="1">
+		<routestep step="1" x="885.77" y="867.45" z="306.17"/>
+		<routestep step="2" x="890.70" y="874.28" z="306.17"/>
+		<routestep step="3" x="895.21" y="882.31" z="306.17"/>
+		<routestep step="4" x="898.30" y="888.94" z="306.17"/>
+		<routestep step="5" x="895.04" y="882.41" z="306.17"/>
+		<routestep step="6" x="890.64" y="874.60" z="306.17"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design2" pool="1">
+		<routestep step="1" x="955.60" y="923.17" z="298.32"/>
+		<routestep step="2" x="950.62" y="916.47" z="298.32"/>
+		<routestep step="3" x="955.14" y="923.55" z="298.32"/>
+		<routestep step="4" x="959.16" y="930.14" z="298.32"/>
+	</walker_template>
+	<!-- 235603 -->
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design37" pool="1">
+		<routestep step="1" x="1025.73" y="501.92" z="287.53"/>
+		<routestep step="2" x="1032.49" y="501.53" z="287.53"/>
+		<routestep step="3" x="1040.52" y="501.43" z="287.53"/>
+		<routestep step="4" x="1046.90" y="501.66" z="287.43"/>
+		<routestep step="5" x="1053.69" y="501.90" z="287.53"/>
+		<routestep step="6" x="1046.70" y="501.80" z="287.43"/>
+		<routestep step="7" x="1039.63" y="501.74" z="287.53"/>
+		<routestep step="8" x="1032.41" y="501.92" z="287.53"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design48" pool="1">
+		<routestep step="1" x="1060.12" y="504.62" z="287.59"/>
+		<routestep step="2" x="1065.10" y="504.44" z="287.59"/>
+		<routestep step="3" x="1071.26" y="504.36" z="287.59"/>
+		<routestep step="4" x="1076.54" y="503.63" z="287.59"/>
+		<routestep step="5" x="1077.06" y="500.17" z="287.49"/>
+		<routestep step="6" x="1076.85" y="496.43" z="287.59"/>
+		<routestep step="7" x="1077.11" y="490.22" z="287.59"/>
+		<routestep step="8" x="1072.54" y="489.47" z="287.59"/>
+		<routestep step="9" x="1068.46" y="488.97" z="287.59"/>
+		<routestep step="10" x="1064.31" y="489.30" z="287.49"/>
+		<routestep step="11" x="1062.26" y="490.28" z="287.59"/>
+		<routestep step="12" x="1061.13" y="493.17" z="287.59"/>
+		<routestep step="13" x="1060.08" y="498.82" z="287.49"/>
+		<routestep step="14" x="1060.06" y="503.29" z="287.59"/>
+	</walker_template>
+	<!-- 235606 -->
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design40" pool="1">
+		<routestep step="1" x="1058.71" y="648.60" z="289.43"/>
+		<routestep step="2" x="1057.87" y="638.84" z="289.43"/>
+		<routestep step="3" x="1057.61" y="623.80" z="289.43"/>
+		<routestep step="4" x="1057.74" y="634.46" z="289.43"/>
+		<routestep step="5" x="1057.80" y="647.19" z="289.43"/>
+	</walker_template>
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design12" pool="1">
+		<routestep step="1" x="1056.70" y="586.05" z="289.43"/>
+		<routestep step="2" x="1056.55" y="596.90" z="289.43"/>
+		<routestep step="3" x="1056.46" y="606.70" z="289.43"/>
+		<routestep step="4" x="1057.01" y="619.51" z="289.43"/>
+		<routestep step="5" x="1056.80" y="606.33" z="289.43"/>
+		<routestep step="6" x="1056.87" y="596.86" z="289.43"/>
+	</walker_template>
+	<!-- 235606 -->
+	<walker_template route_id="idldf5_under_02_e_npcpathidldf5_under_02_design9" pool="1">
+		<routestep step="1" x="1057.59" y="889.17" z="286.71"/>
+		<routestep step="2" x="1057.26" y="877.39" z="286.71"/>
+		<routestep step="3" x="1057.95" y="889.20" z="286.71"/>
+	</walker_template>
+</npc_walker>

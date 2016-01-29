@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawns>
+	<spawn_map map_id="300610000">
+		<spawn npc_id="236005">
+			<spot x="1024.097" y="842.4843" z="754.36365" h="90"/>
+			<spot x="1006.334" y="784.5802" z="743.3741" h="37"/>
+			<spot x="913.5076" y="835.8521" z="727.5102" h="74"/>
+			<spot x="507.7105" y="334.4951" z="927.9906" h="74"/>
+			<spot x="1023.82" y="838.6908" z="753.1437" h="37"/>
+			<spot x="1006.612" y="788.3737" z="744.0267" h="90"/>
+			<spot x="1008.79" y="773.69" z="741.1637" walker_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_2_np"/>
+			<spot x="891.9962" y="840.9085" z="729.23804" h="61"/>
+			<spot x="1016.22" y="823.06" z="748.98" walker_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_3_np"/>
+			<spot x="533.51" y="305.66" z="927.99" walker_id="idraksha_solo_npcpathidraksha_solo_4.8_alias1"/>
+			<spot x="868.7097" y="863.7289" z="731.6264" h="0"/>
+		</spawn>
+		<spawn npc_id="236006">
+			<spot x="516.4099" y="318.5732" z="927.9906" h="47"/>
+		</spawn>
+		<spawn npc_id="236007">
+			<spot x="882.8694" y="912.2457" z="778.08295" h="90"/>
+			<spot x="517.4915" y="292.6643" z="928.9482" h="15"/>
+			<spot x="929.42" y="903.12" z="766.2906" walker_id="idraksha_solo_idraksha_3f_drakanknightbone_57_ae_6_np"/>
+			<spot x="490.9165" y="321.9777" z="928.9482" h="44"/>
+			<spot x="622.4932" y="189.4228" z="924.68555" h="44"/>
+			<spot x="496.05" y="317.59" z="930.10" walker_id="idraksha_solo_idraksha_2f_drakanhealercbone_57_ae_3_np"/>
+		</spawn>
+		<spawn npc_id="236008">
+			<spot x="851.0551" y="837.919" z="733.6782" h="67"/>
+			<spot x="920.3529" y="897.538" z="769.492" h="31"/>
+			<spot x="1002.16" y="893.89" z="762.55" walker_id="idraksha_solo_npcpathidraksha_mob_3f1"/>
+			<spot x="494.494" y="395.7141" z="927.97516" h="13"/>
+			<spot x="970.71" y="917.00" z="763.19" walker_id="idraksha_solo_npcpathidraksha_mob_3f3"/>
+			<spot x="934.89" y="808.04" z="734.07" walker_id="idraksha_solo_idraksha_3f_nagamagebone_57_ae_1_np"/>
+			<spot x="847.48" y="892.20" z="782.64" walker_id="idraksha_solo_idraksha_3f_nagamageghost_57_ae_4_np"/>
+			<spot x="401.1933" y="812.5156" z="163.28938" h="74"/>
+			<spot x="518.13" y="264.25" z="927.99" walker_id="idraksha_solo_idraksah_2f_drakanscoutcbone_57_ae_4_np"/>
+			<spot x="1008.357" y="802.0549" z="745.4228" h="0"/>
+			<spot x="831.503" y="901.2134" z="785.424" h="97" />
+			<spot x="467.30" y="357.51" z="927.97" walker_id="idraksha_solo_idraksah_2f_drakanfightercbone_57_ae_7_np"/>
+		</spawn>
+		<spawn npc_id="236009">
+			<spot x="477.3797" y="385.735" z="926.52606" h="15"/>
+		</spawn>
+		<spawn npc_id="236012">
+			<spot x="621.08" y="201.75" z="924.70" walker_id="idraksha_solo_npcpathb_2_condition_mon4"/>
+			<spot x="619.34" y="199.31" z="924.69" walker_id="idraksha_solo_npcpathb_2_condition_mon3"/>
+			<spot x="622.81" y="204.32" z="924.59" walker_id="idraksha_solo_npcpathb_2_condition_mon2"/>
+		</spawn>
+		<spawn npc_id="236015">
+			<spot x="899.80" y="812.67" z="728.75" walker_id="idraksha_solo_npcpathidraksha_mob_3f2"/>
+		</spawn>
+		<spawn npc_id="236018">
+			<spot x="326.29" y="500.03" z="120.95" walker_id="idraksha_solo_idraksha_5f_drakanfighterghost_58_ae_1_np1"/>
+			<spot x="273.58" y="773.69" z="147.51" walker_id="idraksha_solo_idraksha_5f_drakanhealercbone_58_ae_2_np1"/>
+			<spot x="269.15" y="663.09" z="148.8" walker_id="idraksha_solo_idraksha_5f_nagamagebone_58_ae_1_np1"/>
+			<spot x="267.51" y="662.08" z="148.7" walker_id="idraksha_solo_idraksha_5f_nagamagebone_58_ae_1_np"/>
+			<spot x="324.19" y="492.51" z="121.02" walker_id="idraksha_solo_idraksha_5f_drakanfighterghost_58_ae_1_np"/>
+			<spot x="272.12" y="775.30" z="147.51" walker_id="idraksha_solo_idraksha_5f_drakanhealercbone_58_ae_2_np"/>
+		</spawn>
+		<spawn npc_id="236019">
+			<spot x="257.8432" y="726.0732" z="144.3568" h="90"/>
+			<spot x="350.89" y="595.53" z="138.35"/>
+		</spawn>
+		<spawn npc_id="236020">
+			<spot x="319.5925" y="498.8039" z="123.388" h="61" />
+			<spot x="344.1701" y="630.6544" z="146.51385" h="107"/>
+			<spot x="267.7903" y="764.5197" z="147.15825" h="74"/>
+			<spot x="262.2051" y="696.3603" z="148.44162" h="93"/>
+			<spot x="286.679" y="789.1436" z="147.65352" h="74"/>
+			<spot x="287.7699" y="789.3753" z="147.6229" h="74"/>
+			<spot x="307.3033" y="614.6762" z="146.51385" h="107"/>
+			<spot x="329.9221" y="608.287" z="146.63669" h="107"/>
+			<spot x="329.7676" y="608.4664" z="146.61655" h="107"/>
+			<spot x="325.8029" y="645.5521" z="146.51385" h="107"/>
+			<spot x="307.4578" y="614.4969" z="146.51385" h="107"/>
+			<spot x="344.0156" y="630.8337" z="146.51385" h="107"/>
+			<spot x="260.6401" y="673.5709" z="148.48373" h="93"/>
+			<spot x="325.6484" y="645.7314" z="146.51385" h="107"/>
+		</spawn>
+		<spawn npc_id="236021">
+			<spot x="312.5768" y="605.4688" z="146.51385" h="107"/>
+			<spot x="307.4225" y="630.0507" z="146.51385" h="107"/>
+			<spot x="332.2682" y="644.8611" z="149.4619" h="107" />
+		</spawn>
+		<spawn npc_id="236084">
+			<spot x="550.3248" y="257.721" z="928.9482" h="44"/>
+		</spawn>
+		<spawn npc_id="236096">
+			<spot x="303.7546" y="772.0898" z="148.9878" h="107"/>
+			<spot x="350.0705" y="801.1112" z="145.08234" h="107"/>
+			<spot x="332.003" y="767.0048" z="147.39404" h="107"/>
+			<spot x="325.8028" y="810.7204" z="144.88486" h="107"/>
+		</spawn>
+		<spawn npc_id="236097">
+			<spot x="344.3712" y="781.9864" z="147.1589" h="107"/>
+			<spot x="339.2726" y="813.4456" z="145.39001" h="107"/>
+			<spot x="317.1256" y="766.0187" z="148.84357" h="107"/>
+		</spawn>
+		<!-- Boss -->
+		<spawn npc_id="236303">
+			<spot x="738.065" y="311.6064" z="910.6781" h="54"/>
+		</spawn>
+		<spawn npc_id="236304">
+			<spot x="805.3672" y="959.9803" z="792.0701" h="97"/>
+		</spawn>
+		<spawn npc_id="236305">
+			<spot x="331.1071" y="787.3261" z="147.7981" h="47"/>
+		</spawn>
+		<spawn npc_id="236306">
+			<spot x="624.6099" y="684.4963" z="522.0487" h="87"/>
+		</spawn>
+		<spawn npc_id="701061">
+			<spot x="802.805" y="964.878" z="792.102" static_id="395"/>
+		</spawn>
+		<spawn npc_id="701062">
+  			<spot x="783.405" y="972.037" z="792.129" static_id="396"/>
+		</spawn>
+		<spawn npc_id="701063">
+			<spot x="810.067" y="984.519" z="792.129" static_id="397"/>
+		</spawn>
+		<spawn npc_id="701064">
+			<spot x="822.484" y="957.660" z="792.129" static_id="398"/>
+		</spawn>
+		<spawn npc_id="701065">
+			<spot x="795.756" y="945.440" z="792.129" static_id="399"/>
+		</spawn>
+		<spawn npc_id="701075">
+			<spot x="1068.5" y="967.31" z="140.79163" static_id="323"/>
+		</spawn>
+		<spawn npc_id="701076">
+			<spot x="314.02197" y="572.53845" z="132.64743" static_id="322"/>
+		</spawn>
+		<spawn npc_id="701084">
+			<spot x="1063.56" y="875.89" z="84.172676" h="29"/>
+		</spawn>
+		<spawn npc_id="701115">
+			<spot x="985.7469" y="903.9288" z="763.18634" h="110"/>
+		</spawn>
+		<!-- Надгробие освобождения -->
+		<spawn npc_id="702673">
+			<spot x="964.17108" y="790.80273" z="734.0321" static_id="154"/>
+		</spawn>
+		<spawn npc_id="702674">
+			<spot x="962.91919" y="774.50684" z="734.02185" static_id="152"/>
+		</spawn>
+		<spawn npc_id="702675">
+			<spot x="941.74719" y="773.51227" z="733.87805" static_id="153"/>
+		</spawn>
+		<spawn npc_id="702690">
+			<spot x="988.46454" y="877.5047" z="762.55304" static_id="156"/>
+		</spawn>
+		<spawn npc_id="702691">
+			<spot x="1007.2947" y="895.98309" z="762.36981" static_id="155"/>
+		</spawn>
+		<spawn npc_id="702692">
+			<spot x="994.46106" y="900.66803" z="762.51782" static_id="309"/>
+		</spawn>
+		<!-- Chest -->
+		<spawn npc_id="702694">
+			<spot x="816.566" y="933.853" z="1207.4312" h="0"/>
+		</spawn>
+		<spawn npc_id="730436">
+			<spot x="587.540" y="561.328" z="923.446" static_id="279"/>
+		</spawn>
+		<spawn npc_id="730438">
+			<spot x="628.132" y="187.505" z="924.860" static_id="280"/>
+		</spawn>
+		<spawn npc_id="730439">
+			<spot x="766.685" y="327.520" z="910.577" static_id="277"/>
+		</spawn>
+		<spawn npc_id="730440">
+			<spot x="690.813" y="766.449" z="729.884" static_id="2"/>
+		</spawn>
+		<spawn npc_id="730441">
+			<spot x="829.653" y="904.918" z="784.287" static_id="146"/>
+		</spawn>
+		<spawn npc_id="730442">
+			<spot x="752.795" y="931.010" z="786.244" static_id="1"/>
+		</spawn>
+		<spawn npc_id="730444">
+			<spot x="448.866" y="842.577" z="163.840" static_id="106"/>
+		</spawn>
+		<spawn npc_id="730450">
+			<spot x="860.7228" y="946.1044" z="1206.7048" h="61"/>
+		</spawn>
+	</spawn_map>
+</spawns>

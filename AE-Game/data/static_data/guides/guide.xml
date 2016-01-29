@@ -1,0 +1,2237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 sp1 (http://www.altova.com) by ﻿Magenik (Ocean) -->
+<guides xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="guide.xsd">
+	<!-- Asmodians -->
+	<guide title="adventurers_guide2_asmo" level="2" race="ASMODIANS" rewardCount="6">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+Now you can increase your inventory :)			<br><br>]]></message>
+		<select>Enjoy Awesome-World Server</select>
+		<survey itemId="169630000" count="1"/>
+		<survey itemId="169630002" count="1"/>
+		<survey itemId="169630003" count="1"/>
+		<survey itemId="169630007" count="1"/>
+		<survey itemId="169640000" count="6"/>
+		<survey itemId="182400001" count="2000000"/>
+	</guide>
+	<guide title="adventurers_guide3_asmo" level="3" race="ASMODIANS" rewardCount="9">
+		<message><![CDATA[<BR><BR>
+			Greetings. You may not know me, but you will soon
+			enough. Perhaps I can offer some advice? Take or
+			leave it as you will, but either way, I suggest you listen.
+			You may already know that you can rest to regain lost
+			health, but there are also healing items that can restore
+			additional health as time passes. That gets you back in
+			the hunt much quicker! Try one sometime, and see for
+			yourself. In the meantime, try speaking to Kaindal at
+			Aldelle Village--he might have some work for you.
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~A friend
+			<br><br>]]></message>
+		<select>A friend, eh...?</select>
+		<survey itemId="164000250" count="100"/>
+		<survey itemId="164002116" count="100"/>
+		<survey itemId="164002117" count="100"/>
+		<survey itemId="164002118" count="100"/>
+		<survey itemId="164002168" count="100"/>
+		<survey itemId="164002169" count="100"/>
+		<survey itemId="164002170" count="1"/>
+		<survey itemId="162001035" count="100"/>
+		<survey itemId="162001036" count="100"/>
+	</guide>
+	<guide title="adventurers_guide4_asmo" level="4" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot
+			hold you any longer. Know that the Asmodians know
+			your name. Know that you are one of us. Know that we
+			are one with you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use
+			the steel of our spirit to strengthen your conviction.
+			The cowards will fall before you like Elyos flowers
+			under Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			A friend.
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="100200985" count="1"/>
+		<survey itemId="100001117" count="1"/>
+		<survey itemId="100600926" count="1"/>
+		<survey itemId="100100856" count="1"/>
+		<survey itemId="102000248" count="1"/>
+		<survey itemId="101800235" count="1"/>
+	</guide>
+	<guide title="adventurers_guide5_asmo" level="5" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot
+			hold you any longer. Know that the Asmodians know
+			your name. Know that you are one of us. Know that we
+			are one with you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use
+			the steel of our spirit to strengthen your conviction.
+			The cowards will fall before you like Elyos flowers
+			under Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			A friend.
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="114301188" count="1"/>
+		<survey itemId="114101182" count="1"/>
+		<survey itemId="114501142" count="1"/>
+	</guide>
+	<guide title="adventurers_guide6_asmo" level="6" race="ASMODIANS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+<br>Try out new Colors on your gears !!!	<br><br>]]></message>
+		<select>Enjoy Pure Aion Server</select>
+		<survey itemId="169230002" count="6"/>
+		<survey itemId="169230004" count="6"/>
+		<survey itemId="169230003" count="6"/>
+		<survey itemId="169230008" count="6"/>
+		<survey itemId="169230010" count="6"/>
+		<survey itemId="169230023" count="6"/>
+		<survey itemId="169231082" count="6"/>
+	</guide>
+	<guide title="adventurers_guide7_asmo" level="7" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Have you met Devalin near Anturoon Crossing and
+			Nalto near Dubaro Vine Canyon They have tasks that
+			you should take. As you have probably figured out by
+			now, healing items come in many forms. Some instantly
+			restore your health, others restore it over time. Some
+			affect magical capacity, and some affect both health
+			and mana. Keep that in mind. By now, we may have
+			already met. From this time frame, I can't be sure...I
+			apologize, this must be confusing. I will sign off for
+			now.
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~A friend
+			<br><br>]]></message>
+		<select>What on Atreia is he talking about?</select>
+		<survey itemId="162001007" count="200"/>
+		<survey itemId="162001008" count="200"/>
+	</guide>
+	<guide title="adventurers_guide8_asmo" level="8" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot
+			hold you any longer. Know that the Asmodians know
+			your name. Know that you are one of us. Know that we
+			are one with you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use
+			the steel of our spirit to strengthen your conviction.
+			The cowards will fall before you like Elyos flowers
+			under Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			A friend.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="187000033" count="1"/>
+		<survey itemId="188051302" count="10"/>
+		<survey itemId="182400001" count="1000000"/>
+	</guide>
+	<guide title="adventurers_guide13_asmo" level="13" race="ASMODIANS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			I'll get right to the point this time: Nerhel Gilungk of
+			Basfelt Village has a problem and will reward you
+			handsomely should you choose to assist. Perhaps you
+			could use a better weapon? Just a suggestion.
+			<Br><Br><Br><Br>
+			While I'm on the subject, have you encountered
+			Enchantment Stones yet Daevas use them to make
+			their weapons and armor more powerful. You might
+			want to look for them next time you're near a Trade
+			Broker. You can also draw Enchantment Stones from
+			weapons and armor you don't need by using Extraction
+			Tools bought from any General Goods Merchant. Just
+			remember that the item is destroyed in the process!
+			<Br><Br><Br><Br>
+			I hope you remember who's been helping you when
+			the time comes.... I will need your aid soon enough!
+			Make destiny yours!
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<select>Hmm, seems strong enough.</select>
+		<survey itemId="162001035" count="200"/>
+		<survey itemId="166000194" count="50"/>
+		<survey itemId="162002007" count="20"/>
+		<survey itemId="164000335" count="1"/>
+		<survey itemId="162001013" count="50"/>
+	</guide>
+	<guide title="adventurers_guide17.1_asmo" level="17" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164002112" count="1000"/>
+		<survey itemId="164002111" count="1000"/>
+		<survey itemId="164000280" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.2_asmo" level="17" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010000" count="100"/>
+		<survey itemId="167010001" count="100"/>
+		<survey itemId="167010002" count="100"/>
+		<survey itemId="167010003" count="100"/>
+		<survey itemId="167010004" count="100"/>
+		<survey itemId="167010005" count="100"/>
+		<survey itemId="167010006" count="100"/>
+		<survey itemId="167010007" count="100"/>
+		<survey itemId="167010008" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.3_asmo" level="17" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010009" count="100"/>
+		<survey itemId="167010010" count="100"/>
+		<survey itemId="167010011" count="100"/>
+		<survey itemId="167010012" count="100"/>
+		<survey itemId="167010013" count="100"/>
+		<survey itemId="167010014" count="100"/>
+		<survey itemId="167010015" count="100"/>
+		<survey itemId="167010016" count="100"/>
+		<survey itemId="167010017" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.4_asmo" level="17" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010018" count="100"/>
+		<survey itemId="167010019" count="100"/>
+		<survey itemId="167010020" count="100"/>
+		<survey itemId="167010021" count="100"/>
+		<survey itemId="167010022" count="100"/>
+		<survey itemId="167010023" count="100"/>
+		<survey itemId="167010024" count="100"/>
+		<survey itemId="167010025" count="100"/>
+		<survey itemId="167010026" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.5_asmo" level="17" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010027" count="100"/>
+		<survey itemId="167010028" count="100"/>
+		<survey itemId="167010029" count="100"/>
+		<survey itemId="167010030" count="100"/>
+		<survey itemId="167010031" count="100"/>
+		<survey itemId="167010032" count="100"/>
+		<survey itemId="167010033" count="100"/>
+		<survey itemId="167010034" count="100"/>
+		<survey itemId="167010035" count="100"/>
+	</guide>
+	<guide title="adventurers_guide18_asmo" level="18" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="169000009" count="10000"/>
+	</guide>
+	<guide title="adventurers_guide19_asmo" level="19" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past
+			cannot hold you any longer. Know that the
+			Asmodians know your name. Know that you are one
+			of us. Know that we are one with you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and
+			use the steel of our spirit to strengthen your
+			conviction. The cowards will fall before you like
+			Elyos flowers under Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="160010078" count="50"/>
+	</guide>
+	<guide title="adventurers_guide22_asmo" level="22" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="169620120" count="10"/>
+	</guide>
+	<guide title="adventurers_guide23_asmo" level="23" race="ASMODIANS" rewardCount="4">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="162000005" count="300"/>
+		<survey itemId="162000010" count="300"/>
+		<survey itemId="162001007" count="300"/>
+		<survey itemId="162001008" count="300"/>
+	</guide>
+	<guide title="adventurers_guide24_asmo" level="24" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide26.1_asmo" level="26" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164000079" count="1000"/>
+		<survey itemId="186000002" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide28_asmo" level="28" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="167000459" count="50"/>
+		<survey itemId="167000455" count="50"/>
+	</guide>
+	<guide title="adventurers_guide29.1_asmo" level="29" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121000790" count="1"/>
+		<survey itemId="121000791" count="1"/>
+		<survey itemId="123000899" count="1"/>
+		<survey itemId="123000900" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.2_asmo" level="29" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120000864" count="1"/>
+		<survey itemId="120000864" count="1"/>
+		<survey itemId="120000865" count="1"/>
+		<survey itemId="120000865" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.3_asmo" level="29" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122000910" count="1"/>
+		<survey itemId="122000910" count="1"/>
+		<survey itemId="122000911" count="1"/>
+		<survey itemId="122000911" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.4_asmo" level="29" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125001899" count="1"/>
+		<survey itemId="125001900" count="1"/>
+		<survey itemId="125001901" count="1"/>
+		<survey itemId="125001902" count="1"/>
+		<survey itemId="125003580" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.1_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110100996" count="1"/>
+		<survey itemId="110300945" count="1"/>
+		<survey itemId="110301617" count="1"/>
+		<survey itemId="110500913" count="1"/>
+		<survey itemId="110600893" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.2_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111100889" count="1"/>
+		<survey itemId="111300894" count="1"/>
+		<survey itemId="111301555" count="1"/>
+		<survey itemId="111500880" count="1"/>
+		<survey itemId="111600872" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.3_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112100847" count="1"/>
+		<survey itemId="112300845" count="1"/>
+		<survey itemId="112301496" count="1"/>
+		<survey itemId="112500832" count="1"/>
+		<survey itemId="112600847" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.4_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113100902" count="1"/>
+		<survey itemId="113300915" count="1"/>
+		<survey itemId="113301583" count="1"/>
+		<survey itemId="113500885" count="1"/>
+		<survey itemId="113600856" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.5_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114100928" count="1"/>
+		<survey itemId="114300949" count="1"/>
+		<survey itemId="114301621" count="1"/>
+		<survey itemId="114500892" count="1"/>
+		<survey itemId="114600851" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.6_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100000806" count="1"/>
+		<survey itemId="100100605" count="1"/>
+		<survey itemId="100200732" count="1"/>
+		<survey itemId="100500626" count="1"/>
+		<survey itemId="100600685" count="1"/>
+		<survey itemId="100900616" count="1"/>
+		<survey itemId="101300588" count="1"/>
+		<survey itemId="101500629" count="1"/>
+		<survey itemId="101700651" count="1"/>
+		<survey itemId="101800595" count="1"/>
+		<survey itemId="101900591" count="1"/>
+		<survey itemId="102000580" count="1"/>
+		<survey itemId="102000623" count="1"/>
+		<survey itemId="102100536" count="1"/>
+		<survey itemId="115000894" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.7_asmo" level="30" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100000806" count="1"/>
+		<survey itemId="100100605" count="1"/>
+		<survey itemId="100200732" count="1"/>
+		<survey itemId="100500626" count="1"/>
+		<survey itemId="100600685" count="1"/>
+		<survey itemId="100900616" count="1"/>
+		<survey itemId="101300588" count="1"/>
+		<survey itemId="101500629" count="1"/>
+		<survey itemId="101700651" count="1"/>
+		<survey itemId="101800595" count="1"/>
+		<survey itemId="101900591" count="1"/>
+		<survey itemId="102000580" count="1"/>
+		<survey itemId="102000623" count="1"/>
+		<survey itemId="102100536" count="1"/>
+		<survey itemId="115000894" count="1"/>
+	</guide>
+	<guide title="adventurers_guide32_asmo" level="32" race="ASMODIANS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="162001007" count="500"/>
+		<survey itemId="162001008" count="500"/>
+		<survey itemId="186000100" count="1000"/>
+		<survey itemId="166000194" count="100"/>
+		<survey itemId="166000194" count="100"/>
+	</guide>
+	<guide title="adventurers_guide33_asmo" level="33" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide34_asmo" level="34" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="190100051" count="1"/>
+		<survey itemId="190100108" count="1"/>
+		<survey itemId="190100127" count="1"/>
+		<survey itemId="190100128" count="1"/>
+		<survey itemId="190100136" count="1"/>
+		<survey itemId="190100139" count="1"/>
+		<survey itemId="190100143" count="1"/>
+	</guide>
+	<guide title="adventurers_guide36_asmo" level="36" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot hold
+			you any longer. Know that the Asmodians know your name.
+			Know that you are one of us. Know that we are one with
+			you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use the
+			steel of our spirit to strengthen your conviction. The
+			cowards will fall before you like Elyos flowers under
+			Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			A friend.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="162000049" count="500"/>
+	</guide>
+	<guide title="adventurers_guide39_asmo" level="39" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot hold
+			you any longer. Know that the Asmodians know your name.
+			Know that you are one of us. Know that we are one with
+			you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use the
+			steel of our spirit to strengthen your conviction. The
+			cowards will fall before you like Elyos flowers under
+			Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="160010014" count="50"/>
+	</guide>
+	<guide title="adventurers_guide40_asmo" level="40" race="ASMODIANS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			So you heve survived this far. I excepted you to, but i did
+			not expect you to reach these heights quite so quickly. I
+			am impressed, my friend! But, with each surpassed
+			milestone comes a slew of fresh challenges.
+			<br><br><br><br>
+			A ship known as the Steel Rake is careering through the
+			skies above as you read this. Its Shulack crew don't care
+			for either Elyos or Asmodians, and kidnap and torture you
+			kin on a daily basis. Stop them. Alternatively, you are now
+			ready to finish up your work in Morheim or take on the
+			Lower Abyss Treasure Rooms.
+			<br><br><br><br>
+			But combat isn't all that's available for you now, no! New
+			skills are ready to be unlocked, and you are now ready to
+			undertake the expert test in a profession of your choosing.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="162001007" count="1000"/>
+		<survey itemId="162001008" count="1000"/>
+		<survey itemId="160009016" count="1000"/>
+		<survey itemId="186000031" count="1000"/>
+		<survey itemId="186000030" count="1000"/>
+		<survey itemId="186000147" count="1000"/>
+		<survey itemId="186000096" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide41_asmo" level="41" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot hold
+			you any longer. Know that the Asmodians know your name.
+			Know that you are one of us. Know that we are one with
+			you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use the
+			steel of our spirit to strengthen your conviction. The
+			cowards will fall before you like Elyos flowers under
+			Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164020005" count="100"/>
+		<survey itemId="164000098" count="100"/>
+	</guide>
+	<guide title="adventurers_guide44_asmo" level="44" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Savor these moments, friend. This is the calm before
+			the storm, an opportunity for you to gather your
+			thoughts and your strength before destiny's grasp
+			again finds you. Soon the halls of Kromede's Trial will
+			be open for you to explore; soon you will walk in the
+			shoes of the poor woman you so brutally butchered in
+			the Fire Temple, and realize how she came to be
+			known as Morheim's most corrupt judge. Soon, but not
+			now.
+			<Br><Br><Br><Br>
+			I also see the potential for you to unlock further Divine
+			Point skills! As you no doubt know, these are some of
+			the most powerful skills in your arsenal.
+			<Br><Br><Br><Br>
+			I will contact you again soon. Be prepared.
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>I will do as you ask.</select>
+		<survey itemId="140000221" count="1"/>
+		<survey itemId="140000232" count="1"/>
+		<survey itemId="140000244" count="1"/>
+		<survey itemId="140000256" count="1"/>
+		<survey itemId="140000266" count="1"/>
+		<survey itemId="140000279" count="1"/>
+		<survey itemId="140000290" count="1"/>
+		<survey itemId="140000301" count="1"/>
+		<survey itemId="140000860" count="1"/>
+		<survey itemId="140000960" count="1"/>
+		<survey itemId="140001047" count="1"/>
+	</guide>
+	<guide title="adventurers_guide45_asmo" level="45" race="ASMODIANS" rewardCount="4">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot
+			hold you any longer. Know that the Asmodians know
+			your name. Know that you are one of us. Know that we
+			are one with you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use
+			the steel of our spirit to strengthen your conviction. The
+			cowards will fall before you like Elyos flowers under
+			Asmodian rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="160010104" count="25"/>
+		<survey itemId="160010109" count="25"/>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide46_asmo" level="46" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			No doubt you've heard of the Dredgion, even if you've
+			not seen it yet. It is a vile creation, a Balaur warship that
+			fills all with dread. I remember fighting the Dredgion for
+			years... every time my legion would grow smaller and
+			smaller. But now we know how to defeat it. You're ready
+			to try, friend.
+			<Br><Br><Br><Br>
+			You're also ready to enter the Adma Stronghold, and
+			fight against the undead fiends that occupy it's rotting
+			halls. Lord Lannock is a terrifying creature, a man so
+			powerful that even the shackles of death cannot
+			restrain him. You cannot defeat him alone; bring allies.
+			Lots of allies.
+			<Br><Br><Br><Br>
+			Be safe, my child. I will be watching you.
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<select>Lannock's head is mine.</select>
+		<survey itemId="186000010" count="5000"/>
+	</guide>
+	<guide title="adventurers_guide48_asmo" level="48" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			One good thing about this cell of mine is that I'm given
+			plenty of time to concentrate on making my little trinkets
+			and gifts for those of you I like. I've made this for you.
+			While you're checking it over, why not head over to the
+			BuBu Village and do some quests for those little furry
+			creatures? Maybe when you earn enough Kinah, you'll be
+			able to go back to Pandaemonium and pick up some new
+			skills too....
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<select>Thanks for the tip.</select>
+		<survey itemId="169621008" count="50"/>
+		<survey itemId="162000016" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide49_asmo" level="49" race="ASMODIANS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			Nearly there, friend. Destiny beckons just one more
+			step, and then a lifetime of opportunity will be
+			opened up to you! Balaurea... but no, you are not
+			there yet.
+			<br><br><br><br>
+			Keep struggling against our enemies. Fight harder
+			than ever before. Then you'll unlock everything.
+			Even access to the much lauded Fenris armor set.
+			This <a href="http://gameguide.na.aiononline.com/aion/Level+50+Daevonian+%E2%80%93+Fenris+%28Asmodian%29">guide</a> will show you how it is earned.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Munin
+			<br><br>]]></message>
+		<select>Fenris armor...</select>
+		<survey itemId="152014004" count="1000"/>
+		<survey itemId="152014009" count="1000"/>
+		<survey itemId="152014014" count="1000"/>
+		<survey itemId="152014019" count="1000"/>
+		<survey itemId="152014024" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide50_asmo" level="50" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Still marching on, aren't we? You've reached an
+			impressive milestone today, my friend. But as
+			before, the Asmodian does not dwell on what he has
+			done, but what there is to do. And there is plenty.
+			<Br><Br><Br><Br>
+			Poeta is a region of the sun-filled Elyos lands. It is a
+			serene place, a pedestal on which many Elyos
+			Daevas find their wings. But there is a second version
+			of Poeta too, which is not of our time. This place,
+			Dark Poeta, can be accessed now. Speak with
+			Kaoranerk if you're interested. Alternatively, you can
+			enter the Adma Stronghold again and earn yourself
+			some of the finest wings I know of. Then there is
+			another land entirely for you to explore: Balaurea. It
+			has only recently been discovered, so there is plenty
+			of work to be done there. Similarly, our scientists
+			have found a new artifact floating within a
+			gargantuan chunk of Aether in the Abyss. This place
+			is known as the Abyssal Splinter, and can be entered
+			provided we have control of the Divine Fortress.
+			However, the challenge there is unlike anything you
+			will have faced before. Be safe.
+			<Br><Br><Br><Br>
+			Then there are other tasks you can engage in, such
+			as unlocking further Stigma slots, or gaining mastery
+			in your chosen craft profession! So much to do... at
+			least you don't have to worry about running out of
+			time, hey?
+			<Br><Br><Br><Br>
+			As ever, I have something for you! Thank me later.
+			<Br><Br><Br><Br>
+			~Munin
+			<Br><BR>]]></message>
+		<select>What should I do first?</select>
+		<survey itemId="186000105" count="500"/>
+	</guide>
+	<guide title="adventurers_guide52_asmo" level="52" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			I see Balaurea has been treating you well, my friend!
+			I have not seen Gelkmaros myself just yet, but my network of
+			contacts has provided me with more than enough information
+			to help you along your path.
+			<Br><Br><Br><Br>
+			Taloc is, by all accounts, the greatest Elim that ever existed.
+			He towers above the tallest building, such is the power of the
+			Aether tangled in his mighty roots.
+			But the Aether has also corrupted the creatures within Taloc.
+			They have been driven insane by their lust for Taloc's sap,
+			and the great Elim is now in desperate need of help.
+			<Br><Br><Br><Br>
+			I have also heard of a place in Gelkmaros called the Udas Temple.
+			Rumor has it that the two areas there are extremely difficult,
+			and that you will need to work with your fellow Daevas to get
+			through them alive. Similarly, the Archons in Balaurea have
+			discovered a second Dredgion. It needs destroying.
+			<Br><Br><Br><Br>
+			As Last but not least, I believe you would do well to pay Garath
+			in Gelkmaros Fortress a visit.
+			He will be able to help you unlock new power!
+			<Br><Br><Br><Br>
+			Be well, friend. I will be watching your progress.
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<select>Thank you, Munin.</select>
+		<survey itemId="186000019" count="5000"/>
+	</guide>
+	<guide title="adventurers_guide59.1_asmo" level="59" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121001151" count="1"/>
+		<survey itemId="121001152" count="1"/>
+		<survey itemId="123001205" count="1"/>
+		<survey itemId="123001206" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.2_asmo" level="59" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120001233" count="1"/>
+		<survey itemId="120001233" count="1"/>
+		<survey itemId="120001234" count="1"/>
+		<survey itemId="120001234" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.3_asmo" level="59" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122001392" count="1"/>
+		<survey itemId="122001392" count="1"/>
+		<survey itemId="122001393" count="1"/>
+		<survey itemId="122001393" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.4_asmo" level="59" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125002880" count="1"/>
+		<survey itemId="125002881" count="1"/>
+		<survey itemId="125002882" count="1"/>
+		<survey itemId="125002883" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.1_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110101413" count="1"/>
+		<survey itemId="110301340" count="1"/>
+		<survey itemId="110501318" count="1"/>
+		<survey itemId="110601295" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.2_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111101290" count="1"/>
+		<survey itemId="111301285" count="1"/>
+		<survey itemId="111501279" count="1"/>
+		<survey itemId="111601260" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.3_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112101245" count="1"/>
+		<survey itemId="112301229" count="1"/>
+		<survey itemId="112501222" count="1"/>
+		<survey itemId="112601240" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.4_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113101307" count="1"/>
+		<survey itemId="113301309" count="1"/>
+		<survey itemId="113501294" count="1"/>
+		<survey itemId="113601249" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.5_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114101336" count="1"/>
+		<survey itemId="114301342" count="1"/>
+		<survey itemId="114501300" count="1"/>
+		<survey itemId="114601244" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.6_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001339" count="1"/>
+		<survey itemId="100201184" count="1"/>
+		<survey itemId="100101022" count="1"/>
+		<survey itemId="100901028" count="1"/>
+		<survey itemId="101300978" count="1"/>
+		<survey itemId="101501050" count="1"/>
+		<survey itemId="101701060" count="1"/>
+		<survey itemId="101800854" count="1"/>
+		<survey itemId="101900852" count="1"/>
+		<survey itemId="100601088" count="1"/>
+		<survey itemId="100501035" count="1"/>
+		<survey itemId="102000886" count="1"/>
+		<survey itemId="102100746" count="1"/>
+		<survey itemId="115001381" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.7_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001339" count="1"/>
+		<survey itemId="100201184" count="1"/>
+		<survey itemId="100101022" count="1"/>
+		<survey itemId="100901028" count="1"/>
+		<survey itemId="101300978" count="1"/>
+		<survey itemId="101501050" count="1"/>
+		<survey itemId="101701060" count="1"/>
+		<survey itemId="101800854" count="1"/>
+		<survey itemId="101900852" count="1"/>
+		<survey itemId="100601088" count="1"/>
+		<survey itemId="100501035" count="1"/>
+		<survey itemId="102000886" count="1"/>
+		<survey itemId="102100746" count="1"/>
+		<survey itemId="115001381" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.1_asmo" level="64" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121001296" count="1"/>
+		<survey itemId="121001297" count="1"/>
+		<survey itemId="123001351" count="1"/>
+		<survey itemId="123001352" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.2_asmo" level="64" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120001420" count="1"/>
+		<survey itemId="120001420" count="1"/>
+		<survey itemId="120001421" count="1"/>
+		<survey itemId="120001421" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.3_asmo" level="64" race="ASMODIANS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122001565" count="1"/>
+		<survey itemId="122001565" count="1"/>
+		<survey itemId="122001566" count="1"/>
+		<survey itemId="122001566" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.4_asmo" level="64" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125003366" count="1"/>
+		<survey itemId="125003367" count="1"/>
+		<survey itemId="125003369" count="1"/>
+		<survey itemId="125003368" count="1"/>
+		<survey itemId="125003596" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.1_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110101572" count="1"/>
+		<survey itemId="110301469" count="1"/>
+		<survey itemId="110301632" count="1"/>
+		<survey itemId="110501430" count="1"/>
+		<survey itemId="110601405" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.2_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111101417" count="1"/>
+		<survey itemId="111301409" count="1"/>
+		<survey itemId="111501387" count="1"/>
+		<survey itemId="111301573" count="1"/>
+		<survey itemId="111601367" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.3_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112101371" count="1"/>
+		<survey itemId="112301353" count="1"/>
+		<survey itemId="112501329" count="1"/>
+		<survey itemId="112301512" count="1"/>
+		<survey itemId="112601349" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.4_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113101435" count="1"/>
+		<survey itemId="113301434" count="1"/>
+		<survey itemId="113501404" count="1"/>
+		<survey itemId="113301598" count="1"/>
+		<survey itemId="113601357" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.5_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114101464" count="1"/>
+		<survey itemId="114301470" count="1"/>
+		<survey itemId="114501412" count="1"/>
+		<survey itemId="114301637" count="1"/>
+		<survey itemId="114601355" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.6_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001513" count="1"/>
+		<survey itemId="100101160" count="1"/>
+		<survey itemId="100201324" count="1"/>
+		<survey itemId="100501166" count="1"/>
+		<survey itemId="100601248" count="1"/>
+		<survey itemId="100901176" count="1"/>
+		<survey itemId="101301111" count="1"/>
+		<survey itemId="101501192" count="1"/>
+		<survey itemId="101701210" count="1"/>
+		<survey itemId="101800972" count="1"/>
+		<survey itemId="101900959" count="1"/>
+		<survey itemId="102001015" count="1"/>
+		<survey itemId="102100799" count="1"/>
+		<survey itemId="115001561" count="1"/>
+		<survey itemId="115001562" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.7_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001513" count="1"/>
+		<survey itemId="100101160" count="1"/>
+		<survey itemId="100201324" count="1"/>
+		<survey itemId="100501166" count="1"/>
+		<survey itemId="100601248" count="1"/>
+		<survey itemId="100901176" count="1"/>
+		<survey itemId="101301111" count="1"/>
+		<survey itemId="101501192" count="1"/>
+		<survey itemId="101701210" count="1"/>
+		<survey itemId="101800972" count="1"/>
+		<survey itemId="101900959" count="1"/>
+		<survey itemId="102001015" count="1"/>
+		<survey itemId="102100799" count="1"/>
+		<survey itemId="115001561" count="1"/>
+		<survey itemId="115001562" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.8_asmo" level="65" race="ASMODIANS" rewardCount="17">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<select>Welcome to Awesome World Server and enjoy your stay ! have fun.</select>
+		<survey itemId="168000178" count="5"/>
+		<survey itemId="168000179" count="5"/>
+		<survey itemId="168000180" count="5"/>
+		<survey itemId="168000181" count="5"/>
+		<survey itemId="168000182" count="5"/>
+		<survey itemId="168000183" count="5"/>
+		<survey itemId="168000184" count="5"/>
+		<survey itemId="168000185" count="5"/>
+		<survey itemId="168000186" count="5"/>
+		<survey itemId="168000187" count="5"/>
+		<survey itemId="168000188" count="5"/>
+		<survey itemId="168000189" count="5"/>
+		<survey itemId="168000190" count="5"/>
+		<survey itemId="168000191" count="5"/>
+		<survey itemId="168000192" count="5"/>
+		<survey itemId="168000193" count="5"/>
+		<survey itemId="168000194" count="5"/>
+	</guide>
+	<guide title="adventurers_guide65.9_asmo" level="65" race="ASMODIANS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="187100017" count="1"/>
+		<survey itemId="187100018" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.10_asmo" level="65" race="ASMODIANS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="166030008" count="100"/>
+		<survey itemId="166030005" count="50"/>
+		<survey itemId="166500002" count="50"/>
+		<survey itemId="166150020" count="20"/>
+		<survey itemId="166150021" count="20"/>
+		<survey itemId="166000195" count="100"/>
+		<survey itemId="166020000" count="50"/>
+	</guide>
+	<guide title="adventurers_guide65.11_asmo" level="65" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010140" count="400"/>
+		<survey itemId="167010141" count="400"/>
+		<survey itemId="167010142" count="400"/>
+		<survey itemId="167010143" count="400"/>
+		<survey itemId="167010144" count="400"/>
+		<survey itemId="167010145" count="400"/>
+		<survey itemId="167010146" count="400"/>
+		<survey itemId="167010147" count="400"/>
+		<survey itemId="167010148" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.12_asmo" level="65" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010149" count="400"/>
+		<survey itemId="167010150" count="400"/>
+		<survey itemId="167010151" count="400"/>
+		<survey itemId="167010152" count="400"/>
+		<survey itemId="167010153" count="400"/>
+		<survey itemId="167010154" count="400"/>
+		<survey itemId="167010155" count="400"/>
+		<survey itemId="167010156" count="400"/>
+		<survey itemId="167010157" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.13_asmo" level="65" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010158" count="400"/>
+		<survey itemId="167010159" count="400"/>
+		<survey itemId="167010160" count="400"/>
+		<survey itemId="167010161" count="400"/>
+		<survey itemId="167010162" count="400"/>
+		<survey itemId="167010163" count="400"/>
+		<survey itemId="167010164" count="400"/>
+		<survey itemId="167010165" count="400"/>
+		<survey itemId="167010166" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.14_asmo" level="65" race="ASMODIANS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010137" count="400"/>
+		<survey itemId="167010138" count="400"/>
+		<survey itemId="167010139" count="400"/>
+		<survey itemId="167010174" count="400"/>
+		<survey itemId="167010175" count="400"/>
+		<survey itemId="167010176" count="400"/>
+		<survey itemId="167010177" count="400"/>
+		<survey itemId="167010178" count="400"/>
+		<survey itemId="167010179" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.15_asmo" level="65" race="ASMODIANS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="186000242" count="3000"/>
+		<survey itemId="187000121" count="1"/>
+		<survey itemId="187050019" count="1"/>
+		<survey itemId="187050026" count="1"/>
+		<survey itemId="187060103" count="1"/>
+		<survey itemId="187060161" count="1"/>
+		<survey itemId="187060162" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.16_asmo" level="65" race="ASMODIANS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="188052831" count="6"/>
+		<survey itemId="188052830" count="2"/>
+		<survey itemId="162000124" count="1000"/>
+		<survey itemId="162000131" count="1"/>
+		<survey itemId="162000121" count="1000"/>
+		<survey itemId="162000125" count="1000"/>
+		<survey itemId="182400001" count="50000000"/>
+	</guide>
+	<!-- Elyos -->
+	<guide title="adventurers_guide2_ely" level="2" race="ELYOS" rewardCount="6">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+Now you can increase your inventory :)			<br><br>]]></message>
+		<select>Enjoy Pure Aion Server</select>
+		<survey itemId="169630000" count="1"/>
+		<survey itemId="169630002" count="1"/>
+		<survey itemId="169630003" count="1"/>
+		<survey itemId="169630007" count="1"/>
+		<survey itemId="169640000" count="6"/>
+		<survey itemId="182400001" count="2000000"/>
+	</guide>
+	<guide title="adventurers_guide3_ely" level="3" race="ELYOS" rewardCount="9">
+		<message><![CDATA[<BR><BR>
+			Greetings. You may not know me, but you will soon
+			enough. Perhaps I can offer some advice? Take or
+			leave it as you will, but either way, I suggest you listen.
+			You may already know that you can rest to regain lost
+			health, but there are also healing items that can restore
+			additional health as time passes. That gets you back in
+			the hunt much quicker! Try one sometime, and see for
+			yourself. In the meantime, try speaking to Kaindal at
+			Aldelle Village--he might have some work for you.
+			<Br><Br><Br><Br>
+			Until next time,
+			<Br><Br><Br><Br>
+			~A friend
+			<br><br>]]></message>
+		<select>A friend, eh...?</select>
+		<survey itemId="164000250" count="100"/>
+		<survey itemId="164002116" count="100"/>
+		<survey itemId="164002117" count="100"/>
+		<survey itemId="164002118" count="100"/>
+		<survey itemId="164002168" count="100"/>
+		<survey itemId="164002169" count="100"/>
+		<survey itemId="164002044" count="1"/>
+		<survey itemId="162001035" count="100"/>
+		<survey itemId="162001036" count="100"/>
+	</guide>
+	<guide title="adventurers_guide4_ely" level="4" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Another lesson learned, another table turned. You have
+			done well, my friend. The Seraphim Lords view you as
+			a beacon of hope for the Elyos people, and watch your
+			every step with an ever-increasing sense of pride.
+			<br><br>
+			Be well, child. Enjoy the gifts you have been blessed
+			with.
+			<br><br>
+			A friend.
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100200985" count="1"/>
+		<survey itemId="100001117" count="1"/>
+		<survey itemId="100600926" count="1"/>
+		<survey itemId="100100856" count="1"/>
+		<survey itemId="102000248" count="1"/>
+		<survey itemId="101800235" count="1"/>
+	</guide>
+	<guide title="adventurers_guide5_ely" level="5" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Young one, you can link yourself to a new Bind Point at
+			Melponeh's Campsite& not too far from here. It is a
+			perilous journey there, so take this with you. It will help
+			you along your journey.
+			<Br><Br><Br><Br>
+			Be well, child.
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>Thank you for your guidance.</select>
+		<survey itemId="114301188" count="1"/>
+		<survey itemId="114101182" count="1"/>
+		<survey itemId="114501142" count="1"/>
+	</guide>
+	<guide title="adventurers_guide6_ely" level="6" race="ELYOS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+<br>Try out new Colors on your gears !!!	<br><br>]]></message>
+		<select>Enjoy Pure Aion Server</select>
+		<survey itemId="169230002" count="6"/>
+		<survey itemId="169230004" count="6"/>
+		<survey itemId="169230003" count="6"/>
+		<survey itemId="169230008" count="6"/>
+		<survey itemId="169230010" count="6"/>
+		<survey itemId="169230023" count="6"/>
+		<survey itemId="169231082" count="6"/>
+	</guide>
+	<guide title="adventurers_guide7_ely" level="7" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Another lesson learned, another table turned. You have
+			done well, my friend. The Seraphim Lords view you as
+			a beacon of hope for the Elyos people, and watch your
+			every step with an ever-increasing sense of pride.
+			<br><br>
+			Be well, child. Enjoy the gifts you have been blessed
+			with.
+			<br><br>
+			A friend.
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="162001007" count="200"/>
+		<survey itemId="162001008" count="200"/>
+	</guide>
+	<guide title="adventurers_guide8_ely" level="8" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Greetings, youngling. You have come a long way since
+			you first opened your eyes. I speak to you now
+			because I sense you will soon find your way to the
+			Kabarah Strip Mine and the Agaric Spore Road...and
+			one step closer to your truth. Be wary as well as open,
+			child, for you may meet a familiar face on an unfamiliar
+			road.
+			<br><br>
+			Farewell for now.
+			<br><br>]]></message>
+		<select>I will be wary and open.</select>
+		<survey itemId="187000033" count="1"/>
+		<survey itemId="188051301" count="10"/>
+		<survey itemId="182400001" count="1000000"/>
+	</guide>
+	<guide title="adventurers_guide13_ely" level="13" race="ELYOS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="162001035" count="200"/>
+		<survey itemId="166000194" count="50"/>
+		<survey itemId="162002007" count="20"/>
+		<survey itemId="164000335" count="1"/>
+		<survey itemId="162001013" count="50"/>
+	</guide>
+	<guide title="adventurers_guide17.1_ely" level="17" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="164002112" count="1000"/>
+		<survey itemId="164002111" count="1000"/>
+		<survey itemId="164000280" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.2_ely" level="17" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select one bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010000" count="100"/>
+		<survey itemId="167010001" count="100"/>
+		<survey itemId="167010002" count="100"/>
+		<survey itemId="167010003" count="100"/>
+		<survey itemId="167010004" count="100"/>
+		<survey itemId="167010005" count="100"/>
+		<survey itemId="167010006" count="100"/>
+		<survey itemId="167010007" count="100"/>
+		<survey itemId="167010008" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.3_ely" level="17" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select one bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010009" count="100"/>
+		<survey itemId="167010010" count="100"/>
+		<survey itemId="167010011" count="100"/>
+		<survey itemId="167010012" count="100"/>
+		<survey itemId="167010013" count="100"/>
+		<survey itemId="167010014" count="100"/>
+		<survey itemId="167010015" count="100"/>
+		<survey itemId="167010016" count="100"/>
+		<survey itemId="167010017" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.4_ely" level="17" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select one bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010018" count="100"/>
+		<survey itemId="167010019" count="100"/>
+		<survey itemId="167010020" count="100"/>
+		<survey itemId="167010021" count="100"/>
+		<survey itemId="167010022" count="100"/>
+		<survey itemId="167010023" count="100"/>
+		<survey itemId="167010024" count="100"/>
+		<survey itemId="167010025" count="100"/>
+		<survey itemId="167010026" count="100"/>
+	</guide>
+	<guide title="adventurers_guide17.5_ely" level="17" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select one bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010027" count="100"/>
+		<survey itemId="167010028" count="100"/>
+		<survey itemId="167010029" count="100"/>
+		<survey itemId="167010030" count="100"/>
+		<survey itemId="167010031" count="100"/>
+		<survey itemId="167010032" count="100"/>
+		<survey itemId="167010033" count="100"/>
+		<survey itemId="167010034" count="100"/>
+		<survey itemId="167010035" count="100"/>
+	</guide>
+	<guide title="adventurers_guide18_ely" level="18" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="169000011" count="10000"/>
+	</guide>
+	<guide title="adventurers_guide19_ely" level="19" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="160010077" count="50"/>
+	</guide>
+	<guide title="adventurers_guide22_ely" level="22" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="169620120" count="10"/>
+	</guide>
+	<guide title="adventurers_guide23_ely" level="23" race="ELYOS" rewardCount="4">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="162000005" count="300"/>
+		<survey itemId="162000010" count="300"/>
+		<survey itemId="162001007" count="300"/>
+		<survey itemId="162001008" count="300"/>
+	</guide>
+	<guide title="adventurers_guide24_ely" level="24" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide26_ely" level="26" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="164000079" count="1000"/>
+		<survey itemId="186000002" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide28_ely" level="28" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Another lesson learned, another table turned. You have
+			done well, my friend. The Seraphim Lords view you as
+			a beacon of hope for the Elyos people, and watch your
+			every step with an ever-increasing sense of pride.
+			<br><br>
+			Be well, child. Enjoy the gifts you have been blessed
+			with.
+			<br><br>
+			~Pernos
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="167000459" count="50"/>
+		<survey itemId="167000455" count="50"/>
+	</guide>
+	<guide title="adventurers_guide29.1_ely" level="29" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121000790" count="1"/>
+		<survey itemId="121000791" count="1"/>
+		<survey itemId="123000899" count="1"/>
+		<survey itemId="123000900" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.2_ely" level="29" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120000864" count="1"/>
+		<survey itemId="120000864" count="1"/>
+		<survey itemId="120000865" count="1"/>
+		<survey itemId="120000865" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.3_ely" level="29" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122000910" count="1"/>
+		<survey itemId="122000910" count="1"/>
+		<survey itemId="122000911" count="1"/>
+		<survey itemId="122000911" count="1"/>
+	</guide>
+	<guide title="adventurers_guide29.4_ely" level="29" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125001899" count="1"/>
+		<survey itemId="125001900" count="1"/>
+		<survey itemId="125001901" count="1"/>
+		<survey itemId="125001902" count="1"/>
+		<survey itemId="125003580" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.1_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110100996" count="1"/>
+		<survey itemId="110300945" count="1"/>
+		<survey itemId="110301617" count="1"/>
+		<survey itemId="110500913" count="1"/>
+		<survey itemId="110600893" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.2_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111100889" count="1"/>
+		<survey itemId="111300894" count="1"/>
+		<survey itemId="111301555" count="1"/>
+		<survey itemId="111500880" count="1"/>
+		<survey itemId="111600872" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.3_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112100847" count="1"/>
+		<survey itemId="112300845" count="1"/>
+		<survey itemId="112301496" count="1"/>
+		<survey itemId="112500832" count="1"/>
+		<survey itemId="112600847" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.4_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113100902" count="1"/>
+		<survey itemId="113300915" count="1"/>
+		<survey itemId="113301583" count="1"/>
+		<survey itemId="113500885" count="1"/>
+		<survey itemId="113600856" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.5_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114100928" count="1"/>
+		<survey itemId="114300949" count="1"/>
+		<survey itemId="114301621" count="1"/>
+		<survey itemId="114500892" count="1"/>
+		<survey itemId="114600851" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.6_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100000806" count="1"/>
+		<survey itemId="100100605" count="1"/>
+		<survey itemId="100200732" count="1"/>
+		<survey itemId="100500626" count="1"/>
+		<survey itemId="100600685" count="1"/>
+		<survey itemId="100900616" count="1"/>
+		<survey itemId="101300588" count="1"/>
+		<survey itemId="101500629" count="1"/>
+		<survey itemId="101700651" count="1"/>
+		<survey itemId="101800595" count="1"/>
+		<survey itemId="101900591" count="1"/>
+		<survey itemId="102000580" count="1"/>
+		<survey itemId="102000623" count="1"/>
+		<survey itemId="102100536" count="1"/>
+		<survey itemId="115000894" count="1"/>
+	</guide>
+	<guide title="adventurers_guide30.7_ely" level="30" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100000806" count="1"/>
+		<survey itemId="100100605" count="1"/>
+		<survey itemId="100200732" count="1"/>
+		<survey itemId="100500626" count="1"/>
+		<survey itemId="100600685" count="1"/>
+		<survey itemId="100900616" count="1"/>
+		<survey itemId="101300588" count="1"/>
+		<survey itemId="101500629" count="1"/>
+		<survey itemId="101700651" count="1"/>
+		<survey itemId="101800595" count="1"/>
+		<survey itemId="101900591" count="1"/>
+		<survey itemId="102000580" count="1"/>
+		<survey itemId="102000623" count="1"/>
+		<survey itemId="102100536" count="1"/>
+		<survey itemId="115000894" count="1"/>
+	</guide>
+	<guide title="adventurers_guide32_ely" level="32" race="ELYOS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			I trust you've heard of Tigraki Island by now? It is a
+			secret place, hidden far from sight and visited by so
+			few. You can now go there and work with the resident
+			Shugo creatures. They will undoubtedly reward you
+			well for your time. While you're there you'll have ample
+			opportunity to expand your cube space, too. Oh, you
+			may want to make sure you have plenty of flight
+			potions for your journey. I have heard of countless
+			Daevas falling to their death on the way.
+			<Br><Br><Br><Br>
+			Another gift for you! Use it well.
+			<Br><Br><Br><Br>
+			~Pernos
+			<br><br>]]></message>
+		<select>Tigraki Island...</select>
+		<survey itemId="162001007" count="500"/>
+		<survey itemId="162001008" count="500"/>
+		<survey itemId="186000100" count="1000"/>
+		<survey itemId="166000194" count="100"/>
+		<survey itemId="166000194" count="100"/>
+	</guide>
+	<guide title="adventurers_guide33_ely" level="33" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide34_ely" level="34" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="190100051" count="1"/>
+		<survey itemId="190100108" count="1"/>
+		<survey itemId="190100127" count="1"/>
+		<survey itemId="190100128" count="1"/>
+		<survey itemId="190100136" count="1"/>
+		<survey itemId="190100139" count="1"/>
+		<survey itemId="190100143" count="1"/>
+	</guide>
+	<guide title="adventurers_guide36_ely" level="36" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="162000049" count="500"/>
+	</guide>
+	<guide title="adventurers_guide39_ely" level="39" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			So try as they might, the shackles of your past cannot hold
+			you any longer. Know that the Elyos know your name.
+			Know that you are one of us. Know that we are one with
+			you. We are kin.
+			<br><br><br><br>
+			Walk strong. Let blood boil within your veins, and use the
+			steel of our spirit to strengthen your conviction. The
+			cowards will fall before you like Asmodians flowers under
+			Elyos rain.
+			<br><br><br><br>
+			Blood for blood!
+			<br><br><br><br>
+			~Pernon.
+			<br><br>]]></message>
+		<select>Blood for blood!</select>
+		<survey itemId="160010013" count="50"/>
+	</guide>
+	<guide title="adventurers_guide40_ely" level="40" race="ELYOS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="162001007" count="1000"/>
+		<survey itemId="162001008" count="1000"/>
+		<survey itemId="160009014" count="1000"/>
+		<survey itemId="186000031" count="1000"/>
+		<survey itemId="186000030" count="1000"/>
+		<survey itemId="186000147" count="1000"/>
+		<survey itemId="186000096" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide41_ely" level="41" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="164020005" count="100"/>
+		<survey itemId="164000097" count="100"/>
+	</guide>
+	<guide title="adventurers_guide44_ely" level="44" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Savor these moments, friend. This is the calm before
+			the storm, an opportunity for you to gather your
+			thoughts and your strength before destiny's grasp
+			again finds you. Soon the halls of Kromede's Trial will
+			be open for you to explore; soon you will walk in the
+			shoes of the poor woman you so brutally butchered in
+			the Fire Temple, and realize how she came to be
+			known as Morheim's most corrupt judge. Soon, but not
+			now.
+			<Br><Br><Br><Br>
+			I also see the potential for you to unlock further Divine
+			Point skills! As you no doubt know, these are some of
+			the most powerful skills in your arsenal.
+			<Br><Br><Br><Br>
+			I will contact you again soon. Be prepared.
+			<Br><Br><Br><Br>
+			~Munin
+			<br><br>]]></message>
+		<reward_info>Please select one item.</reward_info>
+		<select>I will do as you ask.</select>
+		<survey itemId="140000221" count="1"/>
+		<survey itemId="140000232" count="1"/>
+		<survey itemId="140000244" count="1"/>
+		<survey itemId="140000256" count="1"/>
+		<survey itemId="140000266" count="1"/>
+		<survey itemId="140000279" count="1"/>
+		<survey itemId="140000290" count="1"/>
+		<survey itemId="140000301" count="1"/>
+		<survey itemId="140000860" count="1"/>
+		<survey itemId="140000960" count="1"/>
+		<survey itemId="140001047" count="1"/>
+	</guide>
+	<guide title="adventurers_guide45_ely" level="45" race="ELYOS" rewardCount="4">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="160010103" count="25"/>
+		<survey itemId="160010109" count="25"/>
+		<survey itemId="164000073" count="1000"/>
+		<survey itemId="164000076" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide46_ely" level="46" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="186000005" count="5000"/>
+	</guide>
+	<guide title="adventurers_guide48_ely" level="48" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="169621012" count="50"/>
+		<survey itemId="162000016" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide49_ely" level="49" race="ELYOS" rewardCount="5">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="152014004" count="1000"/>
+		<survey itemId="152014009" count="1000"/>
+		<survey itemId="152014014" count="1000"/>
+		<survey itemId="152014019" count="1000"/>
+		<survey itemId="152014024" count="1000"/>
+	</guide>
+	<guide title="adventurers_guide50_ely" level="50" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="186000101" count="500"/>
+	</guide>
+	<guide title="adventurers_guide52_ely" level="52" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<select>Faith and arms!</select>
+		<survey itemId="186000018" count="5000"/>
+	</guide>
+	<guide title="adventurers_guide59.1_ely" level="59" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121001151" count="1"/>
+		<survey itemId="121001152" count="1"/>
+		<survey itemId="123001205" count="1"/>
+		<survey itemId="123001206" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.2_ely" level="59" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120001233" count="1"/>
+		<survey itemId="120001233" count="1"/>
+		<survey itemId="120001234" count="1"/>
+		<survey itemId="120001234" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.3_ely" level="59" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122001392" count="1"/>
+		<survey itemId="122001392" count="1"/>
+		<survey itemId="122001393" count="1"/>
+		<survey itemId="122001393" count="1"/>
+	</guide>
+	<guide title="adventurers_guide59.4_ely" level="59" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125002880" count="1"/>
+		<survey itemId="125002881" count="1"/>
+		<survey itemId="125002882" count="1"/>
+		<survey itemId="125002883" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.1_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110101413" count="1"/>
+		<survey itemId="110301340" count="1"/>
+		<survey itemId="110301605" count="1"/>
+		<survey itemId="110501318" count="1"/>
+		<survey itemId="110601295" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.2_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111101290" count="1"/>
+		<survey itemId="111301285" count="1"/>
+		<survey itemId="111301543" count="1"/>
+		<survey itemId="111501279" count="1"/>
+		<survey itemId="111601260" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.3_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112101245" count="1"/>
+		<survey itemId="112301229" count="1"/>
+		<survey itemId="112301484" count="1"/>
+		<survey itemId="112501222" count="1"/>
+		<survey itemId="112601240" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.4_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113101307" count="1"/>
+		<survey itemId="113301309" count="1"/>
+		<survey itemId="113301571" count="1"/>
+		<survey itemId="113501294" count="1"/>
+		<survey itemId="113601249" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.5_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114101336" count="1"/>
+		<survey itemId="114301342" count="1"/>
+		<survey itemId="114301609" count="1"/>
+		<survey itemId="114501300" count="1"/>
+		<survey itemId="114601244" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.6_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001339" count="1"/>
+		<survey itemId="100101022" count="1"/>
+		<survey itemId="100201184" count="1"/>
+		<survey itemId="100501035" count="1"/>
+		<survey itemId="100601088" count="1"/>
+		<survey itemId="100901028" count="1"/>
+		<survey itemId="101300978" count="1"/>
+		<survey itemId="101501050" count="1"/>
+		<survey itemId="101701060" count="1"/>
+		<survey itemId="101800854" count="1"/>
+		<survey itemId="101900852" count="1"/>
+		<survey itemId="102000886" count="1"/>
+		<survey itemId="102100746" count="1"/>
+		<survey itemId="115001381" count="1"/>
+	</guide>
+	<guide title="adventurers_guide60.7_ely" level="60" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001339" count="1"/>
+		<survey itemId="100101022" count="1"/>
+		<survey itemId="100201184" count="1"/>
+		<survey itemId="100501035" count="1"/>
+		<survey itemId="100601088" count="1"/>
+		<survey itemId="100901028" count="1"/>
+		<survey itemId="101300978" count="1"/>
+		<survey itemId="101501050" count="1"/>
+		<survey itemId="101701060" count="1"/>
+		<survey itemId="101800854" count="1"/>
+		<survey itemId="101900852" count="1"/>
+		<survey itemId="102000886" count="1"/>
+		<survey itemId="102100746" count="1"/>
+		<survey itemId="115001381" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.1_ely" level="64" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="121001296" count="1"/>
+		<survey itemId="121001297" count="1"/>
+		<survey itemId="123001351" count="1"/>
+		<survey itemId="123001352" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.2_ely" level="64" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="120001420" count="1"/>
+		<survey itemId="120001420" count="1"/>
+		<survey itemId="120001421" count="1"/>
+		<survey itemId="120001421" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.3_ely" level="64" race="ELYOS" rewardCount="2">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Hold the Ctrl key to select multiple items.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="122001565" count="1"/>
+		<survey itemId="122001565" count="1"/>
+		<survey itemId="122001566" count="1"/>
+		<survey itemId="122001566" count="1"/>
+	</guide>
+	<guide title="adventurers_guide64.4_ely" level="64" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="125003366" count="1"/>
+		<survey itemId="125003367" count="1"/>
+		<survey itemId="125003369" count="1"/>
+		<survey itemId="125003368" count="1"/>
+		<survey itemId="125003596" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.1_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="110101572" count="1"/>
+		<survey itemId="110301469" count="1"/>
+		<survey itemId="110301632" count="1"/>
+		<survey itemId="110501430" count="1"/>
+		<survey itemId="110601405" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.2_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="111101417" count="1"/>
+		<survey itemId="111301409" count="1"/>
+		<survey itemId="111501387" count="1"/>
+		<survey itemId="111301573" count="1"/>
+		<survey itemId="111601367" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.3_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="112101371" count="1"/>
+		<survey itemId="112301353" count="1"/>
+		<survey itemId="112501329" count="1"/>
+		<survey itemId="112301512" count="1"/>
+		<survey itemId="112601349" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.4_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="113101435" count="1"/>
+		<survey itemId="113301434" count="1"/>
+		<survey itemId="113501404" count="1"/>
+		<survey itemId="113301598" count="1"/>
+		<survey itemId="113601357" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.5_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="114101464" count="1"/>
+		<survey itemId="114301470" count="1"/>
+		<survey itemId="114501412" count="1"/>
+		<survey itemId="114301637" count="1"/>
+		<survey itemId="114601355" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.6_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Primary Weapons<br>Don't worry next step you'll get a second weapon for FUSION<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001513" count="1"/>
+		<survey itemId="100101160" count="1"/>
+		<survey itemId="100201324" count="1"/>
+		<survey itemId="100501166" count="1"/>
+		<survey itemId="100601248" count="1"/>
+		<survey itemId="100901176" count="1"/>
+		<survey itemId="101301111" count="1"/>
+		<survey itemId="101501192" count="1"/>
+		<survey itemId="101701210" count="1"/>
+		<survey itemId="101800972" count="1"/>
+		<survey itemId="101900959" count="1"/>
+		<survey itemId="102001015" count="1"/>
+		<survey itemId="102100799" count="1"/>
+		<survey itemId="115001561" count="1"/>
+		<survey itemId="115001562" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.7_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="100001513" count="1"/>
+		<survey itemId="100101160" count="1"/>
+		<survey itemId="100201324" count="1"/>
+		<survey itemId="100501166" count="1"/>
+		<survey itemId="100601248" count="1"/>
+		<survey itemId="100901176" count="1"/>
+		<survey itemId="101301111" count="1"/>
+		<survey itemId="101501192" count="1"/>
+		<survey itemId="101701210" count="1"/>
+		<survey itemId="101800972" count="1"/>
+		<survey itemId="101900959" count="1"/>
+		<survey itemId="102001015" count="1"/>
+		<survey itemId="102100799" count="1"/>
+		<survey itemId="115001561" count="1"/>
+		<survey itemId="115001562" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.8_ely" level="65" race="ELYOS" rewardCount="17">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<select>Welcome to Awesome World Server and enjoy your stay ! have fun.</select>
+		<survey itemId="168000178" count="5"/>
+		<survey itemId="168000179" count="5"/>
+		<survey itemId="168000180" count="5"/>
+		<survey itemId="168000181" count="5"/>
+		<survey itemId="168000182" count="5"/>
+		<survey itemId="168000183" count="5"/>
+		<survey itemId="168000184" count="5"/>
+		<survey itemId="168000185" count="5"/>
+		<survey itemId="168000186" count="5"/>
+		<survey itemId="168000187" count="5"/>
+		<survey itemId="168000188" count="5"/>
+		<survey itemId="168000189" count="5"/>
+		<survey itemId="168000190" count="5"/>
+		<survey itemId="168000191" count="5"/>
+		<survey itemId="168000192" count="5"/>
+		<survey itemId="168000193" count="5"/>
+		<survey itemId="168000194" count="5"/>
+	</guide>
+	<guide title="adventurers_guide65.9_ely" level="65" race="ELYOS" rewardCount="1">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Choose Your Second Weapons<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="187100015" count="1"/>
+		<survey itemId="187100016" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.10_ely" level="65" race="ELYOS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br>Be Sure to empty your inventory<br>Before Accepting the survey<br>Enjoy your new power!!!!<br><br>]]></message>
+		<reward_info>Please select reward.</reward_info>
+		<select>Faith and arms!</select>
+		<survey itemId="166030008" count="100"/>
+		<survey itemId="166030005" count="50"/>
+		<survey itemId="166500002" count="50"/>
+		<survey itemId="166150020" count="20"/>
+		<survey itemId="166150021" count="20"/>
+		<survey itemId="166000195" count="100"/>
+		<survey itemId="166020000" count="50"/>
+	</guide>
+	<guide title="adventurers_guide65.11_ely" level="65" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010140" count="400"/>
+		<survey itemId="167010141" count="400"/>
+		<survey itemId="167010142" count="400"/>
+		<survey itemId="167010143" count="400"/>
+		<survey itemId="167010144" count="400"/>
+		<survey itemId="167010145" count="400"/>
+		<survey itemId="167010146" count="400"/>
+		<survey itemId="167010147" count="400"/>
+		<survey itemId="167010148" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.12_ely" level="65" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010149" count="400"/>
+		<survey itemId="167010150" count="400"/>
+		<survey itemId="167010151" count="400"/>
+		<survey itemId="167010152" count="400"/>
+		<survey itemId="167010153" count="400"/>
+		<survey itemId="167010154" count="400"/>
+		<survey itemId="167010155" count="400"/>
+		<survey itemId="167010156" count="400"/>
+		<survey itemId="167010157" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.13_ely" level="65" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010158" count="400"/>
+		<survey itemId="167010159" count="400"/>
+		<survey itemId="167010160" count="400"/>
+		<survey itemId="167010161" count="400"/>
+		<survey itemId="167010162" count="400"/>
+		<survey itemId="167010163" count="400"/>
+		<survey itemId="167010164" count="400"/>
+		<survey itemId="167010165" count="400"/>
+		<survey itemId="167010166" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.14_ely" level="65" race="ELYOS" rewardCount="3">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="167010137" count="400"/>
+		<survey itemId="167010138" count="400"/>
+		<survey itemId="167010139" count="400"/>
+		<survey itemId="167010174" count="400"/>
+		<survey itemId="167010175" count="400"/>
+		<survey itemId="167010176" count="400"/>
+		<survey itemId="167010177" count="400"/>
+		<survey itemId="167010178" count="400"/>
+		<survey itemId="167010179" count="400"/>
+	</guide>
+	<guide title="adventurers_guide65.15_ely" level="65" race="ELYOS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="186000242" count="3000"/>
+		<survey itemId="187000121" count="1"/>
+		<survey itemId="187050019" count="1"/>
+		<survey itemId="187050026" count="1"/>
+		<survey itemId="187060103" count="1"/>
+		<survey itemId="187060161" count="1"/>
+		<survey itemId="187060162" count="1"/>
+	</guide>
+	<guide title="adventurers_guide65.16_ely" level="65" race="ELYOS" rewardCount="7">
+		<message><![CDATA[<BR><BR>
+			Congratulations!
+			<br><br>]]></message>
+		<reward_info>Select 3 bundle</reward_info>
+		<select>Blood for blood!</select>
+		<survey itemId="188052831" count="6"/>
+		<survey itemId="188052830" count="2"/>
+		<survey itemId="162000124" count="1000"/>
+		<survey itemId="162000131" count="1"/>
+		<survey itemId="162000121" count="1000"/>
+		<survey itemId="162000125" count="1000"/>
+		<survey itemId="182400001" count="50000000"/>
+	</guide>
+</guides>
